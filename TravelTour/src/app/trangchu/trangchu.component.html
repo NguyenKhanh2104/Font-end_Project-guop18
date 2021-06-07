@@ -1,171 +1,295 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-  <meta charset="UTF-8">
-  <title>HOME</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="trangchu.component.css">
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="trangchu.component.css">
 
 </head>
 <body>
 <div class="web">
-  <div class="header">
-    <div class="nav">
-      <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">LOGO</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li class=""><a href="#">Tin Tức</a></li>
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tour <span
-              class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Đà Lạt - Nha Trang</a></li>
-                <li><a href="#">Kiên Giang - Phú Quốc</a></li>
-                <li><a href="#">Tiền Giang - Bến Tre</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Kinh Nghiệm</a></li>
-            <li><a href="#">Liên Hệ</a></li>
-            <li><a href="#"> <i class="fas fa-phone-volume"></i> 0927007791</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
-        </div>
-      </nav>
+    <div class="header">
+        <div class="nav">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">VIVU</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class=""><a href="#">Tin Tức</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tour <span
+                                class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Đà Lạt - Nha Trang</a></li>
+                                <li><a href="#">Kiên Giang - Phú Quốc</a></li>
+                                <li><a href="#">Tiền Giang - Bến Tre</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Kinh Nghiệm</a></li>
+                        <li><a href="#">Liên Hệ</a></li>
+                        <li><a href="#"> <i class="fas fa-phone-volume"></i> 0927007791</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </nav>
 
-      <div class="Theme">
-        <h3 class="tour">Đặt Tour Nhanh Chóng</h3>
-        <div class="Search">
+            <div class="Theme">
+                <h3 class="tour">Đặt Tour Nhanh Chóng</h3>
+                <div class="Search">
 
-          <form class="navbar-form navbar-left" action="/action_page.php">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search" name="search">
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search" name="search">
+                        </div>
+                        <button type="button" class="btn btn-success">Tìm</button>
+                    </form>
+                </div>
             </div>
-            <button type="submit" class="btn btn-default">Tìm</button>
-          </form>
         </div>
-      </div>
-    </div>
 
-  </div>
+    </div>
     <div class="container">
-      <div class="Content"><b> Khuyến Mãi Đặc Biệt</b></div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">Đà Lạt - Nha Trang</div>
-            <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-            <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-          </div>
+        <div class="Content"><b> Khuyến Mãi Đặc Biệt</b></div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Đà Lạt - Nha Trang</div>
+                    <div class="panel-body"><img src="../img/hinh-anh-vinh-ha-long-21.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                    <button type="button" class="btn btn-success" style="align-items: center">Xem Tour</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">Đà Lạt - Nha Trang</div>
+                    <div class="panel-body"><img src="../img/hinh-anh-vinh-ha-long-21.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                    <button type="button" class="btn btn-success" style="align-items: center">Xem Tour</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-success">
+                    <div class="panel-heading">Đà Lạt - Nha Trang</div>
+                    <div class="panel-body"><img src="../img/hinh-anh-vinh-ha-long-21.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                    <button type="button" class="btn btn-success" style="align-items: center">Xem Tour</button>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-4">
-          <div class="panel panel-danger">
-            <div class="panel-heading">Đà Lạt - Nha Trang</div>
-            <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-            <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="panel panel-success">
-            <div class="panel-heading">Đà Lạt - Nha Trang</div>
-            <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-            <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-          </div>
-        </div>
-      </div>
-    </div><br>
+    </div>
+    <br>
 
     <div class="container">
-      <div class="Content"><b> Điểm Đến Nổi Bật</b></div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">Đà Lạt - Nha Trang</div>
-            <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-            <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-          </div>
+        <div class="Content"><b> Điểm Đến Nổi Bật</b></div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Nha Trang</div>
+                    <div class="panel-body"><img src="../img/hinh-anh-vinh-ha-long-21.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                    <button type="button" class="btn btn-success" style="align-items: center">Xem Tour</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Nha Trang</div>
+                    <div class="panel-body"><img src="../img/hinh-anh-vinh-ha-long-21.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                    <button type="button" class="btn btn-success" style="align-items: center">Xem Tour</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Nha Trang</div>
+                    <div class="panel-body"><img src="../img/hinh-anh-vinh-ha-long-21.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                    <button type="button" class="btn btn-success" style="align-items: center">Xem Tour</button>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">Đà Lạt - Nha Trang</div>
-            <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-            <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">Đà Lạt - Nha Trang</div>
-            <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-            <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-          </div>
-        </div>
-      </div>
-    </div><br>
-  <div class="container">
-    <div class="Content"><b> Phản Hồi Khách Hàng</b></div>
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="panel panel-primary">
-          <div class="panel-heading">Đà Lạt - Nha Trang</div>
-          <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="panel panel-danger">
-          <div class="panel-heading">Đà Lạt - Nha Trang</div>
-          <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="panel panel-success">
-          <div class="panel-heading">Đà Lạt - Nha Trang</div>
-          <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-        </div>
-      </div>
     </div>
-  </div><br>
-  <div class="container">
-    <div class="Content"><b> Điểm Đến Nổi Bật</b></div>
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="panel panel-primary">
-          <div class="panel-heading">BLACK FRIDAY DEAL</div>
-          <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+    <br>
+    <div class="container">
+        <div class="Content"><b> Gợi Ý Cho Bạn</b></div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Nha Trang - Khánh Hòa</div>
+                    <div class="panel-body"><img src="../img/hinh-anh-vinh-ha-long-21.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                    <button type="button" class="btn btn-success" style="align-items: center">Xem Tour</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">Nha Trang - Khánh Hòa</div>
+                    <div class="panel-body"><img src="../img/hinh-anh-vinh-ha-long-21.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                    <button type="button" class="btn btn-success" style="align-items: center">Xem Tour</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-success">
+                    <div class="panel-heading">Nha Trang - Khánh Hòa</div>
+                    <div class="panel-body"><img src="../img/hinh-anh-vinh-ha-long-21.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                    <button type="button" class="btn btn-success" style="align-items: center">Xem Tour</button>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="panel panel-danger">
-          <div class="panel-heading">BLACK FRIDAY DEAL</div>
-          <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="panel panel-success">
-          <div class="panel-heading">BLACK FRIDAY DEAL</div>
-          <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-        </div>
-      </div>
     </div>
-  </div><br>
+    <br>
+    <div class="container">
+        <div class="Content"><b> Phản Hồi Khách Hàng</b></div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Chị Trần Thị Linh</div>
+                    <div class="panel-body"><img src="../img/hinh-anh-vinh-ha-long-21.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                    <button type="button" class="btn btn-success" style="align-items: center">Xem Tour</button>
+                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">Anh NGuyễn Văn Đời</div>
+                    <div class="panel-body"><img src="../img/hinh-anh-vinh-ha-long-21.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                    <button type="button" class="btn btn-success" style="align-items: center">Xem Tour</button>
+                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-success">
+                    <div class="panel-heading">Anh Nguyễn Minh Khánh</div>
+                    <div class="panel-body"><img src="../img/hinh-anh-vinh-ha-long-21.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+                    <button type="button" class="btn btn-success" style="align-items: center">Xem Tour</button>
+                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container_Branch">
+        <div class="Content"><b> Đối Tác Chiến Lược</b></div>
+        <br>
+        <div class="Content_branch">
+            <div class="image_branch"><img src="../img/bamboo.png" width="160" height="160px"></div>
+            <div class="image_branch"><img src="../img/vietnam-airlines-logo-2.png" width="160" height="160px"></div>
+            <div class="image_branch"><img src="../img/1571733729-logo-vietjet-air.png" width="160" height="160px">
+            </div>
+            <div class="image_branch"><img src="../img/logo-xe-bus-48.jpg" width="160" height="160px"></div>
+            <div class="image_branch"><img src="../img/download.png" width="160" height="160px"></div>
+        </div>
+    </div>
+    <br>
+    <div class="target">
+        <div class="title_target">VIVO - XỨNG TẦM ĐẲNG CẤP</div>
+        <div class="content_target">Mục đích của chúng tôi là mang đến những điều
+            tuyệt vời nhất cho các bạn
+        </div>
+        <div class="image_target"><img src="../img/family.png" width="200px" height="160px"></div>
+        <div class="image_target_1"><img src="../img/hearts.png" width="210px" height="175px"></div>
+        <div class="image_target_2"><img src="../img/plane-removebg-preview.png" width="210px" height="175px"></div>
+    </div>
+</div>
+<section class="">
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container_footer">
 
-  </div>
-  <div class="footer"></div>
+            <div class="left_footer">
+                <div class="logo_footer">VIVO</div>
+                <div class="rightContent_footer">Địa chỉ: Số 123 Trần Hưng Đạo,
+                    Quận 1, Thành Phố Hồ Chí Minh
+                    Email: khanhnguyen7221@gmail.com
+                    Điện thoại: 0927007791</div>
+                <div class="logo_social"></div>
+            </div>
+            <div class="right_footer">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Tour Miền Bắc</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="" class="text-dark">Cao Bằng - Bắc Kạn</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Mai Châu - Mộc Châu</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Hạ Long</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark">Hà Giang</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Tour Miền Trung</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-dark">Đà Lạt - Nha Trang</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Bình Thuận - Mũi Né</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Tour Miền Nam</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-dark">Tiền Giang - Bến Tre</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Vĩnh Long - Trà Vinh</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Kiên Giang - Phúc Quốc</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Tour Nước Ngoài</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-dark">Thái Lan</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Nhật Bản</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Hàn Quốc</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Pháp</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        </div>
+        </div>
+
+
+    </footer>
+    <!-- Footer -->
+</section>
 
 
 </body>
