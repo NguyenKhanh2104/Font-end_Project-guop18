@@ -10,6 +10,7 @@ import { DanhSachTinTucComponent } from './danh-sach-tin-tuc/danh-sach-tin-tuc.c
 import { ChiTietTinTucComponent } from './chi-tiet-tin-tuc/chi-tiet-tin-tuc.component';
 import {TinTucComponent} from "./danh-sach-tin-tuc/component/TinTuc/tin-tuc.component";
 import {FormsModule} from "@angular/forms";
+import { TrangchuComponent } from './trangchu/trangchu.component';
 
 const routesConfig: Routes= [
   {path:'dstintuc', component: DanhSachTinTucComponent }
@@ -27,7 +28,8 @@ imports:[
         ThanhToanComponent,
         DanhSachTinTucComponent,
         ChiTietTinTucComponent,
-        TinTucComponent
+        TinTucComponent,
+        TrangchuComponent
     ],
   imports: [
     BrowserModule

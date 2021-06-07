@@ -1,0 +1,42 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ul.nav.navbar-nav {
+  margin-left: 201px;
+  padding: 7px;
+}
+
+.fas fa-phone-volume {
+  color: #fff;
+}
+
+.Theme {
+  position: relative;
+  margin-top: -22px;
+  height: 289px;
+  background-image: url("../img/hinh-anh-vinh-ha-long-21.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover
+}
+
+.tour {
+  color: #6978ff;
+  position: absolute;
+  margin-top: 162px;
+  margin-left: 58px;
+}
+
+.Search {
+  position: absolute;
+  margin-top: 213px;
+  background: #ff9f3b;
+  margin-left: 57px;
+}
+
+.Content {
+  font-size: 30px;
+  text-align: center;
+  height: 50px;
+}
