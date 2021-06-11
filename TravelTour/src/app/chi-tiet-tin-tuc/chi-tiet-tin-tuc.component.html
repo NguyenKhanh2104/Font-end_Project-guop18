@@ -40,7 +40,7 @@
             cho những chuyến du lịch ngắn cuối tuần xả stress.</p>
         </div>
         <div>
-          <img height="370px" src="../img/img_1.png" width="100%">
+          <img height="370px" src="../../assets/img/img_1.png" width="100%">
         </div>
         <div style="margin-top: 30px">
           <div>
@@ -73,50 +73,17 @@
         <div><h2>BÀI VIẾT MỚI NHẤT</h2></div>
         <div class="row">
           <div class="col-12">
-            <div class="row tin-tuc-moi">
+            <div class="row tin-tuc-moi" *ngFor="let tt of ct_tintuc">
               <div class="col-4">
-                <img height="60px" src="../img/thdn.jpg" width="100%">
+                <img height="60px" src="{{tt.img}}" width="100%">
               </div>
               <div class="col-8">
-                <label>Cẩm nang du lịch Đà Nẵng một ngày cho hội...</label>
-              </div>
-            </div>
-            <div class="row tin-tuc-moi">
-              <div class="col-4">
-                <img height="60px" src="../img/thdn.jpg" width="100%">
-              </div>
-              <div class="col-8">
-                <label>Cẩm nang du lịch Đà Nẵng một ngày cho hội...</label>
-              </div>
-            </div>
-            <div class="row tin-tuc-moi">
-              <div class="col-4">
-                <img height="60px" src="../img/thdn.jpg" width="100%">
-              </div>
-              <div class="col-8">
-                <label>Cẩm nang du lịch Đà Nẵng một ngày cho hội...</label>
-              </div>
-            </div>
-            <div class="row tin-tuc-moi">
-              <div class="col-4">
-                <img height="60px" src="../img/thdn.jpg" width="100%">
-              </div>
-              <div class="col-8">
-                <label>Cẩm nang du lịch Đà Nẵng một ngày cho hội...</label>
-              </div>
-            </div>
-            <div class="row tin-tuc-moi">
-              <div class="col-4">
-                <img height="60px" src="../img/thdn.jpg" width="100%">
-              </div>
-              <div class="col-8">
-                <label>Cẩm nang du lịch Đà Nẵng một ngày cho hội...</label>
+                <label routerLink="/cttt">{{tt.title}}...</label>
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </div>

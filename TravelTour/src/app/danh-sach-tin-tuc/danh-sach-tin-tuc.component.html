@@ -22,53 +22,17 @@
       </div>
     </div>
     <div >
-      <img src="../img/img_1.png" width="100%" height="350px">
+      <img src="../../assets/img/img_1.png" width="100%" height="350px">
     </div>
 
     <div class=" container" style="margin-bottom: 100px;margin-top: 40px" >
 
       <div class="row">
-        <div class="col-3">
-          <img src="../img/img.png" width="100%" height="160px">
-          <label  class="font-weight-bold text-left">Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này</label>
-          <p class="text-left">Phan Thiết là một thành phố thuộc tỉnh Bình Thuận, nằm trên quốc lộ 1A cách TP Hồ Chí Minh 183 km về...</p>
+        <div class="col-3" *ngFor="let tt of ct_tintuc">
+          <img src="{{tt.img}}" width="100%" height="160px">
+          <label  class="font-weight-bold text-left" routerLink="/cttt">{{tt.title}}</label>
+          <p class="text-left">{{tt.noidung}}...</p>
         </div>
-        <div class="col-3">
-          <img src="../img/img.png" width="100%" height="160px">
-          <label  class="font-weight-bold text-left">Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này</label>
-          <p class="text-left">Phan Thiết là một thành phố thuộc tỉnh Bình Thuận, nằm trên quốc lộ 1A cách TP Hồ Chí Minh 183 km về...</p>
-        </div>
-        <div class="col-3">
-          <img src="../img/img.png" width="100%" height="160px">
-          <label  class="font-weight-bold text-left">Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này</label>
-          <p class="text-left">Phan Thiết là một thành phố thuộc tỉnh Bình Thuận, nằm trên quốc lộ 1A cách TP Hồ Chí Minh 183 km về...</p>
-        </div>
-        <div class="col-3">
-          <img src="../img/img.png" width="100%" height="160px">
-          <label  class="font-weight-bold text-left">Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này</label>
-          <p class="text-left">Phan Thiết là một thành phố thuộc tỉnh Bình Thuận, nằm trên quốc lộ 1A cách TP Hồ Chí Minh 183 km về...</p>
-        </div>
-        <div class="col-3">
-          <img src="../img/img.png" width="100%" height="160px">
-          <label  class="font-weight-bold text-left">Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này</label>
-          <p class="text-left">Phan Thiết là một thành phố thuộc tỉnh Bình Thuận, nằm trên quốc lộ 1A cách TP Hồ Chí Minh 183 km về...</p>
-        </div>
-        <div class="col-3">
-          <img src="../img/img.png" width="100%" height="160px">
-          <label  class="font-weight-bold text-left">Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này</label>
-          <p class="text-left">Phan Thiết là một thành phố thuộc tỉnh Bình Thuận, nằm trên quốc lộ 1A cách TP Hồ Chí Minh 183 km về...</p>
-        </div>
-        <div class="col-3">
-          <img src="../img/img.png" width="100%" height="160px">
-          <label  class="font-weight-bold text-left">Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này</label>
-          <p class="text-left">Phan Thiết là một thành phố thuộc tỉnh Bình Thuận, nằm trên quốc lộ 1A cách TP Hồ Chí Minh 183 km về...</p>
-        </div>
-        <div class="col-3">
-          <img src="../img/img.png" width="100%" height="160px">
-          <label  class="font-weight-bold text-left">Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này</label>
-          <p class="text-left">Phan Thiết là một thành phố thuộc tỉnh Bình Thuận, nằm trên quốc lộ 1A cách TP Hồ Chí Minh 183 km về...</p>
-        </div>
-
       </div>
     </div>
   </div>

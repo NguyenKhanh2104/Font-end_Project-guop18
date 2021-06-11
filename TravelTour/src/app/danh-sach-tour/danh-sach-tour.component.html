@@ -41,97 +41,26 @@
       </div>
     </div>
     <div >
-      <img src="../img/du-lich-768x491.jpg" width="100%" height="350px">
+      <img src="../../assets/img/du-lich-768x491.jpg" width="100%" height="350px">
     </div>
 
     <div class=" container" style="margin-bottom: 100px;margin-top: 40px" >
 
       <div class="row">
-        <div class="col-3 tour-mg">
-          <div class="bor-tour">
-            <img src="../img/thdn.jpg" width="100%" height="160px">
-            <h5>3N2Đ Hà Nội - ĐN- Hà Nội</h5>
+        <div class="col-3 tour-mg" *ngFor="let tou of data_tour ; let i =index">
+          <div class="bor-tour" >
+            <img src="{{tou.img}}" width="100%" height="160px">
+            <h5>{{tou.title}}</h5>
             <div class="row">
-              <div class="col-6"><h6>2.350.000VND</h6></div>
-              <div class="col-6"><button class="btn btn-warning">Xem Tour</button></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-3 tour-mg">
-          <div class="bor-tour">
-            <img src="../img/thdn.jpg" width="100%" height="160px">
-            <h5>3N2Đ Hà Nội - ĐN- Hà Nội</h5>
-            <div class="row">
-              <div class="col-6"><h6>2.350.000VND</h6></div>
-              <div class="col-6"><button class="btn btn-warning">Xem Tour</button></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-3 tour-mg">
-          <div class="bor-tour">
-            <img src="../img/thdn.jpg" width="100%" height="160px">
-            <h5>3N2Đ Hà Nội - ĐN- Hà Nội</h5>
-            <div class="row">
-              <div class="col-6"><h6>2.350.000VND</h6></div>
-              <div class="col-6"><button class="btn btn-warning">Xem Tour</button></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-3 tour-mg">
-          <div class="bor-tour">
-            <img src="../img/thdn.jpg" width="100%" height="160px">
-            <h5>3N2Đ Hà Nội - ĐN- Hà Nội</h5>
-            <div class="row">
-              <div class="col-6"><h6>2.350.000VND</h6></div>
-              <div class="col-6"><button class="btn btn-warning">Xem Tour</button></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-3 tour-mg">
-          <div class="bor-tour">
-            <img src="../img/thdn.jpg" width="100%" height="160px">
-            <h5>3N2Đ Hà Nội - ĐN- Hà Nội</h5>
-            <div class="row">
-              <div class="col-6"><h6>2.350.000VND</h6></div>
-              <div class="col-6"><button class="btn btn-warning">Xem Tour</button></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-3 tour-mg">
-          <div class="bor-tour">
-            <img src="../img/thdn.jpg" width="100%" height="160px">
-            <h5>3N2Đ Hà Nội - ĐN- Hà Nội</h5>
-            <div class="row">
-              <div class="col-6"><h6>2.350.000VND</h6></div>
-              <div class="col-6"><button class="btn btn-warning">Xem Tour</button></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-3 tour-mg">
-          <div class="bor-tour">
-            <img src="../img/thdn.jpg" width="100%" height="160px">
-            <h5>3N2Đ Hà Nội - ĐN- Hà Nội</h5>
-            <div class="row">
-              <div class="col-6"><h6>2.350.000VND</h6></div>
-              <div class="col-6"><button class="btn btn-warning">Xem Tour</button></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-3 tour-mg">
-          <div class="bor-tour">
-            <img src="../img/thdn.jpg" width="100%" height="160px">
-            <h5>3N2Đ Hà Nội - ĐN- Hà Nội</h5>
-            <div class="row">
-              <div class="col-6"><h6>2.350.000VND</h6></div>
-              <div class="col-6"><button class="btn btn-warning">Xem Tour</button></div>
+              <div class="col-6"><h6>{{tou.price}}VND</h6></div>
+              <div class="col-6"><button class="btn btn-warning" (click)="tourdetail(tou)">Xem Tour</button></div>
             </div>
           </div>
         </div>
       </div>
+      </div>
     </div>
   </div>
-
-</div>
 <div style="background-color: aquamarine;height: 200px"><h1 class="text-center">Footer</h1></div>
 </body>
 </html>
