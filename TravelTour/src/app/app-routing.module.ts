@@ -6,6 +6,7 @@ import {DanhSachTinTucComponent} from "./danh-sach-tin-tuc/danh-sach-tin-tuc.com
 import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
 import {ChiTietTinTucComponent} from "./chi-tiet-tin-tuc/chi-tiet-tin-tuc.component";
 import {ThanhToanComponent} from "./thanh-toan/thanh-toan.component";
+import {LienHeComponent} from "./lien-he/lien-he.component";
 
 
 
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'tintuc', component: DanhSachTinTucComponent},
   { path: 'ctt', component: ChiTietTourComponent},
   { path: 'cttt', component: ChiTietTinTucComponent},
+  { path: 'lienhe', component: LienHeComponent},
   { path: 'thanhtoan', component:ThanhToanComponent}
 ];
 @NgModule({

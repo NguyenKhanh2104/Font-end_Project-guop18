@@ -10,6 +10,7 @@ import { ThanhToanComponent } from './thanh-toan/thanh-toan.component';
 import { DanhSachTinTucComponent } from './danh-sach-tin-tuc/danh-sach-tin-tuc.component';
 import { ChiTietTinTucComponent } from './chi-tiet-tin-tuc/chi-tiet-tin-tuc.component';
 import { TrangchuComponent } from './trangchu/trangchu.component';
+import { LienHeComponent } from './lien-he/lien-he.component';
 
 
 
@@ -21,7 +22,8 @@ import { TrangchuComponent } from './trangchu/trangchu.component';
     ThanhToanComponent,
     DanhSachTinTucComponent,
     ChiTietTinTucComponent,
-    TrangchuComponent
+    TrangchuComponent,
+    LienHeComponent
   ],
   imports: [
     BrowserModule,
