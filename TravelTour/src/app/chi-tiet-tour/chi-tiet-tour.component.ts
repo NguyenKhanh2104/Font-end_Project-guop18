@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {NavigationExtras, Router} from "@angular/router";
+import chitiettour from '../_lists/chitiettour.json';
+
 @Component({
   selector: 'app-chi-tiet-tour',
   templateUrl: './chi-tiet-tour.component.html',
@@ -7,9 +9,9 @@ import {NavigationExtras, Router} from "@angular/router";
 })
 
 export class ChiTietTourComponent implements OnInit {
-  tours!:any[];
+  listchitiettour :{img:String,title:String,price:Number}[]=chitiettour;
+
   title_main!:string;
-  data_tour:any;
   quantityl!:number;
   quantityn!:number;
   titil_lon!:string;
@@ -27,19 +29,6 @@ export class ChiTietTourComponent implements OnInit {
     this.quantityn=3;
     this.price_lon=2350000;
     this.price_nho=1350000;
-
-
-    //---------------------------------
-    this.data_tour =[{'title': '3N2Đ Hà Nội - ĐN- Hà Nội1','img':'assets/img/img.png' ,price:2350000},
-      {'title': '3N2Đ Hà Nội - ĐN- Hà Nội1','img':'assets/img/img.png' ,price:2350000},
-      {'title': '3N2Đ Hà Nội - ĐN- Hà Nội1','img':'assets/img/img.png' ,price:2350000},
-      {'title': '3N2Đ Hà Nội - ĐN- Hà Nội1','img':'assets/img/img.png' ,price:2350000},
-      {'title': '3N2Đ Hà Nội - ĐN- Hà Nội1','img':'assets/img/img.png' ,price:2350000},
-      {'title': '3N2Đ Hà Nội - ĐN- Hà Nội1','img':'assets/img/img.png' ,price:2350000},
-      {'title': '3N2Đ Hà Nội - ĐN- Hà Nội1','img':'assets/img/img.png' ,price:2350000},
-      {'title': '3N2Đ Hà Nội - ĐN- Hà Nội1','img':'assets/img/img.png' ,price:2350000},
-
-    ];
   }
   ngOnInit(): void {
   }

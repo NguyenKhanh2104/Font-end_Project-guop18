@@ -1,19 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-
+import chitiettintuc from "../_lists/chitiettintuc.json";
 @Component({
   selector: 'app-chi-tiet-tin-tuc',
   templateUrl: './chi-tiet-tin-tuc.component.html',
   styleUrls: ['./chi-tiet-tin-tuc.component.css']
 })
 export class ChiTietTinTucComponent implements OnInit {
-  ct_tintuc!:any;
+  listchitiettintuc:{img:String,title:String}[]=chitiettintuc;
   constructor() {
-    this.ct_tintuc =[{'img':'../../assets/img/thdn.jpg','title':'Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này 1'},
-      {'img':'../../assets/img/thdn.jpg','title':'Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này 2'},
-      {'img':'../../assets/img/thdn.jpg','title':'Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này 3'},
-      {'img':'../../assets/img/thdn.jpg','title':'Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này 4'},
-      {'img':'../../assets/img/thdn.jpg','title':'Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này 5'}
-      ]
+
   }
   ngOnInit(): void {
   }

@@ -1,38 +1,25 @@
 body {
   font-family: 'Ubuntu', sans-serif;
 }
-
-ul.nav.navbar-nav {
-  margin-left: 201px;
-  padding: 7px;
-}
-
-.fas fa-phone-volume {
-  color: #fff;
+.nav-item{
+  margin-left: 15px;
 }
 
 .Theme {
-  position: relative;
-  margin-top: -22px;
-  height: 289px;
+
   background-image: url("../../assets/img/hinh-anh-vinh-ha-long-21.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover
 }
-
-.tour {
-  color: #6978ff;
-  position: absolute;
-  margin-top: 162px;
-  margin-left: 58px;
-}
-
 .Search {
   position: absolute;
-  margin-top: 213px;
+  margin-top: 200px;
   background: #ff9f3b;
-  margin-left: 57px;
+  margin-left: 50px;
+  height: 50px;
+  width: 350px;
+  border-radius: 13px;
 }
 
 .Content {
@@ -66,6 +53,8 @@ ul.nav.navbar-nav {
   position: relative;
   height: 170px;
   background-color: #ff910f;
+  width: 1227px;
+  margin-left: -15px;
 }
 .title_target{
   margin-left: 20px;
@@ -101,33 +90,6 @@ ul.nav.navbar-nav {
   width: 150px;
   height: 100%;
 }
-footer{
-  height: 200px;
-  color: #ffffff;
-}
-.container_footer{
-  display: flex;
-  flex-direction: row;
-  background: #272a27;
-}
-.left_footer{
-  width: 40%;
-  height: 200px;
-  font-size: 20px;
-}
-.logo_footer{
-  font-size: 40px;
-}
-.right_footer{
-  width: 60%;
-  height: 200px;
-}
-.col-lg-3.col-md-6.mb-4.mb-md-0 {
-  margin-top: 10px;
-}
-.text-uppercase{
-  margin-left: 5px;
-}
-.text-dark{
-  margin-bottom: 5px;
-}
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1230px;
+  }
