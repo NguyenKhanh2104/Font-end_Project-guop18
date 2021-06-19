@@ -11,7 +11,31 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="trangchu.component.css">
+  <style>
+    label:hover{
+      color: blue;
+    }
+    .tour-mg{
+      margin-bottom: 20px;
 
+    }
+    .bor-tour{
+      border: 1px solid #dedbdb;
+      padding-bottom: 10px;
+
+    }
+    .bor-tour:hover{
+      position: absolute;
+      margin-top: -10px;
+      margin-bottom: 20px;
+    }
+    h6{
+      color: orange;
+    }
+    img{
+      border-radius: 3px;
+    }
+  </style>
 
 </head>
 <body>
@@ -43,7 +67,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Kinh Nghiệm</a>
+            <a class="nav-link" routerLink="/kinhnghiem">Kinh Nghiệm</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" routerLink="/lienhe">Liên Hệ</a>
@@ -80,7 +104,7 @@
     <div class="Content"><b> Khuyến Mãi Đặc Biệt</b></div>
     <div class="container1 " style=" margin-bottom: 20px;margin-top: 10px;border-radius:13px ">
       <div class="row">
-        <div class="col-3 tour-mg" *ngFor="let info of tourKhuyenMai " style="border: 1px solid black;margin: 0px 45px">
+        <div class="col-3 tour-mg" *ngFor="let info of tourKhuyenMai " style="margin: 0px 45px">
           <div class="bor-tour">
             <img src="{{info.img}}" width="100%" height="160px">
             <h5>{{info.name}}</h5>
@@ -100,7 +124,7 @@
     <div class="Content"><b> Điểm Đến Nổi Bật</b></div>
     <div class="container1 " style=" margin-bottom: 20px;margin-top: 10px;border-radius:13px ">
       <div class="row">
-        <div class="col-3 tour-mg" *ngFor="let info of noibat " style="border: 1px solid black;margin-left: 45px">
+        <div class="col-3 tour-mg" *ngFor="let info of noibat " style="margin:0px 45px">
           <div class="bor-tour">
             <img src="{{info.img}}" width="100%" height="160px">
             <h5>{{info.name}}</h5>
@@ -117,7 +141,7 @@
       <div class="Content"><b> Gợi Ý Cho Bạn</b></div>
       <div class="container1 " style=" margin-bottom: 20px;margin-top: 10px;border-radius:13px ">
         <div class="row">
-          <div class="col-3 tour-mg" *ngFor="let info of tourGoiY " style="border: 1px solid black;margin: 0px 45px">
+          <div class="col-3 tour-mg" *ngFor="let info of tourGoiY " style="margin: 0px 45px">
             <div class="bor-tour">
               <img src="{{info.img}}" width="100%" height="160px">
               <h5>{{info.name}}</h5>
@@ -137,7 +161,7 @@
       <div class="Content"><b> Phản Hồi Khách Hàng</b></div>
       <div class="container1 " style=" margin-bottom: 20px;margin-top: 10px;border-radius:13px ">
         <div class="row">
-          <div class="col-3 tour-mg" *ngFor="let info of binhluan " style="border: 1px solid black;margin: 0px 45px">
+          <div class="col-3 tour-mg" *ngFor="let info of binhluan " style="margin: 0px 45px">
             <div class="bor-tour">
               <img src="{{info.img}}" width="100%" height="160px">
               <h5>{{info.name}}</h5>
@@ -309,7 +333,7 @@
 
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center"
-        style="width: 1227px;position: absolute;background-color: black;margin-top: -30px">
+        style="width: 1227px;position: absolute;background-color: black">
       <li class="list-inline-item">
         <a class="btn-floating btn-fb mx-1">
           <i class="fab fa-facebook-f"> </i>

@@ -11,6 +11,8 @@ import { DanhSachTinTucComponent } from './danh-sach-tin-tuc/danh-sach-tin-tuc.c
 import { ChiTietTinTucComponent } from './chi-tiet-tin-tuc/chi-tiet-tin-tuc.component';
 import { TrangchuComponent } from './trangchu/trangchu.component';
 import { LienHeComponent } from './lien-he/lien-he.component';
+import { KinhnghiemComponent } from './kinhnghiem/kinhnghiem.component';
+import { ChitietknComponent } from './chitietkn/chitietkn.component';
 
 
 
@@ -23,7 +25,9 @@ import { LienHeComponent } from './lien-he/lien-he.component';
     DanhSachTinTucComponent,
     ChiTietTinTucComponent,
     TrangchuComponent,
-    LienHeComponent
+    LienHeComponent,
+    KinhnghiemComponent,
+    ChitietknComponent
   ],
   imports: [
     BrowserModule,

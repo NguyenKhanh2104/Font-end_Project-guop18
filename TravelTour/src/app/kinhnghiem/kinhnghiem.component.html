@@ -2,24 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Kinh nghiệm</title>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <title>Chi tiết tin tức</title>
-
+  <link rel="stylesheet" href="kinhnghiem.component.css">
   <style>
-    .tin-tuc-moi {
-      margin-bottom: 10px;
+    label:hover {
+      color: blue;
     }
-
-    .fn-size-lable {
-      font-size: 20px;
-    }
-
   </style>
+
 </head>
 <body>
 <div class="header">
@@ -31,10 +27,10 @@
       <!-- Links -->
       <ul class="navbar-nav" style="margin-left: 200px;padding: 5px">
         <li class="nav-item">
-          <a class="nav-link" href="#">Trang Chủ</a>
+          <a class="nav-link" routerLink="/trangchu">Trang Chủ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/tintuc">Tin Tức </a>
+          <a class="nav-link" routerLink="/kinhnghiem">Tin Tức </a>
         </li>
 
         <!-- Dropdown -->
@@ -80,75 +76,33 @@
       </div>
     </div>
   </div>
-
-<div class="container-ful">
-  <div>
-    <div class="container">
-      <div class="col-12 ">
-        <p class="" style="float: left">Trang chủ / Tin Tức /</p>
-        <p class="text-primary font-weight-bold">Vui chơi du lịch thả ga tại Phan Thiết với cẩm nang du lịch này</p>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-8">
-        <div>
-          <label class="font-weight-bold text-left fn-size-lable">Vui chơi thả ga cùng bạn bè tại Phan Thiết với cẩm
-            nang du lịch chi tiết này</label>
-          <p>Phan Thiết là một thành phố thuộc tỉnh Bình Thuận, nằm trên quốc lộ 1A cách TP Hồ Chí Minh 183 km về hướng
-            Đông Bắc. Gần thành phố, tiện lợi cho việc di chuyển và không quá tốn kém, Phan Thiết là sự lựa chọn quá ổn
-            cho những chuyến du lịch ngắn cuối tuần xả stress.</p>
-        </div>
-        <div>
-          <img height="370px" src="../../assets/img/img_1.png" width="100%">
-        </div>
-        <div style="margin-top: 30px">
-          <div>
-            <p>Đến Phan Thiết vào tháng mấy thì đẹp?</p>
-            <p>Nằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và
-              gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa.
-              Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an
-              toàn.</p>
-            <p>Dù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như
-              sau:</p>
-            <p>Tháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.</p>
-            <p>Tháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước
-              biển trong xanh và trời đẹp hơn nhiều.</p>
-            <p>Tháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp
-              để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du
-              nơi này nhé.</p>
-
-            <div>
-              <p>Ăn gì ở Phan Thiết?</p>
-              <p>Bánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!</p>
-            </div>
-          </div>
-        </div>
-        <div class="container"  style="background-color: white ; margin-top: 20px;margin-bottom: 40px">
-          <label class="text-primary">Nhận xét </label>
-          <textarea class="form-control" cols="150" rows="3" ></textarea>
+  <div class="container-ful">
+    <div>
+      <div class="container">
+        <div class="col-12 ">
+          <p class="" style="float: left" routerLink="/">Trang chủ /</p>
+          <p class="text-primary font-weight-bold">Kinh Nghiệm</p>
         </div>
       </div>
-      <div class="col-4">
-        <div><h2>BÀI VIẾT MỚI NHẤT</h2></div>
-        <div class="row">
-          <div class="col-12">
-            <div class="row tin-tuc-moi" *ngFor="let tt of listchitiettintuc">
-              <div class="col-4">
-                <img height="60px" src="{{tt.img}}" width="100%">
+
+      <div class=" container" style="margin-bottom: 100px;margin-top: 40px">
+        <div class="list-group">
+          <a  class="list-group-item list-group-item-action" style="height: 150px" *ngFor="let item of listkinhnghiem">
+            <div class="content_list" style="display: flex">
+              <div class="img" style="height:120px; width: 15%">
+                <img src="{{item.img}}" width="100%" height="100%">
               </div>
-              <div class="col-8">
-                <label routerLink="/cttt">{{tt.title}}...</label>
+              <div class="content_kn" style="border-left: 1px solid black;margin-left: 10px">
+                <h5 class="title_kn" style="margin-left: 15px">{{item.title}}</h5>
+                <p class="contnent_intokn" style="margin-left: 15px">{{item.content}}</p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
+  </div>
   <footer class="page-footer font-small stylish-color-dark pt-4"
           style="color: #ffffff;background-color: black">
 
@@ -311,4 +265,5 @@
 </div>
 </body>
 </html>
+
 

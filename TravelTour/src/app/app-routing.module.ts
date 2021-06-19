@@ -7,6 +7,7 @@ import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
 import {ChiTietTinTucComponent} from "./chi-tiet-tin-tuc/chi-tiet-tin-tuc.component";
 import {ThanhToanComponent} from "./thanh-toan/thanh-toan.component";
 import {LienHeComponent} from "./lien-he/lien-he.component";
+import {KinhnghiemComponent} from "./kinhnghiem/kinhnghiem.component";
 
 
 
@@ -17,7 +18,9 @@ const routes: Routes = [
   { path: 'ctt', component: ChiTietTourComponent},
   { path: 'cttt', component: ChiTietTinTucComponent},
   { path: 'lienhe', component: LienHeComponent},
-  { path: 'thanhtoan', component:ThanhToanComponent}
+  { path: 'thanhtoan', component:ThanhToanComponent},
+  {path:'kinhnghiem',component:KinhnghiemComponent},
+  {path:"ctkn",component:KinhnghiemComponent}
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
