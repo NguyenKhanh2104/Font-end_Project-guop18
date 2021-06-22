@@ -1,0 +1,95 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+.nav-item{
+  margin-left: 15px;
+}
+
+.Theme {
+
+  background-image: url("../../../assets/img/hinh-anh-vinh-ha-long-21.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover
+}
+.Search {
+  position: absolute;
+  margin-top: 200px;
+  background: #ff9f3b;
+  margin-left: 50px;
+  height: 50px;
+  width: 350px;
+  border-radius: 13px;
+}
+
+.Content {
+  font-size: 30px;
+  text-align: center;
+  height: 50px;
+}
+.container_Branch{
+  width: 100%;
+  height: 220px;
+
+}
+.Content_branch{
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
+
+}
+.image_branch{
+  margin-left: 50px;
+  margin-top: -10px;
+
+}
+
+.bg-secondary text-white text-center{
+  width: 50px;
+}
+.target{
+  position: relative;
+  height: 170px;
+  background-color: #ff910f;
+  width: 1227px;
+  margin-left: -15px;
+}
+.title_target{
+  margin-left: 20px;
+  margin-top: 33px;
+  position: absolute;
+  width: 353px;
+  height: 27px;
+  font-size: 24px;
+}
+.content_target{
+  margin-left: 20px;
+  margin-top: 90px;
+  position: absolute;
+  width: 391px;
+  height: 64px;
+  font-size: 22px;
+}
+.image_target{
+  margin-left: 562px;
+  position: absolute;
+  width: 150px;
+  height: 100%;
+}
+.image_target_1{
+  margin-left: 800px;
+  position: absolute;
+  width: 150px;
+  height: 100%;
+}
+.image_target_2{
+  margin-left: 1010px;
+  position: absolute;
+  width: 150px;
+  height: 100%;
+}
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1230px;
+  }

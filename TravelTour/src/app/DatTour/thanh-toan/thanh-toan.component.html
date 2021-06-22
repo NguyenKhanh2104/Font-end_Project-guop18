@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Thanh Toán</title>
+
+  <style>
+    .title_bg {
+      background-color: aquamarine;
+      border-left: 4px solid blue;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    li i {
+      float: left;
+      font-size: 25px;
+      margin-right: 7px;
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  <div class="nav">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="width: 100%">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">VIVU</a>
+
+      <!-- Links -->
+      <ul class="navbar-nav" style="margin-left: 200px;padding: 5px">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/trangchu']">Trang Chủ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/danhsachtintuc']" >Tin Tức </a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" [routerLink]="['/danhsachtour']">
+            Tour
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Tour1</a>
+            <a class="dropdown-item" href="#">Tour2</a>
+            <a class="dropdown-item" href="#">Tour3</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/kinhnghiem']">Kinh Nghiệm</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/lienhe']">Liên Hệ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><i class="fas fa-phone-volume"></i> 0927007791</a>
+        </li>
+        <li class="nav-item" style="margin-left: 140px">
+          <a class="nav-link"><i class="fas fa-user"></i> User</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><i class="fas fa-sign-in-alt"></i>Log-in</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <div class="Theme" style="height: 300px ;position: relative;width: 100%">
+      <h3 class="tour" style="color: #6978ff;margin-left: 55px;margin-top: 150px;position: absolute">Đặt Tour Nhanh
+        Chóng</h3>
+      <div class="Search">
+        <form class="form-inline" action="/action_page.php">
+          <input class="form-control mr-sm-2" style="margin: 5px 0px;margin-left: 16px" type="text"
+                 placeholder="Search">
+          <button class="btn btn-success" type="submit" routerLink="/tour">Search</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+  <div class="container-ful">
+    <div class="container">
+      <div class="col-12 ">
+        <p class="" style="float: left">Trang chủ /Tour /</p>
+        <p class="text-primary font-weight-bold">Thanh Toán</p>
+      </div>
+      <div class="row">
+        <div class="col-8">
+          <div>
+            <h2 class="title_bg">Thanh toán</h2>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <input type="radio">
+              <label>Thanh toán tại văn phòng</label>
+            </div>
+            <div class="col-6">
+              <input type="radio">
+              <label>Chuyển khoản </label>
+            </div>
+
+          </div>
+          <div style="width: 100%;height: 200px;margin-top: 20px">
+            <div>
+              <div class="row">
+                <div class="col-2"><img src="../img/thdn.jpg" width="100px" height="70px"></div>
+                <div class="col-9">
+                  <p class="font-italic">Số 79,đường Đỗ Xuân Hợp,phường Phước Long B, Quận 9, Thành Phố Hồ Chí Minh.</p>
+                  <p style="margin-top: -10px">Phone : 034.3772.034</p>
+                </div>
+                <div class="col-2"><img src="../img/thdn.jpg" width="100px" height="70px"></div>
+                <div class="col-9">
+                  <p class="font-italic">Số 79,đường Đỗ Xuân Hợp,phường Phước Long B, Quận 9, Thành Phố Hồ Chí Minh.</p>
+                  <p style="margin-top: -10px">Phone : 034.3772.034</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2 class="title_bg">Thông tin liên hệ</h2>
+          </div>
+          <div style="margin-bottom: 100px">
+            <form>
+              <div class="row">
+                <div class="col-6">
+                  <label>Họ và tên</label>
+                  <input class="form-control">
+                </div>
+                <div class="col-6">
+                  <label>Điện thoại</label>
+                  <input class="form-control">
+                </div>
+                <div class="col-6">
+                  <label>Email</label>
+                  <input class="form-control">
+                </div>
+                <div class="col-6">
+                  <label>Địa chỉ</label>
+                  <input class="form-control">
+                </div>
+                <div class="col-12">
+                  <label>Yêu cầu khác</label>
+                  <textarea class="form-control" rows="4"></textarea>
+                </div>
+                <div class="col-12">
+                  <button style="margin-top: 25px" type="button" class="btn btn-primary">Hoàn tất đặt tour</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-4" style="background-color: #2b2b7b;height: 440px;">
+          <div><img style="margin-left: -14px" src="../img/thdn.jpg" width="379px" height="200px"></div>
+          <div>
+            <h4 class="text-left text-warning">Tour du lịch khám phá thành phố Đà nẵng</h4>
+          </div>
+          <div>
+            <li><i class="fa fa-car" style="font-size: 25px"></i>
+              <p style="float: left" class="text-warning">Số lượng khách :</p>
+              <p class="text-warning">1</p></li>
+            <li><i class="fa fa-plane" style="font-size: 25px"></i>
+              <p class="text-warning">Phương tiện máy bay</p></li>
+            <li><i class="fa fa-calendar" style="font-size: 25px"></i>
+              <p class="text-warning">3 ngày 2 đêm</p></li>
+            <li><i class="fa fa-calendar" style="font-size: 25px"></i>
+              <p class="text-warning" style="float: left; margin-right: 10px">Khởi hành : </p>
+              <p class="text-warning">24/08/2021</p></li>
+          </div>
+          <div style="background-color: orange;width: 379px;margin-left: -14px;height: 60px"><h3
+            style="float: left;margin-left: 26px;margin-top: 10px" class="text-dark">Tổng tiền:</h3>
+            <h3 style="margin-top: 10px;float: right;margin-right: 20px">4.500.000 VND</h3></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer font-small stylish-color-dark pt-4"
+          style="color: #ffffff;background-color: black">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Content -->
+          <div class="left_footer">
+            <div class="logo_footer" style="font-size:30px ">VIVO</div>
+            <div class="rightContent_footer" style="font-size: 15px;width: 254px">Địa chỉ: Số 123 Trần Hưng Đạo,
+              Quận 1, Thành Phố Hồ Chí Minh
+              Email: khanhnguyen7221@gmail.com
+              Điện thoại: 0927007791
+            </div>
+            <div class="logo_social"></div>
+          </div>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Miền Nam</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#">Tiền Giang - Bến Tre</a>
+            </li>
+            <li>
+              <a href="#">Vĩnh Long - Trà Vinh</a>
+            </li>
+            <li>
+              <a href="#">Kiên Giang - Phúc Quốc</a>
+            </li>
+
+          </ul>
+
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Miền Trung</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#">Bình Thuận - Mũi Né</a>
+            </li>
+            <li>
+              <a href="#!">Đà Lạt - Nha Trang</a>
+            </li>
+
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Miền Bắc</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Hà Giang-Yên Bái</a>
+            </li>
+            <li>
+              <a href="#!">Hạ Long-Quảng Ninh</a>
+            </li>
+            <li>
+              <a href="#!">Mai Châu - Mộc Châu</a>
+            </li>
+            <li>
+              <a href="#!">Cao Bằng - Bắc Kạn</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nước Ngoài</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Châu Á</a>
+            </li>
+            <li>
+              <a href="#!">Châu Mỹ</a>
+            </li>
+            <li>
+              <a href="#!">Châu Âu</a>
+            </li>
+            <li>
+              <a href="#!">Châu Phi</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center"
+        style="width: 1227px;position: absolute;background-color: black">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+
+  </footer>
+</body>
+</html>
