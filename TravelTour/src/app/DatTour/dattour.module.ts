@@ -6,11 +6,9 @@ import {TrangchuComponent} from "./trangchu/trangchu.component";
 import {LienHeComponent} from "./lien-he/lien-he.component";
 import {ThanhToanComponent} from "./thanh-toan/thanh-toan.component";
 import {KinhnghiemComponent} from "./kinhnghiem/kinhnghiem.component";
-import {DanhSachTourComponent} from "./danh-sach-tour/danh-sach-tour.component";
 import {DanhSachTinTucComponent} from "./danh-sach-tin-tuc/danh-sach-tin-tuc.component";
 import {ChitietknComponent} from "./chitietkn/chitietkn.component";
 import {ChiTietTinTucComponent} from "./chi-tiet-tin-tuc/chi-tiet-tin-tuc.component";
-import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
 import {TourKM} from "./tourKM";
 
 @NgModule({
@@ -19,11 +17,9 @@ import {TourKM} from "./tourKM";
     LienHeComponent,
     ThanhToanComponent,
     KinhnghiemComponent,
-    DanhSachTourComponent,
     DanhSachTinTucComponent,
     ChitietknComponent,
-    ChiTietTinTucComponent,
-    ChiTietTourComponent,
+    ChiTietTinTucComponent
   ],
   imports: [
     CommonModule,

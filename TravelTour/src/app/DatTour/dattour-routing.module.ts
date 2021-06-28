@@ -4,10 +4,8 @@ import {TrangchuComponent} from "./trangchu/trangchu.component";
 import {ThanhToanComponent} from "./thanh-toan/thanh-toan.component";
 import {LienHeComponent} from "./lien-he/lien-he.component";
 import {KinhnghiemComponent} from "./kinhnghiem/kinhnghiem.component";
-import {DanhSachTourComponent} from "./danh-sach-tour/danh-sach-tour.component";
 import {DanhSachTinTucComponent} from "./danh-sach-tin-tuc/danh-sach-tin-tuc.component";
 import {ChitietknComponent} from "./chitietkn/chitietkn.component";
-import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
 import {ChiTietTinTucComponent} from "./chi-tiet-tin-tuc/chi-tiet-tin-tuc.component";
 
 const routes: Routes = [
@@ -15,10 +13,9 @@ const routes: Routes = [
   {path: 'thanhtoan',component: ThanhToanComponent},
   {path: 'lienhe',component: LienHeComponent},
   {path: 'kinhnghiem',component: KinhnghiemComponent},
-  {path: 'danhsachtour',component: DanhSachTourComponent},
   {path: 'danhsachtintuc',component: DanhSachTinTucComponent},
   {path: 'chitietkinhnghiem',component: ChitietknComponent},
-  {path: 'chitiettour',component: ChiTietTourComponent},
+  {path: 'product',loadChildren: () => import('./product/product.module').then(m => m.ProductModule) },
   {path: 'chitiettintuc',component: ChiTietTinTucComponent}
 ];
 

@@ -123,18 +123,19 @@
   </div>
 
 </div>
-  <div class="container">
-    <div class="col-12 "  >
-      <p class="text-primary">Trang chủ  / tour-du-lich / 3N2Đ HÀ NỘI - ĐÀ LẠT - HÀ NỘI</p>
+  <div class="container" *ngIf="product" >
+    <div class="col-12 " >
+      <p class="text-primary">Trang chủ  / tour-du-lich / {{product.name}}</p>
     </div>
     <div class="row">
       <div  style="background-color: white ; width: 64%">
-        <img src="../../../assets/img/dl.jpg" style="width: 100%; height: 450px">
+        <h2>{{product.name}}</h2>
+        <img src="{{product.content.img1}}" style="width: 100%; height: 450px">
         <div>
           <h2 class="text-primary title_bg">Chương trình Tour</h2>
           <p>Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là "Thành phố Hoa", "Thành phố mùa Xuân".</p>
         </div>
-        <img src="../../../assets/img/dl2.jpg" style="width: 100%; height: 450px">
+        <img src="{{product.content.img2}}" style="width: 100%; height: 450px">
         <div>
           <h2 class="text-primary">Điểm nỗi bật của chương trình</h2>
           <div >
@@ -209,53 +210,6 @@
             <table class="table">
               <thead>
               <tr>
-                <th>Tiêu chuẩn</th>
-                <th> Số tiền</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td>3 sao</td>
-                <td> 1.250.00VND</td>
-              </tr>
-              <tr>
-                <td>3 sao</td>
-                <td> 1.250.00VND</td>
-              </tr>
-              <tr>
-                <td>3 sao</td>
-                <td> 1.250.00VND</td>
-              </tr>
-              </tbody>
-            </table>
-          </div>
-          <div>
-            <h5 class="text-danger">Lưu ý :</h5>
-            <p> Nội dung</p>
-          </div>
-        </div>
-        <div>
-          <h2 class="text-primary title_bg">Điều khoản & Dịch vụ</h2>
-          <div >
-            <h4>Chi phí bao gồm</h4>
-            <p>- Xe vận chuyển máy lạnh đón - tiễn và phục vụ theo chương trình.<br>
-              - Khách sạn tiêu chuẩn 2 - 3*** - ngủ 2 – 04 khách /phòng<br>
-              - Các bữa ăn theo chương trình:<br>
-              + 05 bữa chính: tiêu chuẩn 150,000vnd/ suất<br>
-              + 02 bữa ăn sáng: buffet tại khách sạn 3 sao hoặc tiêu chuẩn 40.000d/suất tại khách sạn 2 sao<br>
-              - Vé tham quan theo chương trình (vào cửa lần 01).<br>
-              - Hướng dẫn viên tiếng Việt nhiệt tình, kinh nghiệm theo đoàn và phục vụ tại địa phương.<br>
-              - Bảo hiểm du lịch mức bồi thường 20.000.000 VND/vụ.<br>
-              - Qùa tặng 01 Mũ du lịch; 01 Nước uống (chai 0.5l/ngày người).<br>
-            </p>
-          </div>
-        </div>
-        <div style="padding-bottom: 40px">
-          <h2 class="text-primary title_bg"> Đặt Tour</h2>
-          <div>
-            <table class="table">
-              <thead>
-              <tr>
                 <th>Loại khách</th>
                 <th>Số người</th>
                 <th>Đơn giá</th>
@@ -266,20 +220,20 @@
               <tr >
                 <td>{{titil_lon}}</td>
                 <td><input  (click)="subtraction_lon()" type="button" value="-"/>
-                  <label>{{quantityl}}</label>
+                  <label>{{product.quantityl}}</label>
                   <input  (click)="summation_lon()" type="button" value="+"/>
                 </td>
-                <td>{{price_lon}}VND</td>
-                <td>{{quantityl*price_lon}}VND</td>
+                <td>{{product.pricel}}VND</td>
+                <td>{{product.quantityl*product.pricel}}VND</td>
               </tr>
               <tr >
                 <td>{{titil_nho}}</td>
                 <td><input  (click)="subtraction_nho()" type="button" value="-"/>
-                  <label>{{quantityn}}</label>
+                  <label>{{product.quantityn}}</label>
                   <input  (click)="summation_nho()" type="button" value="+"/>
                 </td>
-                <td>{{price_nho}}VND</td>
-                <td>{{quantityn*price_nho}}VND</td>
+                <td>{{product.pricen}}VND</td>
+                <td>{{product.quantityn*product.pricen}}VND</td>
               </tr>
 
               </tbody>
@@ -288,7 +242,7 @@
               <div class="col-7"></div>
               <div class="col-5">
                 <h5 style="float: left;margin-right: 10px;color: red">Tổng tiền :</h5>
-                <h5 >{{quantityl*price_lon+quantityn*price_nho}}VND</h5>
+                <h5 >{{product.quantityl*product.pricel+product.quantityn*product.pricen}}VND</h5>
               </div>
 
             </div>
@@ -301,17 +255,17 @@
 
         </div>
       </div>
-      <div  style="background-color: white ;margin-left: 1%;width: 35%;height: 580px">
+      <div  style="background-color: white ;margin-left: 1%;width: 35%;height: 600px">
         <div >
           <h4> 3N2Đ HÀ NỘI - ĐÀ LẠT - HÀ NỘI</h4>
-          <h4 class="text-danger">Giá mới : 2.350.000VND</h4>
+          <h4 class="text-danger">Giá mới :{{product.pricel}}</h4>
           <div>
             <table class="table">
               <tbody>
               <tr><td><p class="right-text-format" >Hành trình : </p> <p class="text-warning text-warning-right"> Lịch và phương tiện di chuyển</p></td></tr>
-              <tr><td><p  class="right-text-format" >Di chuyển : </p> <p class="text-warning text-warning-right">Máy bay</p></td></tr>
+              <tr><td><p  class="right-text-format" >Di chuyển : </p> <p class="text-warning text-warning-right">{{product.transport}}</p></td></tr>
               <tr><td><p  class="right-text-format" >Lịch khởi hành : </p> <p class="text-warning text-warning-right"> Theo yêu cầu</p></td></tr>
-              <tr><td><p  class="right-text-format" >Thời gian : </p> <p class="text-warning text-warning-right"> 3N2Đ</p></td></tr>
+              <tr><td><p  class="right-text-format" >Thời gian : </p> <p class="text-warning text-warning-right"> {{product.time}}</p></td></tr>
               </tbody>
             </table>
           </div>
