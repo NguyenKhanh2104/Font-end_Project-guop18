@@ -220,20 +220,20 @@
               <tr >
                 <td>{{titil_lon}}</td>
                 <td><input  (click)="subtraction_lon()" type="button" value="-"/>
-                  <label>{{product.quantityl}}</label>
+                  <label>{{quantityl}}</label>
                   <input  (click)="summation_lon()" type="button" value="+"/>
                 </td>
                 <td>{{product.pricel}}VND</td>
-                <td>{{product.quantityl*product.pricel}}VND</td>
+                <td>{{quantityl*product.pricel}}VND</td>
               </tr>
               <tr >
                 <td>{{titil_nho}}</td>
                 <td><input  (click)="subtraction_nho()" type="button" value="-"/>
-                  <label>{{product.quantityn}}</label>
+                  <label>{{quantityn}}</label>
                   <input  (click)="summation_nho()" type="button" value="+"/>
                 </td>
                 <td>{{product.pricen}}VND</td>
-                <td>{{product.quantityn*product.pricen}}VND</td>
+                <td>{{quantityn*product.pricen}}VND</td>
               </tr>
 
               </tbody>
@@ -242,7 +242,7 @@
               <div class="col-7"></div>
               <div class="col-5">
                 <h5 style="float: left;margin-right: 10px;color: red">Tổng tiền :</h5>
-                <h5 >{{product.quantityl*product.pricel+product.quantityn*product.pricen}}VND</h5>
+                <h5 >{{quantityl*product.pricel+quantityn*product.pricen}}VND</h5>
               </div>
 
             </div>
@@ -298,13 +298,19 @@
       <h3 class="text-center">Các Tour tương tự</h3>
     </div>
     <div class="row">
-      <div class="col-3 tour-mg" >
+      <div class="col-3 tour-mg " *ngFor="let item of productList
+             | paginate: {
+             itemsPerPage: tableSize,
+             currentPage: page,
+             totalItems: count
+             };
+             let i = index" [class.active]="i == 1">
         <div class="bor-tour" >
-          <img src="" width="100%" height="160px">
-          <h5></h5>
+          <img src="{{item.imageUrl}}" width="100%" height="160px">
+          <h5>{{item.name}}</h5>
           <div class="row">
-            <div class="col-6"><h6  class="text-warning">VND</h6></div>
-            <div class="col-6"><button class="btn btn-warning" >Xem Tour</button></div>
+            <div class="col-6"><h6>{{item.pricel}}VND</h6></div>
+            <div class="col-6"><button class="btn btn-warning" [routerLink]="['/product',item.id]">Xem Tour</button></div>
           </div>
         </div>
       </div>

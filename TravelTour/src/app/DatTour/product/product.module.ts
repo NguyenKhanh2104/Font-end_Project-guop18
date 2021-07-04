@@ -5,6 +5,7 @@ import { ProductRoutingModule } from './product-routing.module';
 import {DanhSachTourComponent} from "./danh-sach-tour/danh-sach-tour.component";
 import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
 import {ProductComponent} from "./product.component";
+import {NgxPaginationModule} from "ngx-pagination";
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import {ProductComponent} from "./product.component";
   imports: [
     CommonModule,
     ProductRoutingModule,
+    NgxPaginationModule
 
   ]
 })

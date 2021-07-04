@@ -152,6 +152,102 @@ export class ProductService {
         dnb:"bbbbbbbbbb",
         dk:"gggggggg",
       }
+    },
+    {
+      id: '9',
+      name: 'Du lịch Hà Nội - Đà Lạt - Hà Nội 3 ngày 2 đêm 7',
+      pricel: 21.99,
+      pricen: 16.99,
+      quantityl: 1,
+      quantityn: 1,
+      imageUrl: 'assets/img/img.png',
+      time: '3N2Đ',
+      transport: 'Máy bay',
+      content: {
+        ctt: "aaaaaaaa",
+        img1: '../../../../assets/img/dl.jpg',
+        img2: '../../../../assets/img/dl2.jpg',
+        dnb:"bbbbbbbbbb",
+        dk:"gggggggg",
+      }
+
+    },
+    {
+      id: '10',
+      name: 'Du lịch Hà Nội - Đà Lạt - Hà Nội 3 ngày 2 đêm 7',
+      pricel: 21.99,
+      pricen: 16.99,
+      quantityl: 1,
+      quantityn: 1,
+      imageUrl: 'assets/img/img.png',
+      time: '3N2Đ',
+      transport: 'Máy bay',
+      content: {
+        ctt: "aaaaaaaa",
+        img1: '../../../../assets/img/dl.jpg',
+        img2: '../../../../assets/img/dl2.jpg',
+        dnb:"bbbbbbbbbb",
+        dk:"gggggggg",
+      }
+
+    },
+    {
+      id: '11',
+      name: 'Du lịch Hà Nội - Đà Lạt - Hà Nội 3 ngày 2 đêm 7',
+      pricel: 21.99,
+      pricen: 16.99,
+      quantityl: 1,
+      quantityn: 1,
+      imageUrl: 'assets/img/img.png',
+      time: '3N2Đ',
+      transport: 'Máy bay',
+      content: {
+        ctt: "aaaaaaaa",
+        img1: '../../../../assets/img/dl.jpg',
+        img2: '../../../../assets/img/dl2.jpg',
+        dnb:"bbbbbbbbbb",
+        dk:"gggggggg",
+      }
+
+    },
+    {
+      id: '12',
+      name: 'Du lịch Hà Nội - Đà Lạt - Hà Nội 3 ngày 2 đêm 7',
+      pricel: 21.99,
+      pricen: 16.99,
+      quantityl: 1,
+      quantityn: 1,
+      imageUrl: 'assets/img/img.png',
+      time: '3N2Đ',
+      transport: 'Máy bay',
+      content: {
+        ctt: "aaaaaaaa",
+        img1: '../../../../assets/img/dl.jpg',
+        img2: '../../../../assets/img/dl2.jpg',
+        dnb:"bbbbbbbbbb",
+        dk:"gggggggg",
+      }
+
+    }
+    ,
+    {
+      id: '13',
+      name: 'Du lịch Hà Nội - Đà Lạt - Hà Nội 3 ngày 2 đêm 7',
+      pricel: 21.99,
+      pricen: 16.99,
+      quantityl: 1,
+      quantityn: 1,
+      imageUrl: 'assets/img/img.png',
+      time: '3N2Đ',
+      transport: 'Máy bay',
+      content: {
+        ctt: "aaaaaaaa",
+        img1: '../../../../assets/img/dl.jpg',
+        img2: '../../../../assets/img/dl2.jpg',
+        dnb:"bbbbbbbbbb",
+        dk:"gggggggg",
+      }
+
     }
   ];
 

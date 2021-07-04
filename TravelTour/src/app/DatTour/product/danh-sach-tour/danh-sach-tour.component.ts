@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, NavigationExtras, Router} from "@angular/router";
+import {TourKM} from "../../tourKM";
 import {IProduct} from "../../product";
 import {ProductService} from "../../product.service";
 
@@ -10,12 +11,18 @@ import {ProductService} from "../../product.service";
 })
 export class DanhSachTourComponent implements OnInit {
   productList: IProduct[] = [];
+  page = 1;
+  count = 0;
+  tableSize = 8;
   constructor(
     private productService: ProductService,
     private activatedRoute: ActivatedRoute,
   ) { }
 
   ngOnInit() {
+    this.show();
+  }
+  show(){
     this.productService.getProductList().subscribe(ps => this.productList = ps);
 
     this.activatedRoute.queryParamMap.subscribe(
@@ -26,6 +33,11 @@ export class DanhSachTourComponent implements OnInit {
     );
   }
 
+  tabSize(event: number) {
+    this.page= event;
+    this.show();
+
+  }
 }
 
 
