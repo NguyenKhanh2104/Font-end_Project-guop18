@@ -34,12 +34,12 @@
           <a class="nav-link" [routerLink]="['/trangchu']">Trang Chủ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/danhsachtintuc']" >Tin Tức </a>
+          <a class="nav-link" [routerLink]="['/tintuc']" >Tin Tức </a>
         </li>
 
         <!-- Dropdown -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" [routerLink]="['/danhsachtour']">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" [routerLink]="['/product']">
             Tour
           </a>
           <div class="dropdown-menu">
@@ -67,18 +67,7 @@
       </ul>
     </nav>
 
-    <div class="Theme" style="height: 300px ;position: relative;width: 100%">
-      <h3 class="tour" style="color: #6978ff;margin-left: 55px;margin-top: 150px;position: absolute">Đặt Tour Nhanh
-        Chóng</h3>
-      <div class="Search">
-        <form class="form-inline" action="/action_page.php">
-          <input class="form-control mr-sm-2" style="margin: 5px 0px;margin-left: 16px" type="text"
-                 placeholder="Search">
-          <button class="btn btn-success" type="submit" routerLink="/tour">Search</button>
-        </form>
-
-      </div>
-    </div>
+    
   </div>
 
 </div>
