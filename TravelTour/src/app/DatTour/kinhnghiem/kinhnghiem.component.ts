@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {TourKM} from "../tourKM";
+import {ServerHttpService} from "../ServerHttpService";
 
 @Component({
   selector: 'app-kinhnghiem',
@@ -8,17 +8,13 @@ import {TourKM} from "../tourKM";
 })
 export class KinhnghiemComponent implements OnInit {
   title = 'Kinh Nghiệm';
-  data : any[];
+  data ?: any[];
 
-  constructor(private httpData: TourKM) {
-    this.data = [];
-    httpData.gettourKM('http://localhost:4200/assets/tourkm.json')
-      .subscribe(value => {
-        for (const [k, v] of Object.entries(value)) {
-          this.data.push(v);
-        }
-      });
+  constructor(private httpData: ServerHttpService) {
   }
   ngOnInit() {
+    this.httpData.getAllNews().subscribe(data => {
+      this.data = data;
+    })
   }
 }

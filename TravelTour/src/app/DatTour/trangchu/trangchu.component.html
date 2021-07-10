@@ -63,7 +63,7 @@
           <!-- Dropdown -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"
-               [routerLink]="['/product']">
+               [routerLink]="['/danhsachtour']">
               Tour
             </a>
             <div class="dropdown-menu">
@@ -110,14 +110,14 @@
     <div class="Content"><b> Khuyến Mãi Đặc Biệt</b></div>
     <div class="container1 " style=" margin-bottom: 20px;margin-top: 10px;border-radius:13px ">
       <div class="row">
-        <div class="col-3 tour-mg" *ngFor="let item of data" style="margin: 0px 45px">
+        <div class="col-3 tour-mg" *ngFor="let item of dataTourKM" style="margin: 0px 45px">
           <div class="bor-tour">
             <img src="{{item.imagetourkm}}" width="100%" height="160px">
             <h5>{{item.title}}</h5>
             <div class="row">
               <div class="col-6"><h6>{{item.price}}VND</h6></div>
               <div class="col-6">
-                <button class="btn btn-warning">Xem Tour</button>
+                <button class="btn btn-warning"(click)="viewDetailsTour(item.id)">Xem Tour</button>
               </div>
             </div>
           </div>
@@ -130,14 +130,14 @@
     <div class="Content"><b> Điểm Đến Nổi Bật</b></div>
     <div class="container1 " style=" margin-bottom: 20px;margin-top: 10px;border-radius:13px ">
       <div class="row">
-        <div class="col-3 tour-mg" *ngFor="let item of data" style="margin: 0px 45px">
+        <div class="col-3 tour-mg" *ngFor="let item of dataTourKM" style="margin: 0px 45px">
           <div class="bor-tour">
             <img src="{{item.imagetourkm}}" width="100%" height="160px">
             <h5>{{item.title}}</h5>
             <div class="row">
               <div class="col-6"><h6>{{item.price}}VND</h6></div>
               <div class="col-6">
-                <button class="btn btn-warning">Xem Tour</button>
+                <button class="btn btn-warning" (click)="viewDetailsTour(item.id)">Xem Tour</button>
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@
       <div class="Content"><b> Gợi Ý Cho Bạn</b></div>
       <div class="container1 " style=" margin-bottom: 20px;margin-top: 10px;border-radius:13px ">
         <div class="row">
-          <div class="col-3 tour-mg" *ngFor="let item of data" style="margin: 0px 45px">
+          <div class="col-3 tour-mg" *ngFor="let item of dataTourKM" style="margin: 0px 45px">
             <div class="bor-tour">
               <img src="{{item.imagetourkm}}" width="100%" height="160px">
               <h5>{{item.title}}</h5>
@@ -168,7 +168,7 @@
       <div class="Content"><b> Phản Hồi Khách Hàng</b></div>
       <div class="container1 " style=" margin-bottom: 20px;margin-top: 10px;border-radius:13px ">
         <div class="row">
-          <div class="col-3 tour-mg" *ngFor="let item of data" style="margin: 0px 45px">
+          <div class="col-3 tour-mg" *ngFor="let item of dataTourKM" style="margin: 0px 45px">
             <div class="bor-tour">
               <img src="{{item.imagetourkm}}" width="100%" height="160px">
               <h5>{{item.title}}</h5>

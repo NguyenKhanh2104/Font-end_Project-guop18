@@ -3,6 +3,7 @@
 <meta charset="UTF-8">
 
 <header>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -61,8 +62,7 @@
   </style>
 
 </header>
-<body style="background-color: #efefef">
-
+<body>
 <div class="header">
   <div class="nav">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="width: 100%">
@@ -80,7 +80,7 @@
 
         <!-- Dropdown -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" [routerLink]="['/product']">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" [routerLink]="['/danhsachtour']">
             Tour
           </a>
           <div class="dropdown-menu">
@@ -121,89 +121,24 @@
       </div>
     </div>
   </div>
-
 </div>
-  <div class="container" *ngIf="product" >
+  <div class="container"  >
     <div class="col-12 " >
-      <p class="text-primary">Trang chủ  / tour-du-lich / {{product.name}}</p>
+<!--      <p class="text-primary">Trang chủ  / tour-du-lich / {{product.name}}</p>-->
+      <p class="text-primary">Trang chủ  / tour-du-lich /{{detailTour.title}}</p>
     </div>
     <div class="row">
       <div  style="background-color: white ; width: 64%">
-        <h2>{{product.name}}</h2>
-        <img src="{{product.content.img1}}" style="width: 100%; height: 450px">
+        <h2></h2>
+        <img src="{{detailTour.imagetourkm}}" style="width: 100%; height: 450px">
         <div>
-          <h2 class="text-primary title_bg">Chương trình Tour</h2>
+          <h2 class="text-primary title_bg">Chương trình Tour</h2>{{detailTour.title}}
           <p>Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là "Thành phố Hoa", "Thành phố mùa Xuân".</p>
         </div>
-        <img src="{{product.content.img2}}" style="width: 100%; height: 450px">
-        <div>
-          <h2 class="text-primary">Điểm nỗi bật của chương trình</h2>
-          <div >
-            <p class="font-italic">Khám phá 1 trong những kỳ quan thiên nhiên Thế giới</p>
-            <p class="font-italic">  Đắm mình trong làn nước trong xanh của bãi biển Hạ Long, bãi biển Cát Bà</p>
-            <p class="font-italic">  Những bữa ăn với hải sản tươi ngon, mang đậm hương vị của vùng biển Quảng Ninh, Hải Phòng</p>
-            <p class="font-italic">  Khách sạn đẹp, trung tâm, tiện nghi, sang trọng.</p>
-          </div>
-        </div>
-        <div>
-          <h4> NGÀY 01: HÀ NỘI - ĐÀ LẠT (Ăn: Trưa, Tối)</h4>
-          <p>nội dung</p>
-          <h4>NGÀY 02: ĐÀ LẠT CITY (Ăn Sáng - Trưa - Tối)</h4>
-          <p>nội dung</p>
-          <h4>NGÀY 03: ĐÀ LẠT - HÀ NỘI (Ăn: Sáng - Trưa)</h4>
-          <p>nội dung</p>
-        </div>
-        <div>
-          <h2 class="text-primary title_bg">Chính sách Tour</h2>
-          <div>
-            <h5 class="text-center"> GIÁ TOUR TRỌN GÓI CHO 01 KHÁCH : .000 VNĐ/ KHÁCH</h5>
-            <h6 class="font-italic text-center">( Giá tour có thể thay đổi theo thời gian khởi hành cụ thể )</h6>
-          </div>
-          <div>
-            <table class="table">
-              <thead>
-              <tr>
-                <th>Tiêu chuẩn</th>
-                <th> Số tiền</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td>3 sao</td>
-                <td> 1.250.00VND</td>
-              </tr>
-              <tr>
-                <td>3 sao</td>
-                <td> 1.250.00VND</td>
-              </tr>
-              <tr>
-                <td>3 sao</td>
-                <td> 1.250.00VND</td>
-              </tr>
-              </tbody>
-            </table>
-          </div>
-          <div>
-            <h5 class="text-danger">Lưu ý :</h5>
-            <p> Nội dung</p>
-          </div>
-        </div>
-        <div>
-          <h2 class="text-primary title_bg">Điều khoản & Dịch vụ</h2>
-          <div >
-            <h4>Chi phí bao gồm</h4>
-            <p>- Xe vận chuyển máy lạnh đón - tiễn và phục vụ theo chương trình.<br>
-              - Khách sạn tiêu chuẩn 2 - 3*** - ngủ 2 – 04 khách /phòng<br>
-              - Các bữa ăn theo chương trình:<br>
-              + 05 bữa chính: tiêu chuẩn 150,000vnd/ suất<br>
-              + 02 bữa ăn sáng: buffet tại khách sạn 3 sao hoặc tiêu chuẩn 40.000d/suất tại khách sạn 2 sao<br>
-              - Vé tham quan theo chương trình (vào cửa lần 01).<br>
-              - Hướng dẫn viên tiếng Việt nhiệt tình, kinh nghiệm theo đoàn và phục vụ tại địa phương.<br>
-              - Bảo hiểm du lịch mức bồi thường 20.000.000 VND/vụ.<br>
-              - Qùa tặng 01 Mũ du lịch; 01 Nước uống (chai 0.5l/ngày người).<br>
-            </p>
-          </div>
-        </div>
+        <img src="{{detailTour.imagetourkm}}" style="width: 100%; height: 450px">
+       {{detailTour.conten_body}}
+
+
         <div style="padding-bottom: 40px">
           <h2 class="text-primary title_bg"> Đặt Tour</h2>
           <div>
@@ -218,22 +153,23 @@
               </thead>
               <tbody>
               <tr >
-                <td>{{titil_lon}}</td>
-                <td><input  (click)="subtraction_lon()" type="button" value="-"/>
-                  <label>{{quantityl}}</label>
-                  <input  (click)="summation_lon()" type="button" value="+"/>
+                <td></td>
+                <td><input type="button" value="-"/>
+                  <label></label>
+                  <input type="button" value="+"/>
                 </td>
-                <td>{{product.pricel}}VND</td>
-                <td>{{quantityl*product.pricel}}VND</td>
+                <td>VND</td>
+                <td>VND</td>
               </tr>
               <tr >
-                <td>{{titil_nho}}</td>
-                <td><input  (click)="subtraction_nho()" type="button" value="-"/>
-                  <label>{{quantityn}}</label>
-                  <input  (click)="summation_nho()" type="button" value="+"/>
+                <td></td>
+                <td><input   type="button" value="-"/>
+                  <label></label>
+                  <input   type="button" value="+"/>
                 </td>
-                <td>{{product.pricen}}VND</td>
-                <td>{{quantityn*product.pricen}}VND</td>
+                <td>VND</td>
+<!--                <td>{{quantityn*product.pricen}}VND</td>-->
+                <td>VND</td>
               </tr>
 
               </tbody>
@@ -242,7 +178,8 @@
               <div class="col-7"></div>
               <div class="col-5">
                 <h5 style="float: left;margin-right: 10px;color: red">Tổng tiền :</h5>
-                <h5 >{{quantityl*product.pricel+quantityn*product.pricen}}VND</h5>
+<!--                <h5 >{{quantityl*product.pricel+quantityn*product.pricen}}VND</h5>-->
+                <h5 >VND</h5>
               </div>
 
             </div>
@@ -258,14 +195,14 @@
       <div  style="background-color: white ;margin-left: 1%;width: 35%;height: 600px">
         <div >
           <h4> 3N2Đ HÀ NỘI - ĐÀ LẠT - HÀ NỘI</h4>
-          <h4 class="text-danger">Giá mới :{{product.pricel}}</h4>
+          <h4 class="text-danger">Giá mới :</h4>
           <div>
             <table class="table">
               <tbody>
               <tr><td><p class="right-text-format" >Hành trình : </p> <p class="text-warning text-warning-right"> Lịch và phương tiện di chuyển</p></td></tr>
-              <tr><td><p  class="right-text-format" >Di chuyển : </p> <p class="text-warning text-warning-right">{{product.transport}}</p></td></tr>
+              <tr><td><p  class="right-text-format" >Di chuyển : </p> <p class="text-warning text-warning-right"></p></td></tr>
               <tr><td><p  class="right-text-format" >Lịch khởi hành : </p> <p class="text-warning text-warning-right"> Theo yêu cầu</p></td></tr>
-              <tr><td><p  class="right-text-format" >Thời gian : </p> <p class="text-warning text-warning-right"> {{product.time}}</p></td></tr>
+              <tr><td><p  class="right-text-format" >Thời gian : </p> <p class="text-warning text-warning-right"></p></td></tr>
               </tbody>
             </table>
           </div>
@@ -298,19 +235,21 @@
       <h3 class="text-center">Các Tour tương tự</h3>
     </div>
     <div class="row">
-      <div class="col-3 tour-mg " *ngFor="let item of productList
-             | paginate: {
-             itemsPerPage: tableSize,
-             currentPage: page,
-             totalItems: count
-             };
-             let i = index" [class.active]="i == 1">
+      <div class="col-3 tour-mg " >
+<!--           *ngFor="let item of productList-->
+<!--             | paginate: {-->
+<!--             itemsPerPage: tableSize,-->
+<!--             currentPage: page,-->
+<!--             totalItems: count-->
+<!--             };-->
+<!--             let i = index" [class.active]="i == 1">-->
         <div class="bor-tour" >
-          <img src="{{item.imageUrl}}" width="100%" height="160px">
-          <h5>{{item.name}}</h5>
+          <img src="" width="100%" height="160px">
+          <h5></h5>
           <div class="row">
-            <div class="col-6"><h6>{{item.pricel}}VND</h6></div>
-            <div class="col-6"><button class="btn btn-warning" [routerLink]="['/product',item.id]">Xem Tour</button></div>
+            <div class="col-6"><h6>VND</h6></div>
+<!--            <div class="col-6"><button class="btn btn-warning" [routerLink]="['/product',item.id]">Xem Tour</button></div>-->
+            <div class="col-6"><button class="btn btn-warning">Xem Tour</button></div>
           </div>
         </div>
       </div>
