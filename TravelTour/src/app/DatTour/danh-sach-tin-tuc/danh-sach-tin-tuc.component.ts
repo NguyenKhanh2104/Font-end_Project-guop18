@@ -21,7 +21,10 @@ export class DanhSachTinTucComponent implements OnInit {
   NewsData !: any[];
   // private id: string | null;
   // public News = [];
-  NewsList  ?: any[];
+  NewsList  : any[]=[];
+  page = 1;
+  count = 0;
+  tableSize = 8;
 
   constructor(
     private httpData: ServerHttpService,
@@ -29,9 +32,7 @@ export class DanhSachTinTucComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.httpData.getAllNews().subscribe(data => {
-      this.NewsList = data;
-    })
+    this.showNews();
 
 
     // this.getNews();
@@ -43,6 +44,11 @@ export class DanhSachTinTucComponent implements OnInit {
     //      }
     //    });
 
+  }
+  public showNews(){
+    this.httpData.getAllNews().subscribe(data => {
+      this.NewsList = data;
+    })
   }
 
   // getNews() {
@@ -61,6 +67,9 @@ export class DanhSachTinTucComponent implements OnInit {
   public viewDetails(id: any) {
     this.router.navigate(['chitiettintuc', id]);
   }
-
+  tabSize(event: number) {
+    this.page = event;
+    this.showNews();
+  }
 
 }

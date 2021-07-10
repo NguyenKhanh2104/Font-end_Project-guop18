@@ -11,9 +11,9 @@ import {ServerHttpService} from "../ServerHttpService";
 })
 export class DanhSachTourComponent implements OnInit {
   // // productList: IProduct[] = [];
-  // page = 1;
-  // count = 0;
-  // tableSize = 8;
+   page = 1;
+   count = 0;
+   tableSize = 8;
   // constructor(
   //   // private productService: ProductService,
   //   private activatedRoute: ActivatedRoute,
@@ -38,22 +38,29 @@ export class DanhSachTourComponent implements OnInit {
   //   // this.show();
   //
   title = 'dstour';
-  dataTourKM ?: any[];
-  dataTour ?: any[];
+  dataTour : any[] =[];
 
-  constructor(private httpData: ServerHttpService) {
+  constructor(private httpData: ServerHttpService,private router: Router) {
 
   }
 
 
   ngOnInit(): void {
-    this.httpData.gettourKM().subscribe(data => {
-      this.dataTourKM = data;
-    })
+    this.show();
+  }
+  public show(){
     this.httpData.getAllTour().subscribe(data => {
       this.dataTour = data;
     })
   }
+  public viewDetailsTour(id: any) {
+    this.router.navigate(['chitiettour', id]);
+    console.log('dataTour',id);
+  }
+   tabSize(event: number) {
+     this.page = event;
+     this.show();
+   }
 
 }
 

@@ -13,22 +13,10 @@
     label:hover {
       color: blue;
     }
-
-    .tour-mg {
-      margin-bottom: 20px;
-
-    }
-
-    .bor-tour {
-      border: 1px solid #dedbdb;
-      padding-bottom: 10px;
-
-    }
-
-    .bor-tour:hover {
-      position: absolute;
-      margin-top: -10px;
-      margin-bottom: 20px;
+    .clickNews{
+      background-color: white;
+      margin-bottom: 10px;
+      border: 2px solid white;
     }
 
     h6 {
@@ -116,14 +104,13 @@
 
         <div class="row">
 
-          <div class="col-3" *ngFor="let item of NewsList">
+          <div class="col-3" *ngFor="let item of NewsList| paginate: {
+                         itemsPerPage: tableSize,
+                         currentPage: page,
+                         totalItems: count
+                         };
+                         let i = index" [class.active]="i == 1">
             <button class="clickNews" (click)="viewDetails(item.id)">
-            <!--             *ngFor="let item of tintucList| paginate: {-->
-            <!--             itemsPerPage: tableSize,-->
-            <!--             currentPage: page,-->
-            <!--             totalItems: count-->
-            <!--             };-->
-            <!--             let i = index" [class.active]="i == 1">-->
             <img src="{{item.imageUrl}}" width="100%" height="160px">
 
             <!--          <a  class="font-weight-bold text-left" [routerLink]="['/tintuc',item.id]">{{item.name}}</a>-->
@@ -136,8 +123,8 @@
 
       <nav class="mt-4" aria-label="Page navigation sample">
         <ul class="pagination">
-          <!--          <pagination-controls previousLabel="Prev" nextLabel="Next" (pageChange)="tabSize($event)">-->
-          <!--          </pagination-controls>-->
+                    <pagination-controls previousLabel="Prev" nextLabel="Next" (pageChange)="tabSize($event)">
+                    </pagination-controls>
         </ul>
       </nav>
     </div>

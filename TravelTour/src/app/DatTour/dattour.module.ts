@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { NgxPaginationModule } from 'ngx-pagination';
 import { DattourRoutingModule } from './dattour-routing.module';
 import {TrangchuComponent} from "./trangchu/trangchu.component";
 import {LienHeComponent} from "./lien-he/lien-he.component";
@@ -29,6 +30,7 @@ import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
   ],
   imports: [
     CommonModule,
+    NgxPaginationModule,
     DattourRoutingModule
   ],
   providers:[

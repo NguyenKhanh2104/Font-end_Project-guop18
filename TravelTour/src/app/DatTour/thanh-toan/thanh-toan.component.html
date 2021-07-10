@@ -113,12 +113,12 @@
           <div style="width: 100%;height: 200px;margin-top: 20px">
             <div>
               <div class="row">
-                <div class="col-2"><img src="../img/thdn.jpg" width="100px" height="70px"></div>
+                <div class="col-2"><img src="assets/img/thdn.jpg" width="100px" height="70px"></div>
                 <div class="col-9">
                   <p class="font-italic">Số 79,đường Đỗ Xuân Hợp,phường Phước Long B, Quận 9, Thành Phố Hồ Chí Minh.</p>
                   <p style="margin-top: -10px">Phone : 034.3772.034</p>
                 </div>
-                <div class="col-2"><img src="../img/thdn.jpg" width="100px" height="70px"></div>
+                <div class="col-2"><img src="assets/img/dl2.jpg" width="100px" height="70px"></div>
                 <div class="col-9">
                   <p class="font-italic">Số 79,đường Đỗ Xuân Hợp,phường Phước Long B, Quận 9, Thành Phố Hồ Chí Minh.</p>
                   <p style="margin-top: -10px">Phone : 034.3772.034</p>
@@ -160,14 +160,14 @@
           </div>
         </div>
         <div class="col-4" style="background-color: #2b2b7b;height: 440px;">
-          <div><img style="margin-left: -14px" src="../img/thdn.jpg" width="379px" height="200px"></div>
+          <div><img style="margin-left: -14px" src="assets/img/thdn.jpg" width="379px" height="200px"></div>
           <div>
-            <h4 class="text-left text-warning">Tour du lịch khám phá thành phố Đà nẵng</h4>
+            <h4 class="text-left text-warning">Tour du lịch {{detailTour.title}}</h4>
           </div>
           <div>
             <li><i class="fa fa-car" style="font-size: 25px"></i>
               <p style="float: left" class="text-warning">Số lượng khách :</p>
-              <p class="text-warning">1</p></li>
+              <p class="text-warning">{{detailTour.quantity-49}}</p></li>
             <li><i class="fa fa-plane" style="font-size: 25px"></i>
               <p class="text-warning">Phương tiện máy bay</p></li>
             <li><i class="fa fa-calendar" style="font-size: 25px"></i>
@@ -178,7 +178,7 @@
           </div>
           <div style="background-color: orange;width: 379px;margin-left: -14px;height: 60px"><h3
             style="float: left;margin-left: 26px;margin-top: 10px" class="text-dark">Tổng tiền:</h3>
-            <h3 style="margin-top: 10px;float: right;margin-right: 20px">4.500.000 VND</h3></div>
+            <h3 style="margin-top: 10px;float: right;margin-right: 20px">{{detailTour.price*(detailTour.quantity-49)}}VND</h3></div>
         </div>
       </div>
     </div>

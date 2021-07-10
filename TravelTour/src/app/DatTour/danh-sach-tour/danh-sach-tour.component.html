@@ -107,47 +107,28 @@
     <div class=" container" style="margin-bottom: 100px;margin-top: 40px" >
 
       <div class="row">
-        <div class="col-3 tour-mg " *ngFor="let item of dataTourKM">
-<!--             *ngFor="let item of productList-->
-<!--             | paginate: {-->
-<!--             itemsPerPage: tableSize,-->
-<!--             currentPage: page,-->
-<!--             totalItems: count-->
-<!--             };-->
-<!--             let i = index" [class.active]="i == 1">-->
-          <div class="bor-tour" >
-            <img src="{{item.imagetourkm}}" width="100%" height="160px">
-            <h5>{{item.title}}</h5>
-            <div class="row">
-              <div class="col-6"><h6>{{item.price}}VND</h6></div>
-<!--              <div class="col-6"><button class="btn btn-warning" [routerLink]="['/product',item.id]">Xem Tour</button></div>-->
-              <div class="col-6"><button class="btn btn-warning">Xem Tour</button></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-3 tour-mg " *ngFor="let items of dataTour">
-          <!--             *ngFor="let item of productList-->
-          <!--             | paginate: {-->
-          <!--             itemsPerPage: tableSize,-->
-          <!--             currentPage: page,-->
-          <!--             totalItems: count-->
-          <!--             };-->
-          <!--             let i = index" [class.active]="i == 1">-->
+        <div class="col-3 tour-mg " *ngFor="let items of dataTour
+                       | paginate: {
+                       itemsPerPage: tableSize,
+                       currentPage: page,
+                       totalItems: count
+                       };
+                       let i = index" [class.active]="i == 1">
           <div class="bor-tour" >
             <img src="{{items.imagetour}}" width="100%" height="160px">
             <h5>{{items.title}}</h5>
             <div class="row">
               <div class="col-6"><h6>{{items.price}}VND</h6></div>
               <!--              <div class="col-6"><button class="btn btn-warning" [routerLink]="['/product',item.id]">Xem Tour</button></div>-->
-              <div class="col-6"><button class="btn btn-warning">Xem Tour</button></div>
+              <button class="btn btn-warning"(click)="viewDetailsTour(items.id)">Xem Tour</button>
             </div>
           </div>
         </div>
       </div>
       <nav class="mt-4" aria-label="Page navigation sample">
         <ul class="pagination">
-<!--          <pagination-controls previousLabel="Prev" nextLabel="Next" (pageChange)="tabSize($event)">-->
-<!--          </pagination-controls>-->
+          <pagination-controls previousLabel="Prev" nextLabel="Next" (pageChange)="tabSize($event)">
+          </pagination-controls>
         </ul>
       </nav>
       </div>

@@ -21,10 +21,12 @@ export class ChiTietTinTucComponent implements OnInit {
   // NewsData !: any;
   newsId = 0;
   tintuc !: any[];
-
+  page = 1;
+  count = 0;
+  tableSize = 5;
   detail?: any
   param = ''
-  NewsList  ?: any[];
+  NewsList  : any[]=[];
   constructor(
     private route: ActivatedRoute,
     private httpData: ServerHttpService,
@@ -33,6 +35,15 @@ export class ChiTietTinTucComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.showANew();
+    this.showAllNew();
+  }
+  public showAllNew(){
+    this.httpData.getAllNews().subscribe(data => {
+      this.NewsList = data;
+    })
+  }
+  public showANew(){
     this.route.params.subscribe(
       data =>{
         this.param = data['id']
@@ -42,9 +53,6 @@ export class ChiTietTinTucComponent implements OnInit {
       .subscribe(data =>{
         this.detail = data
       })
-    this.httpData.getAllNews().subscribe(data => {
-      this.NewsList = data;
-    })
   }
   // onEdit(row:any){
   //
@@ -58,6 +66,7 @@ export class ChiTietTinTucComponent implements OnInit {
     if (id>0) {
       this.router.navigate(['chitiettintuc', id]);
       // console.log('_dataNews',id);
+      this.showANew();
     }
   }
 }

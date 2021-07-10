@@ -31,12 +31,12 @@
       border: 1px solid gray;
       border-radius: 5px;
     }
-    a {
+    .menu-right{
       color: gray;
       margin-left: 40px;
       font-size: 20px;
     }
-    a:hover{
+    .menu-right:hover{
       font-size: 23px;
     }
     .right-text-format{
@@ -58,6 +58,15 @@
     .table label{
       padding: 0px 5px;
       border: 1px solid gray;
+    }
+    .bor-tour{
+      border: 1px solid #dedbdb;
+      padding-bottom: 10px;
+
+    }
+
+    h6{
+      color: orange;
     }
   </style>
 
@@ -124,18 +133,17 @@
 </div>
   <div class="container"  >
     <div class="col-12 " >
-<!--      <p class="text-primary">Trang chủ  / tour-du-lich / {{product.name}}</p>-->
       <p class="text-primary">Trang chủ  / tour-du-lich /{{detailTour.title}}</p>
     </div>
     <div class="row">
       <div  style="background-color: white ; width: 64%">
-        <h2></h2>
-        <img src="{{detailTour.imagetourkm}}" style="width: 100%; height: 450px">
+        <h2>{{detailTour.title}}</h2>
+        <img src="{{detailTour.imagetour}}" style="width: 100%; height: 450px">
         <div>
-          <h2 class="text-primary title_bg">Chương trình Tour</h2>{{detailTour.title}}
+          <h2 class="text-primary title_bg">Chương trình Tour</h2>
           <p>Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là "Thành phố Hoa", "Thành phố mùa Xuân".</p>
         </div>
-        <img src="{{detailTour.imagetourkm}}" style="width: 100%; height: 450px">
+        <img src="{{detailTour.imagetour}}" style="width: 100%; height: 450px">
        {{detailTour.conten_body}}
 
 
@@ -153,22 +161,22 @@
               </thead>
               <tbody>
               <tr >
-                <td></td>
-                <td><input type="button" value="-"/>
-                  <label></label>
-                  <input type="button" value="+"/>
+                <td>Người lớn ( >= 16 tuổi)</td>
+                <td><input (click)="subtraction_lon()" type="button" value="-"/>
+                  <label>{{detailTour.quantity-49}}</label>
+                  <input (click)="summation_lon()" type="button" value="+"/>
                 </td>
-                <td>VND</td>
-                <td>VND</td>
+                <td>{{detailTour.price}}VND</td>
+                <td>{{detailTour.price*(detailTour.quantity-49)}}VND</td>
               </tr>
               <tr >
-                <td></td>
-                <td><input   type="button" value="-"/>
-                  <label></label>
-                  <input   type="button" value="+"/>
+                <td>Trẻ em ( < 16 tuổi)</td>
+                <td><input (click)="subtraction_nho()"   type="button" value="-"/>
+                  <label>{{detailTour.quantity-49}}</label>
+                  <input (click)="summation_nho()"  type="button" value="+"/>
                 </td>
-                <td>VND</td>
-<!--                <td>{{quantityn*product.pricen}}VND</td>-->
+                <td>{{detailTour.price*0.75}}VND</td>
+                <td>{{detailTour.price*0.75*(detailTour.quantity-49)}}VND</td>
                 <td>VND</td>
               </tr>
 
@@ -178,7 +186,7 @@
               <div class="col-7"></div>
               <div class="col-5">
                 <h5 style="float: left;margin-right: 10px;color: red">Tổng tiền :</h5>
-<!--                <h5 >{{quantityl*product.pricel+quantityn*product.pricen}}VND</h5>-->
+                <h5 >{{detailTour.price*0.75*(detailTour.quantity-49) +detailTour.price*(detailTour.quantity-49)}}VND</h5>
                 <h5 >VND</h5>
               </div>
 
@@ -186,7 +194,7 @@
             <hr>
             <div class="row"  style="margin-top: 23px">
               <div class="col-6"><label style="float: left;margin-left: 10px;margin-right: 10px">Ngày khởi hành :</label><input type="date" class="form-control" style="width: 170px"></div>
-              <div class="col-5"><button style="width: 160px;height: 40px;" class="btn btn-warning" [routerLink]="['/thanhtoan']">Đặt Tour</button></div>
+              <div class="col-5"><button style="width: 160px;height: 40px;" class="btn btn-warning" (click)="viewOrderTour(detailTour.id)">Đặt Tour</button></div>
             </div>
           </div>
 
@@ -200,9 +208,9 @@
             <table class="table">
               <tbody>
               <tr><td><p class="right-text-format" >Hành trình : </p> <p class="text-warning text-warning-right"> Lịch và phương tiện di chuyển</p></td></tr>
-              <tr><td><p  class="right-text-format" >Di chuyển : </p> <p class="text-warning text-warning-right"></p></td></tr>
+              <tr><td><p  class="right-text-format" >Di chuyển : </p> <p class="text-warning text-warning-right">Máy bay</p></td></tr>
               <tr><td><p  class="right-text-format" >Lịch khởi hành : </p> <p class="text-warning text-warning-right"> Theo yêu cầu</p></td></tr>
-              <tr><td><p  class="right-text-format" >Thời gian : </p> <p class="text-warning text-warning-right"></p></td></tr>
+              <tr><td><p  class="right-text-format" >Thời gian : </p> <p class="text-warning text-warning-right">3 ngày 2 đêm</p></td></tr>
               </tbody>
             </table>
           </div>
@@ -222,9 +230,9 @@
           </div>
         </div>
         <div style="width: 100%;height: 300px;margin-top: 46px">
-          <div class="title_right"><a href="#">Chương trình Tour</a></div>
-          <div class="title_right"><a href="#">Chính sách Tour</a></div>
-          <div class="title_right"><a href="#">Điều khoản & dịch vụ </a></div>
+          <div class="title_right"><a class="menu-right" href="#">Chương trình Tour</a></div>
+          <div class="title_right"><a class="menu-right" href="#">Chính sách Tour</a></div>
+          <div class="title_right"><a class="menu-right" href="#">Điều khoản & dịch vụ </a></div>
         </div>
       </div>
     </div>
@@ -235,21 +243,20 @@
       <h3 class="text-center">Các Tour tương tự</h3>
     </div>
     <div class="row">
-      <div class="col-3 tour-mg " >
-<!--           *ngFor="let item of productList-->
-<!--             | paginate: {-->
-<!--             itemsPerPage: tableSize,-->
-<!--             currentPage: page,-->
-<!--             totalItems: count-->
-<!--             };-->
-<!--             let i = index" [class.active]="i == 1">-->
+      <div class="col-3 tour-mg " *ngFor="let items of dataTour
+                       | paginate: {
+                       itemsPerPage: tableSize,
+                       currentPage: page,
+                       totalItems: count
+                       };
+                       let i = index" [class.active]="i == 1">
         <div class="bor-tour" >
-          <img src="" width="100%" height="160px">
-          <h5></h5>
+          <img src="{{items.imagetour}}" width="100%" height="160px">
+          <h5>{{items.title}}</h5>
           <div class="row">
-            <div class="col-6"><h6>VND</h6></div>
-<!--            <div class="col-6"><button class="btn btn-warning" [routerLink]="['/product',item.id]">Xem Tour</button></div>-->
-            <div class="col-6"><button class="btn btn-warning">Xem Tour</button></div>
+            <div class="col-6"><h6>{{items.price}}VND</h6></div>
+            <!--              <div class="col-6"><button class="btn btn-warning" [routerLink]="['/product',item.id]">Xem Tour</button></div>-->
+            <button class="btn btn-warning"(click)="viewDetailsTour(items.id)">Xem Tour</button>
           </div>
         </div>
       </div>

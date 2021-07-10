@@ -12,7 +12,7 @@ import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
 
 const routes: Routes = [
   {path: 'trangchu',component: TrangchuComponent},
-  {path: 'thanhtoan',component: ThanhToanComponent},
+  {path: 'thanhtoan/:id',component: ThanhToanComponent},
   {path: 'lienhe',component: LienHeComponent},
   {path: 'kinhnghiem',component: KinhnghiemComponent},
   {path: 'chitietkinhnghiem',component: ChitietknComponent},
