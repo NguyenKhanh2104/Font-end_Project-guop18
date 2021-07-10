@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html >
+<meta charset="UTF-8">
+
+<header>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+    h2{
+      margin-top: 35px;
+    }
+    h4{
+      margin-left: 20px;
+    }
+    p{
+      margin-left: 40px;
+    }
+    .title_bg{
+      background-color: aquamarine;
+      border-left: 4px solid blue;
+    }
+    .title_right{
+      height: 50px;
+      background-color: white;
+      border: 1px solid gray;
+      border-radius: 5px;
+    }
+    a {
+      color: gray;
+      margin-left: 40px;
+      font-size: 20px;
+    }
+    a:hover{
+      font-size: 23px;
+    }
+    .right-text-format{
+      float: left;
+      margin-right: 15px;
+    }
+    . text-warning-right{
+      font-size: 15px;
+    }
+    .table input{
+      border: none;
+      background-color: white;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .table input:hover{
+      font-size: 22px;
+    }
+    .table label{
+      padding: 0px 5px;
+      border: 1px solid gray;
+    }
+  </style>
+
+</header>
+<body>
+<div class="header">
+  <div class="nav">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="width: 100%">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">VIVU</a>
+
+      <!-- Links -->
+      <ul class="navbar-nav" style="margin-left: 200px;padding: 5px">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/trangchu']">Trang Chủ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/tintuc']" >Tin Tức </a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" [routerLink]="['/danhsachtour']">
+            Tour
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Tour1</a>
+            <a class="dropdown-item" href="#">Tour2</a>
+            <a class="dropdown-item" href="#">Tour3</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/kinhnghiem']">Kinh Nghiệm</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/lienhe']">Liên Hệ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><i class="fas fa-phone-volume"></i> 0927007791</a>
+        </li>
+        <li class="nav-item" style="margin-left: 140px">
+          <a class="nav-link"><i class="fas fa-user"></i> User</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><i class="fas fa-sign-in-alt"></i>Log-in</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <div class="Theme" style="height: 300px ;position: relative;width: 100%">
+      <h3 class="tour" style="color: #6978ff;margin-left: 55px;margin-top: 150px;position: absolute">Đặt Tour Nhanh
+        Chóng</h3>
+      <div class="Search">
+        <form class="form-inline" action="/action_page.php">
+          <input class="form-control mr-sm-2" style="margin: 5px 0px;margin-left: 16px" type="text"
+                 placeholder="Search">
+          <button class="btn btn-success" type="submit" routerLink="/tour">Search</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container"  >
+    <div class="col-12 " >
+<!--      <p class="text-primary">Trang chủ  / tour-du-lich / {{product.name}}</p>-->
+      <p class="text-primary">Trang chủ  / tour-du-lich /{{detailTour.title}}</p>
+    </div>
+    <div class="row">
+      <div  style="background-color: white ; width: 64%">
+        <h2></h2>
+        <img src="{{detailTour.imagetourkm}}" style="width: 100%; height: 450px">
+        <div>
+          <h2 class="text-primary title_bg">Chương trình Tour</h2>{{detailTour.title}}
+          <p>Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là "Thành phố Hoa", "Thành phố mùa Xuân".</p>
+        </div>
+        <img src="{{detailTour.imagetourkm}}" style="width: 100%; height: 450px">
+       {{detailTour.conten_body}}
+
+
+        <div style="padding-bottom: 40px">
+          <h2 class="text-primary title_bg"> Đặt Tour</h2>
+          <div>
+            <table class="table">
+              <thead>
+              <tr>
+                <th>Loại khách</th>
+                <th>Số người</th>
+                <th>Đơn giá</th>
+                <th>Tổng giá</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr >
+                <td></td>
+                <td><input type="button" value="-"/>
+                  <label></label>
+                  <input type="button" value="+"/>
+                </td>
+                <td>VND</td>
+                <td>VND</td>
+              </tr>
+              <tr >
+                <td></td>
+                <td><input   type="button" value="-"/>
+                  <label></label>
+                  <input   type="button" value="+"/>
+                </td>
+                <td>VND</td>
+<!--                <td>{{quantityn*product.pricen}}VND</td>-->
+                <td>VND</td>
+              </tr>
+
+              </tbody>
+            </table>
+            <div class="row">
+              <div class="col-7"></div>
+              <div class="col-5">
+                <h5 style="float: left;margin-right: 10px;color: red">Tổng tiền :</h5>
+<!--                <h5 >{{quantityl*product.pricel+quantityn*product.pricen}}VND</h5>-->
+                <h5 >VND</h5>
+              </div>
+
+            </div>
+            <hr>
+            <div class="row"  style="margin-top: 23px">
+              <div class="col-6"><label style="float: left;margin-left: 10px;margin-right: 10px">Ngày khởi hành :</label><input type="date" class="form-control" style="width: 170px"></div>
+              <div class="col-5"><button style="width: 160px;height: 40px;" class="btn btn-warning" [routerLink]="['/thanhtoan']">Đặt Tour</button></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div  style="background-color: white ;margin-left: 1%;width: 35%;height: 600px">
+        <div >
+          <h4> 3N2Đ HÀ NỘI - ĐÀ LẠT - HÀ NỘI</h4>
+          <h4 class="text-danger">Giá mới :</h4>
+          <div>
+            <table class="table">
+              <tbody>
+              <tr><td><p class="right-text-format" >Hành trình : </p> <p class="text-warning text-warning-right"> Lịch và phương tiện di chuyển</p></td></tr>
+              <tr><td><p  class="right-text-format" >Di chuyển : </p> <p class="text-warning text-warning-right"></p></td></tr>
+              <tr><td><p  class="right-text-format" >Lịch khởi hành : </p> <p class="text-warning text-warning-right"> Theo yêu cầu</p></td></tr>
+              <tr><td><p  class="right-text-format" >Thời gian : </p> <p class="text-warning text-warning-right"></p></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h4>Công Ty du lịch VietTravel Tourist</h4>
+            <p>VPGD TPHCM:12,Võ văn Ngân,Bình Thọ,Thủ Đức,TP.HCM.</p>
+            <p>VPGD HN:23,Đinh Tiên Hoàng,p.9, Cầu Giấy,Hà Nội</p>
+            <p>Hotline :  098765432</p>
+            <div class="row">
+              <div class="col-5">
+                <button style="width: 150px;margin-left: 20px;" class="btn btn-primary">Đặt Tour</button>
+              </div>
+              <div class="col-5">
+                <button  style="width: 150px;margin-left: 20px;" class="btn btn-primary">Liên hệ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="width: 100%;height: 300px;margin-top: 46px">
+          <div class="title_right"><a href="#">Chương trình Tour</a></div>
+          <div class="title_right"><a href="#">Chính sách Tour</a></div>
+          <div class="title_right"><a href="#">Điều khoản & dịch vụ </a></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="container"  style="background-color: white ; margin-top: 20px;margin-bottom: 40px">
+    <div >
+      <h3 class="text-center">Các Tour tương tự</h3>
+    </div>
+    <div class="row">
+      <div class="col-3 tour-mg " >
+<!--           *ngFor="let item of productList-->
+<!--             | paginate: {-->
+<!--             itemsPerPage: tableSize,-->
+<!--             currentPage: page,-->
+<!--             totalItems: count-->
+<!--             };-->
+<!--             let i = index" [class.active]="i == 1">-->
+        <div class="bor-tour" >
+          <img src="" width="100%" height="160px">
+          <h5></h5>
+          <div class="row">
+            <div class="col-6"><h6>VND</h6></div>
+<!--            <div class="col-6"><button class="btn btn-warning" [routerLink]="['/product',item.id]">Xem Tour</button></div>-->
+            <div class="col-6"><button class="btn btn-warning">Xem Tour</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container"  style="background-color: white ; margin-top: 20px;margin-bottom: 40px">
+    <label class="text-primary">Nhận xét </label>
+    <textarea class="form-control" cols="150" rows="5" ></textarea>
+  </div>
+  <footer class="page-footer font-small stylish-color-dark pt-4"
+           style="color: #ffffff;background-color: black">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+
+        <!-- Content -->
+        <div class="left_footer">
+          <div class="logo_footer" style="font-size:30px ">VIVO</div>
+          <div class="rightContent_footer" style="font-size: 15px;width: 254px">Địa chỉ: Số 123 Trần Hưng Đạo,
+            Quận 1, Thành Phố Hồ Chí Minh
+            Email: khanhnguyen7221@gmail.com
+            Điện thoại: 0927007791
+          </div>
+          <div class="logo_social"></div>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Miền Nam</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#">Tiền Giang - Bến Tre</a>
+          </li>
+          <li>
+            <a href="#">Vĩnh Long - Trà Vinh</a>
+          </li>
+          <li>
+            <a href="#">Kiên Giang - Phúc Quốc</a>
+          </li>
+
+        </ul>
+
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Miền Trung</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#">Bình Thuận - Mũi Né</a>
+          </li>
+          <li>
+            <a href="#!">Đà Lạt - Nha Trang</a>
+          </li>
+
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Miền Bắc</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Hà Giang-Yên Bái</a>
+          </li>
+          <li>
+            <a href="#!">Hạ Long-Quảng Ninh</a>
+          </li>
+          <li>
+            <a href="#!">Mai Châu - Mộc Châu</a>
+          </li>
+          <li>
+            <a href="#!">Cao Bằng - Bắc Kạn</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nước Ngoài</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Châu Á</a>
+          </li>
+          <li>
+            <a href="#!">Châu Mỹ</a>
+          </li>
+          <li>
+            <a href="#!">Châu Âu</a>
+          </li>
+          <li>
+            <a href="#!">Châu Phi</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+
+  <!-- Social buttons -->
+  <ul class="list-unstyled list-inline text-center"
+      style="width: 1227px;position: absolute;background-color: black">
+    <li class="list-inline-item">
+      <a class="btn-floating btn-fb mx-1">
+        <i class="fab fa-facebook-f"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-tw mx-1">
+        <i class="fab fa-twitter"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-gplus mx-1">
+        <i class="fab fa-google-plus-g"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-li mx-1">
+        <i class="fab fa-linkedin-in"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-dribbble mx-1">
+        <i class="fab fa-dribbble"> </i>
+      </a>
+    </li>
+  </ul>
+
+</footer>
+
+</body>
+</html>
+

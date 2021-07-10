@@ -1,0 +1,20 @@
+.nav-item{
+  margin-left: 15px;
+}
+
+.Theme {
+
+  background-image: url("../../../assets/img/hinh-anh-vinh-ha-long-21.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover
+}
+.Search {
+  position: absolute;
+  margin-top: 200px;
+  background: #ff9f3b;
+  margin-left: 50px;
+  height: 50px;
+  width: 350px;
+  border-radius: 13px;
+}
