@@ -18,6 +18,11 @@
     .fn-size-lable {
       font-size: 20px;
     }
+    .clickNews{
+      background-color: white;
+      margin-bottom: 10px;
+      border: 2px solid white;
+    }
 
   </style>
 </head>
@@ -117,13 +122,13 @@
         <div><h2>BÀI VIẾT MỚI NHẤT</h2></div>
         <div class="row">
           <div class="col-12">
-            <div class="row tin-tuc-moi" *ngFor="let new of NewsList">
-              <!--                 *ngFor="let item of tintucList| paginate: {-->
-              <!--             itemsPerPage: tableSize,-->
-              <!--             currentPage: page,-->
-              <!--             totalItems: count-->
-              <!--             };-->
-              <!--             let i = index" [class.active]="i == 1">-->
+            <div class="row tin-tuc-moi" *ngFor="let new of NewsList
+                        | paginate: {
+                           itemsPerPage: tableSize,
+                           currentPage: page,
+                           totalItems: count
+                           };
+                           let i = index" [class.active]="i == 1">
               <div class="btnsame" style="display: flex;width: 380px">
                 <button class="clickNews" (click)="viewDetails(new.id)">
                   <div class="col-4">

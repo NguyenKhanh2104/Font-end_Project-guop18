@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {ServerHttpService} from "../ServerHttpService";
+import {ActivatedRoute} from "@angular/router";
 
 @Component({
   selector: 'app-thanh-toan',
@@ -7,9 +9,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThanhToanComponent implements OnInit {
 
-  constructor() { }
+  param = '';
+  detailTour?: any;
+  constructor(private route: ActivatedRoute,
+              private httpData:ServerHttpService) { }
 
   ngOnInit(): void {
+    this.showDetail();
   }
-
+  public showDetail(){
+    this.route.params.subscribe(
+      data => {
+        this.param = data['id']
+      }
+    )
+    this.httpData.getAtour(this.param)
+      .subscribe(datatour => {
+        this.detailTour = datatour
+      })
+  }
 }

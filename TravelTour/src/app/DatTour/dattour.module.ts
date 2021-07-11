@@ -13,6 +13,7 @@ import {ServerHttpService} from "./ServerHttpService";
 // import { TintucComponent } from './tintuc/tintuc.component';
 import {DanhSachTourComponent} from "./danh-sach-tour/danh-sach-tour.component";
 import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
+import {NgxPaginationModule} from "ngx-pagination";
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
   ],
   imports: [
     CommonModule,
+    NgxPaginationModule,
     DattourRoutingModule
   ],
   providers:[

@@ -14,68 +14,66 @@ import {ServerHttpService} from "../ServerHttpService";
 })
 
 export class ChiTietTourComponent implements OnInit {
-  // productList: IProduct[] = [];
-  // page = 1;
-  // count = 0;
-  // tableSize = 4;
-  // // product: IProduct | undefined;
-  // titil_lon!:string;
-  // titil_nho!:string;
-  // public quantityl = 1;
-  // public quantityn = 0;
   param = '';
-  detailTour?: any
+  detailTour?: any;
+  dataTour : any[] =[];
+  page = 1;
+  count = 0;
+  tableSize = 4;
   constructor(  private route: ActivatedRoute,
-              private httpData:ServerHttpService) {}
-  //   this.titil_lon ='Người lớn ( > 14 tuổi)';
-  //   this.titil_nho ='Trẻ em ( < 14 tuổi)'
-  // }
+                private httpData:ServerHttpService,private router: Router) {}
   ngOnInit(): void {
+    this.showDetail();
+    this.showAll();
+
+  }
+  public showDetail(){
     this.route.params.subscribe(
       data => {
         this.param = data['id']
       }
     )
-    this.httpData.getAtourkm(this.param)
+    this.httpData.getAtour(this.param)
       .subscribe(datatour => {
         this.detailTour = datatour
       })
-    //   this.show();
-    //   this.activatedRoute.paramMap.pipe(
-    //     map((params: { get: (arg0: string) => any; }) => params.get('id')),
-    //   //   switchMap(id => this.productService.findProductById(id))
-    //   // ).subscribe(product => this.product = product);
-    // }
+  }
+  public showAll(){
+    this.httpData.getAllTour().subscribe(data => {
+      this.dataTour = data;
+    })
+  }
+  public viewDetailsTour(id: any) {
+    this.router.navigate(['chitiettour', id]);
+    console.log('dataTour',id);
+    this.showDetail();
+  }
+  public viewOrderTour(id: any) {
+    this.router.navigate(['thanhtoan', id]);
+    console.log('dataTour',id);
+    this.showDetail();
+  }
 
-    // show(){
-    //   // this.productService.getProductList().subscribe(ps => this.productList = ps);
-    //
-    //   this.activatedRoute.queryParamMap.subscribe(
-    //     query => {
-    //       const orderBy = query.get('orderby');
-    //       console.log(orderBy);
-    //     }
-    //   );
-    //  }
-  // }
-  // subtraction_lon() {
-  //   if(this.quantityl >1){
-  //     this.quantityl--;
-  //    }
-  //
-  // }
-  // summation_lon() {
-  //   this.quantityl++;
-  // }
-  // subtraction_nho() {
-  //   if(this.quantityn >0){
-  //     this.quantityn--;
-  //   }
-  // }
-  //
-  // summation_nho() {
-  //   this.quantityn++;
-  //
-   }
+  subtraction_lon() {
+    if(this.detailTour.quantity >1){
+      this.detailTour.quantity--;
+    }
+
+  }
+  summation_lon() {
+    this.detailTour.quantity++;
+  }
+  subtraction_nho() {
+    if(this.detailTour.quantity2 >0){
+      this.detailTour.quantity2--;
+    }
+  }
+
+  summation_nho() {
+    this.detailTour.quantity2++;
+  }
+
+  public totalmoney(){
+    return this.detailTour.price*this.detailTour.quantity +this.detailTour.price*0.75*this.detailTour.quantity2;
+  }
 }
-
