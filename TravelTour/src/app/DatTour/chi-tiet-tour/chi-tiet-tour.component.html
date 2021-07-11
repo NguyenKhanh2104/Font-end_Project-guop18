@@ -163,21 +163,21 @@
               <tr >
                 <td>Người lớn ( >= 16 tuổi)</td>
                 <td><input (click)="subtraction_lon()" type="button" value="-"/>
-                  <label>{{detailTour.quantity-49}}</label>
+                  <label>{{detailTour.quantity}}</label>
                   <input (click)="summation_lon()" type="button" value="+"/>
                 </td>
                 <td>{{detailTour.price}}VND</td>
-                <td>{{detailTour.price*(detailTour.quantity-49)}}VND</td>
+                <td>{{detailTour.price*detailTour.quantity}} VND</td>
               </tr>
               <tr >
                 <td>Trẻ em ( < 16 tuổi)</td>
                 <td><input (click)="subtraction_nho()"   type="button" value="-"/>
-                  <label>{{detailTour.quantity-49}}</label>
+                  <label>{{detailTour.quantity2}}</label>
                   <input (click)="summation_nho()"  type="button" value="+"/>
                 </td>
                 <td>{{detailTour.price*0.75}}VND</td>
-                <td>{{detailTour.price*0.75*(detailTour.quantity-49)}}VND</td>
-                <td>VND</td>
+                <td>{{detailTour.price*0.75*detailTour.quantity2}} VND</td>
+
               </tr>
 
               </tbody>
@@ -186,8 +186,7 @@
               <div class="col-7"></div>
               <div class="col-5">
                 <h5 style="float: left;margin-right: 10px;color: red">Tổng tiền :</h5>
-                <h5 >{{detailTour.price*0.75*(detailTour.quantity-49) +detailTour.price*(detailTour.quantity-49)}}VND</h5>
-                <h5 >VND</h5>
+                <h5 >{{totalmoney()}} VND</h5>
               </div>
 
             </div>

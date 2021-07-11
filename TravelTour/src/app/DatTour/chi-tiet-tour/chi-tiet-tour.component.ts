@@ -55,24 +55,25 @@ export class ChiTietTourComponent implements OnInit {
   }
 
   subtraction_lon() {
-    if(this.detailTour.quantity-49 >1){
+    if(this.detailTour.quantity >1){
       this.detailTour.quantity--;
-     }
+    }
 
   }
   summation_lon() {
     this.detailTour.quantity++;
   }
   subtraction_nho() {
-    if(this.detailTour.quantity-49 >1){
-      this.detailTour.quantity--;
+    if(this.detailTour.quantity2 >0){
+      this.detailTour.quantity2--;
     }
   }
 
   summation_nho() {
-    this.detailTour.quantity++;
-   }
+    this.detailTour.quantity2++;
+  }
 
-
+  public totalmoney(){
+    return this.detailTour.price*this.detailTour.quantity +this.detailTour.price*0.75*this.detailTour.quantity2;
+  }
 }
-
