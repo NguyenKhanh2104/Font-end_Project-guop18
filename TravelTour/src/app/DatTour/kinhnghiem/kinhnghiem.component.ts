@@ -13,7 +13,7 @@ export class KinhnghiemComponent implements OnInit {
   constructor(private httpData: ServerHttpService) {
   }
   ngOnInit() {
-    this.httpData.getAllNews().subscribe(data => {
+    this.httpData.getAllTour().subscribe(data => {
       this.data = data;
     })
   }

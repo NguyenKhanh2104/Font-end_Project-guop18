@@ -94,7 +94,7 @@
     <div class="container">
       <div class="col-12 ">
         <p class="" style="float: left">Trang chủ / Tin Tức /</p>
-        <p class="text-primary font-weight-bold"> {{ detail.name}}</p>
+        <p class="text-primary font-weight-bold"> {{ detail.title}}</p>
       </div>
     </div>
   </div>
@@ -102,7 +102,7 @@
     <div class="row">
       <div class="col-8">
         <div>
-          <label class="font-weight-bold text-left fn-size-lable"> {{ detail.name}}</label>
+          <label class="font-weight-bold text-left fn-size-lable"> {{ detail.title}}</label>
           <p>{{detail.conten_head}}</p>
         </div>
         <div>
@@ -134,7 +134,7 @@
                   <div class="col-4">
                     <img height="60px" src="{{new.imageUrl}}" width="100%">
                   </div>
-                  <div class="col-8" style="position: absolute;margin-left: 100px;margin-top: -53px">{{new.name}}
+                  <div class="col-8" style="position: absolute;margin-left: 100px;margin-top: -53px">{{new.title}}
                     <!--                <a [routerLink]="['/tintuc',item.id]">{{item.name}}...</a>-->
                   </div>
                 </button>

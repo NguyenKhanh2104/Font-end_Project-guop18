@@ -6,6 +6,7 @@ import {AppComponent} from "./app.component";
 import {TrangchuComponent} from "./DatTour/trangchu/trangchu.component";
 import {DattourModule} from "./DatTour/dattour.module";
 import { HttpClientModule} from "@angular/common/http";
+import {Ng2SearchPipeModule} from "ng2-search-filter";
 
 
 @NgModule({
@@ -14,7 +15,7 @@ import { HttpClientModule} from "@angular/common/http";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,DattourModule,RouterModule,HttpClientModule
+    AppRoutingModule,DattourModule,RouterModule,HttpClientModule,Ng2SearchPipeModule
 
   ],
   providers: [],

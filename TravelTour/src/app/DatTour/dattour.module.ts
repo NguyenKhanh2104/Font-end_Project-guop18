@@ -10,10 +10,10 @@ import {DanhSachTinTucComponent} from "./danh-sach-tin-tuc/danh-sach-tin-tuc.com
 import {ChitietknComponent} from "./chitietkn/chitietkn.component";
 import {ChiTietTinTucComponent} from "./chi-tiet-tin-tuc/chi-tiet-tin-tuc.component";
 import {ServerHttpService} from "./ServerHttpService";
-// import { TintucComponent } from './tintuc/tintuc.component';
 import {DanhSachTourComponent} from "./danh-sach-tour/danh-sach-tour.component";
 import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
 import {NgxPaginationModule} from "ngx-pagination";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -31,7 +31,9 @@ import {NgxPaginationModule} from "ngx-pagination";
   imports: [
     CommonModule,
     NgxPaginationModule,
-    DattourRoutingModule
+    DattourRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers:[
     ServerHttpService

@@ -20,6 +20,8 @@ const routes: Routes = [
   {path: 'chitiettintuc/:id',component: ChiTietTinTucComponent},
   {path: 'danhsachtour',component: DanhSachTourComponent},
   {path: 'chitiettour/:id',component: ChiTietTourComponent},
+  // {path: 'search/:searchTerm',component: DanhSachTourComponent}
+
 
 ];
 
