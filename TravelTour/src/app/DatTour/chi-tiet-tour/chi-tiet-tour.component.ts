@@ -21,6 +21,8 @@ export class ChiTietTourComponent implements OnInit {
   page = 1;
   count = 0;
   tableSize = 4;
+  sum =20000;
+  order: any;
   constructor(  private route: ActivatedRoute,
               private httpData:ServerHttpService,private router: Router) {}
   ngOnInit(): void {
@@ -48,8 +50,8 @@ export class ChiTietTourComponent implements OnInit {
     console.log('dataTour',id);
     this.showDetail();
   }
-  public viewOrderTour(id: any) {
-    this.router.navigate(['thanhtoan', id]);
+  public viewOrderTour(id: any,qua1: number,qua2:number) {
+    this.router.navigate(['thanhtoan', id,this.detailTour.quantity,this.detailTour.quantity2]);
     console.log('dataTour',id);
     this.showDetail();
   }

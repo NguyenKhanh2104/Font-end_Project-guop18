@@ -101,12 +101,7 @@
           </div>
           <div class="row">
             <div class="col-6">
-              <input type="radio">
               <label>Thanh toán tại văn phòng</label>
-            </div>
-            <div class="col-6">
-              <input type="radio">
-              <label>Chuyển khoản </label>
             </div>
 
           </div>
@@ -160,14 +155,14 @@
           </div>
         </div>
         <div class="col-4" style="background-color: #2b2b7b;height: 440px;">
-          <div><img style="margin-left: -14px" src="assets/img/thdn.jpg" width="379px" height="200px"></div>
+          <div><img style="margin-left: -14px" src="{{detailTour.imagetour}}" width="379px" height="200px"></div>
           <div>
             <h4 class="text-left text-warning">Tour du lịch {{detailTour.title}}</h4>
           </div>
           <div>
             <li><i class="fa fa-car" style="font-size: 25px"></i>
               <p style="float: left" class="text-warning">Số lượng khách :</p>
-              <p class="text-warning">{{detailTour.quantity-49}}</p></li>
+              <p class="text-warning">Người lớn: {{quantity1}}, Trẻ em: {{quantity2}}</p></li>
             <li><i class="fa fa-plane" style="font-size: 25px"></i>
               <p class="text-warning">Phương tiện máy bay</p></li>
             <li><i class="fa fa-calendar" style="font-size: 25px"></i>
@@ -178,7 +173,7 @@
           </div>
           <div style="background-color: orange;width: 379px;margin-left: -14px;height: 60px"><h3
             style="float: left;margin-left: 26px;margin-top: 10px" class="text-dark">Tổng tiền:</h3>
-            <h3 style="margin-top: 10px;float: right;margin-right: 20px">{{detailTour.price*(detailTour.quantity-49)}}VND</h3></div>
+            <h3 style="margin-top: 10px;float: right;margin-right: 20px">{{quantity1*detailTour.price+quantity2*detailTour.price*0.75 }} VND</h3></div>
         </div>
       </div>
     </div>

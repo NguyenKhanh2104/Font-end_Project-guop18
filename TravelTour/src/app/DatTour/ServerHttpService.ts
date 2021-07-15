@@ -32,6 +32,10 @@ export class ServerHttpService {
   getAtour(id: any){
     return this.http.get(`http://localhost:3000/alltour/${id}`);
   }
+
+  // getOrder(id: any){
+  //   return this.http.get(`http://localhost:3000/alltour/${id}`);
+  // }
   getAtourkm(id: any){
     return this.http.get(`http://localhost:3000/tourkm/${id}`);
   }
