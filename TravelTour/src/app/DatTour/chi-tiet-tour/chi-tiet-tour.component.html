@@ -10,8 +10,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
   <style>
+    body{
+      background-color: #d0d7f6;
+    }
     h2{
       margin-top: 35px;
     }
@@ -40,7 +44,6 @@
       font-size: 23px;
     }
     .right-text-format{
-      float: left;
       margin-right: 15px;
     }
     . text-warning-right{
@@ -62,7 +65,49 @@
     .bor-tour{
       border: 1px solid #dedbdb;
       padding-bottom: 10px;
+      padding-right: 25px;
+      padding-left: 25px;
+      background-color: white;
 
+    }
+    .bor-tour:hover{
+      background-color: #d6d8e2;
+      border: 1px solid #1093d5;
+    }
+    .image-tour{
+      border-radius: 3px;
+      margin-bottom: 10px;
+      height: 160px;
+      margin-left: -26px;
+      width: 126%;
+    }
+    .title_tour_box{
+      font-size: 19px;
+      margin-left: -5px;
+      color: #535252;
+      text-decoration: none;
+    }
+    ul,li{
+      list-style: none;
+    }
+    .ct_course_list{
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .clearfix{
+      margin-left: -42px;
+      margin-bottom: 4px;
+    }
+    .clearfix i{
+      margin-right: 5px;
+      font-size:24px
+    }
+    .price-tour{
+      color: orange;
+      margin-top: 8px;
+    }
+    .btn-warning{
+      margin-left: 15px;
     }
 
     h6{
@@ -133,7 +178,7 @@
 </div>
   <div class="container"  >
     <div class="col-12 " >
-      <p class="text-primary">Trang chủ  / tour-du-lich /{{detailTour.title}}</p>
+      <p style="margin-left: -25px">Trang chủ  / tour-du-lich /<span class="text-primary">{{detailTour.title}}</span></p>
     </div>
     <div class="row">
       <div  style="background-color: white ; width: 64%">
@@ -272,10 +317,10 @@
           <div>
             <table class="table">
               <tbody>
-              <tr><td><p class="right-text-format" >Hành trình : </p> <p class="text-warning text-warning-right"> Lịch và phương tiện di chuyển</p></td></tr>
-              <tr><td><p  class="right-text-format" >Di chuyển : </p> <p class="text-warning text-warning-right">Máy bay</p></td></tr>
-              <tr><td><p  class="right-text-format" >Lịch khởi hành : </p> <p class="text-warning text-warning-right"> Theo yêu cầu</p></td></tr>
-              <tr><td><p  class="right-text-format" >Thời gian : </p> <p class="text-warning text-warning-right">3 ngày 2 đêm</p></td></tr>
+              <tr><td><span class="right-text-format" >Hành trình : </span> <span class="text-warning text-warning-right"> Lịch và phương tiện di chuyển</span></td></tr>
+              <tr><td><i class='fa fa-plane' style="font-size: 25px;margin-right: 8px"></i><span  class="right-text-format" >Di chuyển : </span> <span class="text-warning text-warning-right">Máy bay</span></td></tr>
+              <tr><td><i class='far fa-calendar-alt' style="font-size: 25px;margin-right: 8px"></i><span  class="right-text-format" >Lịch khởi hành : </span> <span class="text-warning text-warning-right"> Theo yêu cầu</span></td></tr>
+              <tr><td><i class='far fa-clock' style="font-size: 25px;margin-right: 8px"></i><span  class="right-text-format" >Thời gian : </span> <span class="text-warning text-warning-right">3 ngày 2 đêm</span></td></tr>
               </tbody>
             </table>
           </div>
@@ -316,10 +361,16 @@
                        };
                        let i = index" [class.active]="i == 1">
         <div class="bor-tour" >
-          <img src="{{items.imagetour}}" width="100%" height="160px">
-          <h5>{{items.title}}</h5>
+          <img class="image-tour" src="{{items.imagetour}}" >
+          <a class="title_tour_box" >{{items.title}} <3</a>
+          <div>
+            <ul class="ct_course_list">
+              <li class="clearfix"><i class='far fa-calendar-alt'></i>Lịch khởi hành: <span style="color: orange">Theo yêu cầu</span></li>
+              <li class="clearfix"><i class='far fa-clock' ></i>Thời gian: <span style="color: orange">3 ngày 2 đêm</span></li>
+            </ul>
+          </div>
           <div class="row">
-            <div class="col-6"><h6>{{items.price}}VND</h6></div>
+            <div class="col-6"><h6 class="price-tour" >{{items.price}}VND</h6></div>
             <!--              <div class="col-6"><button class="btn btn-warning" [routerLink]="['/product',item.id]">Xem Tour</button></div>-->
             <button class="btn btn-warning"(click)="viewDetailsTour(items.id)">Xem Tour</button>
           </div>
