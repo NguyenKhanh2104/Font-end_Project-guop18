@@ -141,12 +141,78 @@
         <img src="{{detailTour.imagetour}}" style="width: 100%; height: 450px">
         <div>
           <h2 class="text-primary title_bg">Chương trình Tour</h2>
-          <p>Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là "Thành phố Hoa", "Thành phố mùa Xuân".</p>
+          <p>{{detailTour.conten_body}}</p>
         </div>
         <img src="{{detailTour.imagetour}}" style="width: 100%; height: 450px">
-       {{detailTour.conten_body}}
+        <div>
+          <h2 class="text-primary">Điểm nỗi bật của chương trình</h2>
+          <div >
+            <p class="font-italic">Khám phá 1 trong những kỳ quan thiên nhiên Thế giới</p>
+            <p class="font-italic">  Đắm mình trong làn nước trong xanh của bãi biển Hạ Long, bãi biển Cát Bà</p>
+            <p class="font-italic">  Những bữa ăn với hải sản tươi ngon, mang đậm hương vị của vùng biển Quảng Ninh, Hải Phòng</p>
+            <p class="font-italic">  Khách sạn đẹp, trung tâm, tiện nghi, sang trọng.</p>
+          </div>
+        </div>
+        <div *ngFor="let items of schedule.sch">
+          <h4>{{items.title_date}}</h4>
+          <p>{{items.content_morning}}</p>
+          <p>{{items.content_noon}}</p>
+          <p>{{items.content_afternoon}}</p>
+          <p>{{items.content_night}}</p>
+        </div>
+        <div>
+          <h2 class="text-primary title_bg">Chính sách Tour</h2>
+          <div>
+            <h5 class="text-center"> GIÁ TOUR TRỌN GÓI CHO 01 KHÁCH : .000 VNĐ/ KHÁCH</h5>
+            <h6 class="font-italic text-center">( Giá tour có thể thay đổi theo thời gian khởi hành cụ thể )</h6>
+          </div>
+          <div>
+            <table class="table">
+              <thead>
+              <tr>
+                <th>Tiêu chuẩn</th>
+                <th> Số tiền</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>3 sao</td>
+                <td> {{detailTour.price}}VND (Giá gốc)</td>
+              </tr>
+              <tr>
+                <td>4 sao</td>
+                <td> {{detailTour.price +20000}}VND</td>
+              </tr>
+              <tr>
+                <td>5 sao</td>
+                <td> {{detailTour.price+350000}}VND</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h5 class="text-danger">Lưu ý :</h5>
+            <div *ngFor="let note of dataNote"><p>{{note.content}}</p></div>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-primary title_bg">Điều khoản & Dịch vụ</h2>
+          <div >
+            <h4>Chi phí bao gồm :</h4>
+            <div *ngFor="let items of dataRules">
+              <p >
+                {{items.content}}
+              </p>
+            </div>
+            <h4>Chính sách hủy :</h4>
+            <div *ngFor="let items of dataCancel">
+              <p >
+                {{items.content}}
+              </p>
+            </div>
 
-
+          </div>
+        </div>
         <div style="padding-bottom: 40px">
           <h2 class="text-primary title_bg"> Đặt Tour</h2>
           <div>
@@ -192,8 +258,8 @@
             </div>
             <hr>
             <div class="row"  style="margin-top: 23px">
-              <div class="col-6"><label style="float: left;margin-left: 10px;margin-right: 10px">Ngày khởi hành :</label><input type="date" class="form-control" style="width: 170px"></div>
-              <div class="col-5"><button style="width: 160px;height: 40px;" class="btn btn-warning" (click)="viewOrderTour(detailTour.id,detailTour.quantity,detailTour.quantity2)">Đặt Tour</button></div>
+              <div class="col-6"><label style="float: left;margin-left: 10px;margin-right: 10px">Ngày khởi hành :</label><input id="date1" [(ngModel)]="date"  type="date" class="form-control" style="width: 170px"></div>
+              <div class="col-5"><button style="width: 160px;height: 40px;" class="btn btn-warning" (click)="viewOrderTour(detailTour.id,date)">Đặt Tour </button></div>
             </div>
           </div>
 

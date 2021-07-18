@@ -1,4 +1,26 @@
-{
+{"rules": [
+  {"content":"- Xe vận chuyển máy lạnh đón - tiễn và phục vụ theo chương trình."},
+  {"content":"- Khách sạn tiêu chuẩn 2 - 3* - ngủ 2 – 04 khách /phòng"},
+  {"content":"- Các bữa ăn theo chương trình: 05 bữa chính: tiêu chuẩn 150,000vnd/ suất,02 bữa ăn sáng: buffet tại khách sạn 3 sao hoặc tiêu chuẩn 40.000d/suất tại khách sạn 2 sao"},
+  {"content":"- Vé tham quan theo chương trình (vào cửa lần 01)."},
+  {"content": "- Hướng dẫn viên tiếng Việt nhiệt tình, kinh nghiệm theo đoàn và phục vụ tại địa phương."},
+  {"content": "- Bảo hiểm du lịch mức bồi thường 20.000.000 VND/vụ."},
+  {"content": "- Qùa tặng 01 Mũ du lịch; 01 Nước uống (chai 0.5l/ngày người)."}
+
+],
+"cancel": [
+  {"content":"- Nếu quý khách hủy tour sau khi đăng ký và trước 30 ngày khởi hành: mất phí cọc tour."},
+  {"content":"- Nếu quý khách hủy tour từ 20-30 ngày trước ngày khởi hành: phí hủy 50% giá trị tour."},
+  {"content":"- Nếu quý khách hủy tour từ 15-20 ngày trước ngày khởi hành: phí hủy 70% giá trị tour."},
+  {"content":"- Nếu quý khách hủy tour trong vòng 15 ngày trước ngày khởi hành: phí hủy 100% giá trị tour."},
+  {"content": "Lễ Tết không hoàn không hủy, quý khách hủy mất phí 100%."}
+
+],
+  "note": [
+    {"content": "Dưới 05 tuổi miễn phí, bố mẹ tự chăm sóc, mỗi cặp vợ chồng được kèm theo 01 bé."},
+    {"content": "Từ 05 đến dưới 14 tuổi giá tour 75% giá tour người lớn, tiêu chuẩn riêng."},
+    {"content": "Từ 14 tuổi áp dụng giá tour người lớn, dịch vụ đầy đủ như người lớn."}
+  ],
   "News": [
   {
     "id":1,
@@ -101,7 +123,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":2,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội2",
@@ -110,7 +132,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":3,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội3",
@@ -119,7 +141,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":4,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội4",
@@ -128,7 +150,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":5,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội5",
@@ -137,7 +159,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":6,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội6",
@@ -146,7 +168,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":7,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội7",
@@ -155,7 +177,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":8,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội8",
@@ -164,7 +186,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":9,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội9",
@@ -173,7 +195,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":10,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội10",
@@ -182,7 +204,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":11,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội11",
@@ -191,7 +213,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":12,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội12",
@@ -200,7 +222,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":13,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội12",
@@ -209,7 +231,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":14,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội12",
@@ -218,7 +240,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":15,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội12",
@@ -227,7 +249,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":16,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội12",
@@ -236,7 +258,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":17,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội12",
@@ -245,7 +267,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":18,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội12",
@@ -254,7 +276,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":19,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội12",
@@ -263,7 +285,7 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     },
     {"id":20,
       "title": "3N2Đ Hà Nội - ĐN- Hà Nội13",
@@ -272,7 +294,530 @@
       "quantity":1,
       "quantity2":1,
       "totalmoney":0,
-      "conten_body": "Đến Phan Thiết vào tháng mấy thì đẹp?\n\nNằm ở khu vực Nam Trung Bộ, thành phố Phan Thiết mang đầy đủ đặc trưng thời tiết của vùng này với nắng và gió cùng nhiệt độ cao nhất nước. Phan Thiết vẫn có hai mùa mưa – nắng nhưng mùa nắng kéo dài hơn mùa mưa. Đặc biệt, thành phố Phan Thiết ít chịu ảnh hưởng của bão nên những chuyến du lịch biển đến đây khá an toàn.\n\nDù bạn có thể ghé Phan Thiết bất kỳ mùa nào trong năm, nhưng có những khoảng thời gian cần lưu ý như sau:\n\nTháng 4 và tháng 5: Nắng nóng đỉnh điểm với mức nhiệt tới hơn 30 độ.\n\nTháng 6 – tháng 7 hoặc từ tháng 12 – tháng 2: Thời gian đẹp nhất, nắng đỡ hanh, ít mưa, biển lặng, nước biển trong xanh và trời đẹp hơn nhiều.\n\nTháng 7 và đến tháng 8: Thường có hiện tượng thủy triều đỏ, tảo biển nở làm nước biển đục không thích hợp để tắm biển. Nếu chỉ nghỉ dưỡng và vui chơi loanh quanh nội thành thì thời gian này vẫn ổn để bạn ngao du nơi này nhé.\n\nĂn gì ở Phan Thiết?\n\nBánh canh là món ăn đơn giản, bổ dưỡng, dễ ăn. Tại thành phố biển Phan Thiết, món ăn này còn được ưu ái thêm chả cá dai giòn – được làm từ thịt cá tươi ngon, đặc trưng xứ biển. Nước dùng thơm ngọt được hầm từ cá tươi, người dân ở đây thường chấm bánh mì ăn để thêm chắc bụng cho một ngày dài làm việc. Đừng quên thêm một chút nước mắm ớt ngâm, một gắp rau sống để tận hưởng trọn vẹn hương vị tươi nguyên của bánh canh chả cá nhé!"
+      "conten_body": "Cao nguyên Lâm Đồng với khí hậu quanh năm mát mẻ, không khí trong lành, phong cảnh thiên nhiên thơ mộng với đồi thông, suối, hồ, thác và vườn hoa.Đà Lạt - thủ phủ của Lâm Đồng, nổi tiếng là thành phố nghỉ mát bậc nhất của người Pháp ở Đông Dương, được mệnh danh là \"Thành phố Hoa\", \"Thành phố mùa Xuân\"."
     }
+  ],
+  "schedule": [
+    {"id": 1,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 1 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+      },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 1 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 1 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+ },
+    {"id": 2,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 2 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 2 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 2 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 3,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 3 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 3 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 3 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 4,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 4 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 4 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 4 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 5,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 5 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 5 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 5 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 6,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 6 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 6 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 6 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 7,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 7 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 7 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 7 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 8,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 8 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 8 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 8 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 9,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 9 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 9 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 9 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 10,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 10 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 10 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 10 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 11,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 11 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 11 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 11 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 12,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 12 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 12 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 12 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 13,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 13 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 13 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 13 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 14,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 14 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 14 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 14 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 15,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 15 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 15 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 15 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 16,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 16 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 16 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 16 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 17,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 17 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 17 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 17 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 18,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 18 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 18 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 18 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 19,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 19 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 19 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 19 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    },
+    {"id": 20,
+      "sch": [
+        {
+          "title_date": "NGÀY 01: HÀ NỘI - ĐÀ LẠT 20 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+
+        },
+        {
+          "title_date": "NGÀY 02: HÀ NỘI - ĐÀ LẠT 20 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        },
+        {
+          "title_date": "NGÀY 03: HÀ NỘI - ĐÀ LẠT 20 (Ăn: Trưa - Tối)",
+          "content_morning": "Sáng: Xe và HDV đón Quý khách tại điểm hẹn khởi hành đi sân bay Quốc Tế Nội Bài, làm thủ tục đáp chuyến bay đi Đà Lạt\nTới sân bay Liên Khương, Xe và HDV đón Quý khách về TP. Đà Lạt",
+          "content_noon": "Trưa: Đoàn ăn trưa trại nhà hàng. Sau bữa trưa, đoàn về khách sạn nhận phòng nghỉ ngơi.",
+          "content_afternoon": "Chiều: Đoàn đi tham quan Chùa Linh Phước. Ngôi chùa còn được gọi là Chùa Ve Chai vì trong sân chùa có con rồng dài 49 m được làm bằng 12.000 vỏ chai bia. Chùa Linh Phước là một công trình kiến trúc khảm sành đặc sắc của thành phố Đà Lạt. Ngoài ra tường, mái chùa đều được đắp bằng mảnh sành bát, đĩa. Trong gian thờ tượng Quán Thế Âm Bồ Tát có bức tượng Phật Bà trong nhà lớn nhất Việt Nam. Và một bức tượng khác được kết từ hàng nghìn bong hoa bất tử, là kỷ lục của Châu Á",
+          "content_night": "Tối: Đoàn về nhà hàng tại trung tâm TP ăn tối hoặc tham gia chương trình giao lưu cồng chiêng tại Lang Biang với nhiều tiết mục văn nghệ và giao lưu đặc sắc,… (Chi phí tự túc)\nKết thúc chương trình, đoàn về khách sạn nghỉ đêm.Đoàn nghỉ đêm tại Đà Lạt."
+        }
+      ]
+    }
+
   ]
 }

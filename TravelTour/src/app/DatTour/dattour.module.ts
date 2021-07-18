@@ -14,6 +14,7 @@ import {ServerHttpService} from "./ServerHttpService";
 // import { TintucComponent } from './tintuc/tintuc.component';
 import {DanhSachTourComponent} from "./danh-sach-tour/danh-sach-tour.component";
 import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -28,11 +29,12 @@ import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
     ChiTietTourComponent
 
   ],
-  imports: [
-    CommonModule,
-    NgxPaginationModule,
-    DattourRoutingModule
-  ],
+    imports: [
+        CommonModule,
+        NgxPaginationModule,
+        DattourRoutingModule,
+        FormsModule
+    ],
   providers:[
     ServerHttpService
   ]

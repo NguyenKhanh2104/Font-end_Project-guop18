@@ -16,8 +16,13 @@ import {ServerHttpService} from "../ServerHttpService";
 export class ChiTietTourComponent implements OnInit {
 
   param = '';
+  date:any;
   detailTour?: any;
+  schedule?: any;
   dataTour : any[] =[];
+  dataRules : any[] =[];
+  dataNote : any[] =[];
+  dataCancel : any[] =[];
   page = 1;
   count = 0;
   tableSize = 4;
@@ -28,6 +33,10 @@ export class ChiTietTourComponent implements OnInit {
   ngOnInit(): void {
     this.showDetail();
     this.showAll();
+    this.showNote();
+    this.showRules();
+    this.showCancel();
+    this.showDetailSchedule();
   }
   public showDetail(){
     this.route.params.subscribe(
@@ -40,6 +49,17 @@ export class ChiTietTourComponent implements OnInit {
         this.detailTour = datatour
       })
   }
+  public showDetailSchedule(){
+    this.route.params.subscribe(
+      data => {
+        this.param = data['id']
+      }
+    )
+    this.httpData.getAtourSchedule(this.param)
+      .subscribe(dataschedule => {
+        this.schedule = dataschedule
+      })
+  }
   public showAll(){
     this.httpData.getAllTour().subscribe(data => {
       this.dataTour = data;
@@ -50,8 +70,23 @@ export class ChiTietTourComponent implements OnInit {
     console.log('dataTour',id);
     this.showDetail();
   }
-  public viewOrderTour(id: any,qua1: number,qua2:number) {
-    this.router.navigate(['thanhtoan', id,this.detailTour.quantity,this.detailTour.quantity2]);
+  public showRules(){
+    this.httpData.getAllRules().subscribe(data => {
+      this.dataRules = data;
+    })
+  }
+  public showNote(){
+    this.httpData.getAllNote().subscribe(data => {
+      this.dataNote = data;
+    })
+  }
+  public showCancel(){
+    this.httpData.getAllCancel().subscribe(data => {
+      this.dataCancel = data;
+    })
+  }
+  public viewOrderTour(id: any,date:any) {
+    this.router.navigate(['thanhtoan', id,this.detailTour.quantity,this.detailTour.quantity2,date]);
     console.log('dataTour',id);
     this.showDetail();
   }

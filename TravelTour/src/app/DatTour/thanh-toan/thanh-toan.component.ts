@@ -9,6 +9,7 @@ import {ServerHttpService} from "../ServerHttpService";
 })
 export class ThanhToanComponent implements OnInit {
   param = '';
+  date:any;
   quantity1 =0;
   quantity2=0;
   detailTour?: any;
@@ -23,6 +24,7 @@ export class ThanhToanComponent implements OnInit {
       data => {
         this.quantity1 = data['qua1']
         this.quantity2 = data['qua2']
+        this.date = data['date']
       }
     )
     this.route.params.subscribe(
