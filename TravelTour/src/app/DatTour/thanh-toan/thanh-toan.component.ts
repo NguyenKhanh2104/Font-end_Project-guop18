@@ -11,6 +11,9 @@ export class ThanhToanComponent implements OnInit {
 
   param = '';
   detailTour?: any;
+  date:any;
+  quantity1 =0;
+  quantity2=0;
   constructor(private route: ActivatedRoute,
               private httpData:ServerHttpService) { }
 
@@ -18,6 +21,13 @@ export class ThanhToanComponent implements OnInit {
     this.showDetail();
   }
   public showDetail(){
+    this.route.params.subscribe(
+      data => {
+        this.quantity1 = data['qua1']
+        this.quantity2 = data['qua2']
+        this.date = data['date']
+      }
+    )
     this.route.params.subscribe(
       data => {
         this.param = data['id']

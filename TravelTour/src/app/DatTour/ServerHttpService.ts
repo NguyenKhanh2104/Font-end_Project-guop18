@@ -45,4 +45,23 @@ export class ServerHttpService {
   getTitleTour(title: string): Observable<any> {
     return this.http.get(`${this.baseUrl}?name_like=${title}`);
   }
+  //Lấytất cả các điều khoản tour
+  getAllRules():Observable<any>{
+    const NewsUrl = "http://localhost:3000/rules";
+    return this.http.get(NewsUrl);
+  }
+  //Lấytất cả các yêu cầu khi hủy tour
+  getAllCancel():Observable<any>{
+    const NewsUrl = "http://localhost:3000/cancel";
+    return this.http.get(NewsUrl);
+  }
+  //Lấy tất cả các lưu ý của chính sách tour
+  getAllNote():Observable<any>{
+    const NewsUrl = "http://localhost:3000/note";
+    return this.http.get(NewsUrl);
+  }
+  //Lấy lịch trình của 1 tour du lịch
+  getAtourSchedule(id: any){
+    return this.http.get(`http://localhost:3000/schedule/${id}`);
+  }
 }
