@@ -36,7 +36,7 @@ export class ChiTietTourComponent implements OnInit {
     this.showNote();
     this.showRules();
     this.showCancel();
-    this.showDetailSchedule();
+
   }
   public showDetail(){
     this.route.params.subscribe(
@@ -48,18 +48,12 @@ export class ChiTietTourComponent implements OnInit {
       .subscribe(datatour => {
         this.detailTour = datatour
       })
-  }
-  public showDetailSchedule(){
-    this.route.params.subscribe(
-      data => {
-        this.param = data['id']
-      }
-    )
     this.httpData.getAtourSchedule(this.param)
       .subscribe(dataschedule => {
         this.schedule = dataschedule
       })
   }
+
   public showAll(){
     this.httpData.getAllTour().subscribe(data => {
       this.dataTour = data;
