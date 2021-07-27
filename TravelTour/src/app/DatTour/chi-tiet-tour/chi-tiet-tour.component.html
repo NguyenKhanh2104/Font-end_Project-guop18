@@ -11,56 +11,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <style>
-    h2{
-      margin-top: 35px;
-    }
-    h4{
-      margin-left: 20px;
-    }
-    p{
-      margin-left: 40px;
-    }
-    .title_bg{
-      background-color: aquamarine;
-      border-left: 4px solid blue;
-    }
-    .title_right{
-      height: 50px;
-      background-color: white;
-      border: 1px solid gray;
-      border-radius: 5px;
-    }
-    .right-text-format{
-      float: left;
-      margin-right: 15px;
-    }
-    . text-warning-right{
-      font-size: 15px;
-    }
-    .table input{
-      border: none;
-      background-color: white;
-      font-size: 20px;
-      font-weight: 600;
-    }
-    .table input:hover{
-      font-size: 22px;
-    }
-    .table label{
-      padding: 0px 5px;
-      border: 1px solid gray;
-    }
-    .menu-right{
-      color: gray;
-      margin-left: 40px;
-      font-size: 20px;
-    }
-    .menu-right:hover{
-      font-size: 23px;
-    }
-  </style>
-
 </header>
 <body>
 <div class="header">
@@ -125,7 +75,7 @@
   <div class="container"  >
     <div class="col-12 " >
 <!--      <p class="text-primary">Trang chủ  / tour-du-lich / {{product.name}}</p>-->
-      <p class="text-primary">Trang chủ  / tour-du-lich /{{detailTour.title}}</p>
+      <p style="margin-left: -25px">Trang chủ / tour-du-lich /<span class="text-primary">{{detailTour.title}}</span></p>
     </div>
     <div class="row">
       <div  style="background-color: white ; width: 64%">
@@ -260,14 +210,14 @@
       <div  style="background-color: white ;margin-left: 1%;width: 35%;height: 600px">
         <div >
           <h4> 3N2Đ HÀ NỘI - ĐÀ LẠT - HÀ NỘI</h4>
-          <h4 class="text-danger">Giá mới :</h4>
+          <h4 class="text-danger">Giá mới : <span style="color: #ee2207">{{detailTour.price}} VND</span></h4>
           <div>
             <table class="table">
               <tbody>
-              <tr><td><p class="right-text-format" >Hành trình : </p> <p class="text-warning text-warning-right"> Lịch và phương tiện di chuyển</p></td></tr>
-              <tr><td><p  class="right-text-format" >Di chuyển : </p> <p class="text-warning text-warning-right">Máy bay</p></td></tr>
-              <tr><td><p  class="right-text-format" >Lịch khởi hành : </p> <p class="text-warning text-warning-right"> Theo yêu cầu</p></td></tr>
-              <tr><td><p  class="right-text-format" >Thời gian : </p> <p class="text-warning text-warning-right">3 ngày 2 đêm</p></td></tr>
+              <tr><td><span class="right-text-format" >Hành trình : </span> <span class="text-warning text-warning-right"> Lịch và phương tiện di chuyển</span></td></tr>
+              <tr><td><i class='fa fa-plane' style="font-size: 25px;margin-right: 8px"></i><span  class="right-text-format" >Di chuyển : </span> <span class="text-warning text-warning-right">Máy bay</span></td></tr>
+              <tr><td><i class='far fa-calendar-alt' style="font-size: 25px;margin-right: 8px"></i><span  class="right-text-format" >Lịch khởi hành : </span> <span class="text-warning text-warning-right"> Theo yêu cầu</span></td></tr>
+              <tr><td><i class='far fa-clock' style="font-size: 25px;margin-right: 8px"></i><span  class="right-text-format" >Thời gian : </span> <span class="text-warning text-warning-right">3 ngày 2 đêm</span></td></tr>
               </tbody>
             </table>
           </div>
@@ -297,7 +247,7 @@
   </div>
   <div class="container"  style="background-color: white ; margin-top: 20px;margin-bottom: 40px">
     <div >
-      <h3 class="text-center">Các Tour tương tự</h3>
+      <h3 class="text-center" style="font-size: 33px;margin-bottom: 3%;">Các Tour tương tự</h3>
     </div>
     <div class="row">
       <div class="col-3 tour-mg " *ngFor="let items of dataTour
@@ -308,14 +258,23 @@
                        };
                        let i = index" [class.active]="i == 1">
         <div class="bor-tour" >
-          <img src="{{items.imagetour}}" width="100%" height="160px">
-          <h5>{{items.title}}</h5>
+          <img class="image-tour" src="{{items.imagetour}}" >
+          <a class="title_tour_box" >{{items.title}} <3</a>
+          <div>
+            <ul class="ct_course_list">
+              <li class="clearfix"><i class='far fa-calendar-alt'></i>Lịch khởi hành: <span style="color: orange">Theo yêu cầu</span></li>
+              <li class="clearfix"><i class='far fa-clock' ></i>Thời gian: <span style="color: orange">3 ngày 2 đêm</span></li>
+            </ul>
+          </div>
           <div class="row">
-            <div class="col-6"><h6>{{items.price}}VND</h6></div>
+            <div class="col-6"><h6 class="price-tour" >{{items.price}}VND</h6></div>
             <!--              <div class="col-6"><button class="btn btn-warning" [routerLink]="['/product',item.id]">Xem Tour</button></div>-->
             <button class="btn btn-warning"(click)="viewDetailsTour(items.id)">Xem Tour</button>
           </div>
         </div>
+      </div>
+      <div>
+        <button class="btn btn-primary" style="margin-bottom: 30px;margin-left: 527px;" [routerLink]="['/danhsachtour']">Xem Tất cả</button>
       </div>
     </div>
   </div>

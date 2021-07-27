@@ -9,32 +9,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <style>
-    label:hover{
-      color: blue;
-    }
-    .tour-mg{
-      margin-bottom: 20px;
-
-    }
-    .bor-tour{
-      border: 1px solid #dedbdb;
-      padding-bottom: 10px;
-
-    }
-    .bor-tour:hover{
-      position: absolute;
-      margin-top: -10px;
-      margin-bottom: 20px;
-    }
-    h6{
-      color: orange;
-    }
-    img{
-      border-radius: 3px;
-    }
-  </style>
-
 </head>
 <body>
 <div class="header">
@@ -100,7 +74,18 @@
   <div>
     <div class="container">
       <div class="col-12 "  >
-        <p class="" style="float: left">Trang chủ /</p><p class="text-primary font-weight-bold">Danh Sách Tour</p>
+        <p class="" style="float: left;margin-left: -12px">Trang chủ /</p><p class="text-primary font-weight-bold">Danh Sách Tour</p>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <li class="header-tour-list"><i class='fas fa-chevron-circle-down'></i>Tour chọn lọc <span>chất lượng nhất</span></li>
+        </div>
+        <div class="col-4">
+          <li class="header-tour-list"><i class='fas fa-chevron-circle-down'></i>Đảm bảo <span>giá tốt nhất</span></li>
+        </div>
+        <div class="col-4">
+          <li class="header-tour-list"><i class='fas fa-chevron-circle-down' ></i>Đội ngũ tư vấn <span>chi tiết và tận tình</span></li>
+        </div>
       </div>
     </div>
 
@@ -115,10 +100,16 @@
                        };
                        let i = index" [class.active]="i == 1">
           <div class="bor-tour" >
-            <img src="{{items.imagetour}}" width="100%" height="160px">
-            <h5>{{items.title}}</h5>
+            <img class="image-tour" src="{{items.imagetour}}" >
+            <a class="title_tour_box" >{{items.title}} <3</a>
+            <div>
+              <ul class="ct_course_list">
+                <li class="clearfix"><i class='far fa-calendar-alt'></i>Lịch khởi hành: <span style="color: orange">Theo yêu cầu</span></li>
+                <li class="clearfix"><i class='far fa-clock' ></i>Thời gian: <span style="color: orange">3 ngày 2 đêm</span></li>
+              </ul>
+            </div>
             <div class="row">
-              <div class="col-6"><h6>{{items.price}}VND</h6></div>
+              <div class="col-6"><h6 class="price-tour" >{{items.price}}VND</h6></div>
               <!--              <div class="col-6"><button class="btn btn-warning" [routerLink]="['/product',item.id]">Xem Tour</button></div>-->
               <button class="btn btn-warning"(click)="viewDetailsTour(items.id)">Xem Tour</button>
             </div>

@@ -18,3 +18,70 @@
   width: 350px;
   border-radius: 13px;
 }
+body{
+  background-color: #d0d7f6;
+}
+.header-tour-list{
+  font-size:18px;
+  font-weight: 400;
+  color: #030376;
+}
+.header-tour-list i{
+  font-size:24px;
+  margin-right: 5px;
+
+}
+.header-tour-list span{
+  font-weight: 600;
+}
+label:hover{
+  color: blue;
+}
+.bor-tour{
+  border: 1px solid #dedbdb;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: white;
+  margin-bottom: 30px;
+
+}
+.bor-tour:hover{
+  background-color: #d6d8e2;
+  border: 1px solid #1093d5;
+}
+.image-tour{
+  border-radius: 3px;
+  margin-bottom: 10px;
+  height: 160px;
+  margin-left: -26px;
+  width: 126%;
+}
+.title_tour_box{
+  font-size: 19px;
+  margin-left: -5px;
+  color: #535252;
+  text-decoration: none;
+}
+ul,li{
+  list-style: none;
+}
+.ct_course_list{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.clearfix{
+  margin-left: -42px;
+  margin-bottom: 4px;
+}
+.clearfix i{
+  margin-right: 5px;
+  font-size:24px
+}
+.price-tour{
+  color: orange;
+  margin-top: 8px;
+}
+.btn-warning{
+  margin-left: 15px;
+}
