@@ -13,36 +13,7 @@ export class DanhSachTourComponent implements OnInit {
   // // productList: IProduct[] = [];
    page = 1;
    count = 0;
-   page1 = 1;
-   count1= 0;
    tableSize = 8;
-   tableSize1 = 1;
-   tableSize6 = 6;
-  // constructor(
-  //   // private productService: ProductService,
-  //   private activatedRoute: ActivatedRoute,
-  // ) { }
-  //
-  // ngOnInit() {
-  //   // this.show();
-  // }
-  // // show(){
-  // //   this.productService.getProductList().subscribe(ps => this.productList = ps);
-  // //
-  // //   this.activatedRoute.queryParamMap.subscribe(
-  // //     query => {
-  // //       const orderBy = query.get('orderby');
-  // //       console.log(orderBy);
-  // //     }
-  // //   );
-  // // }
-  //
-  // tabSize(event: number) {
-  //   this.page= event;
-  //   // this.show();
-  //
-  d = new Date();
-  s: any;
   title = 'dstour';
   dataTour : any[] =[];
   detailTour?: any;

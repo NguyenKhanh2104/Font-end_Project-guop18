@@ -1,5 +1,6 @@
 body {
   font-family: 'Ubuntu', sans-serif;
+  background-color: #c6c9cb;
 }
 .nav-item{
   margin-left: 15px;
@@ -54,7 +55,7 @@ body {
   height: 170px;
   background-color: #ff910f;
   width: 1227px;
-  margin-left: -15px;
+  margin-left: 10.5%;
 }
 .title_target{
   margin-left: 20px;
@@ -93,3 +94,33 @@ body {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1230px;
   }
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

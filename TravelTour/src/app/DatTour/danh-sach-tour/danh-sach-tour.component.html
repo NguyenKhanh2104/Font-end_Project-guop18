@@ -13,21 +13,22 @@
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <style>
     @keyframes example {
-      from {left: 300px;}
+      from {left: 200px;}
       to {left: 0px;}
     }
     @keyframes example1 {
-      from {left: 300px;}
+      from {left: 200px;}
       to {left: 0px;}
     }
     @keyframes example3 {
-      from {right: 300px;}
+      from {right: 200px;}
       to {right: 0px;}
     }
     @keyframes example4 {
-      from {right: 300px;}
+      from {right: 200px;}
       to {right: 0px;}
     }
+
   </style>
 
 </head>
@@ -92,13 +93,13 @@
 </div>
 <div class="container-ful" style="margin-bottom: 2%">
   <div class="mySlides" style="height: 310px ;position: relative;width: 100%;margin-bottom: 5%;background-color: #6978ff" >
-    <div class="Theme" id="ana" style="height: 400px ;animation-name: example;animation-duration: 1s;position: relative;width: 100%;background-image:url({{detailTour.imagetour}})">
+    <div class="Theme" id="ana" style="height: 400px ;animation-name: example;animation-duration: 1s;position: relative;width: 100%;background-image:url('{{detailTour.imagetour}}')">
       <h3 class="tour" style="color: #6978ff;margin-left: 55px;margin-top: 150px;position: absolute">Đặt Tour Nhanh
         Chóng</h3>
       <div class="Search">
         <form class="form-inline" action="/action_page.php">
           <input class="form-control mr-sm-2" style="margin: 5px 0px;margin-left: 16px" type="text"
-                 placeholder="Search">{{s}}
+                 placeholder="Search">
           <button class="btn btn-success" type="submit" routerLink="/tour">Search</button>
         </form>
 
