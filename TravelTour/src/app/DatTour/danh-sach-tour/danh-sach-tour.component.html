@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Tour</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -11,77 +12,22 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <style>
-    body{
-      background-color: #d0d7f6;
+    @keyframes example {
+      from {left: 300px;}
+      to {left: 0px;}
     }
-    .header-tour-list{
-      font-size:18px;
-      font-weight: 400;
-      color: #030376;
+    @keyframes example1 {
+      from {left: 300px;}
+      to {left: 0px;}
     }
-    .header-tour-list i{
-      font-size:24px;
-      margin-right: 5px;
-
+    @keyframes example3 {
+      from {right: 300px;}
+      to {right: 0px;}
     }
-    .header-tour-list span{
-      font-weight: 600;
+    @keyframes example4 {
+      from {right: 300px;}
+      to {right: 0px;}
     }
-    label:hover{
-      color: blue;
-    }
-    .tour-mg{
-      margin-bottom: 20px;
-
-    }
-    .bor-tour{
-      border: 1px solid #dedbdb;
-      padding-bottom: 10px;
-      padding-right: 25px;
-      padding-left: 25px;
-      background-color: white;
-
-    }
-    .bor-tour:hover{
-      background-color: #d6d8e2;
-      border: 1px solid #1093d5;
-    }
-    .image-tour{
-      border-radius: 3px;
-      margin-bottom: 10px;
-      height: 160px;
-      margin-left: -26px;
-      width: 126%;
-    }
-    .title_tour_box{
-      font-size: 19px;
-      margin-left: -5px;
-      color: #535252;
-      text-decoration: none;
-    }
-    ul,li{
-      list-style: none;
-    }
-    .ct_course_list{
-      font-size: 14px;
-      margin-top: 10px;
-    }
-    .clearfix{
-      margin-left: -42px;
-      margin-bottom: 4px;
-    }
-    .clearfix i{
-      margin-right: 5px;
-      font-size:24px
-    }
-    .price-tour{
-      color: orange;
-      margin-top: 8px;
-    }
-    .btn-warning{
-      margin-left: 15px;
-    }
-
   </style>
 
 </head>
@@ -130,19 +76,42 @@
 
       </ul>
     </nav>
+<!--    <div class="Theme" style="height: 300px ;position: relative;width: 100%">-->
+<!--      <h3 class="tour" style="color: #6978ff;margin-left: 55px;margin-top: 150px;position: absolute">Đặt Tour Nhanh-->
+<!--        Chóng</h3>-->
+<!--      <div class="Search">-->
+<!--        <form class="form-inline" action="/action_page.php">-->
+<!--          <input class="form-control mr-sm-2" style="margin: 5px 0px;margin-left: 16px" type="text"-->
+<!--                 placeholder="Search">-->
+<!--          <button class="btn btn-success" type="submit" routerLink="/tour">Search</button>-->
+<!--        </form>-->
 
-    <div class="Theme" style="height: 300px ;position: relative;width: 100%">
+<!--      </div>-->
+<!--    </div>-->
+  </div>
+</div>
+<div class="container-ful" style="margin-bottom: 2%">
+  <div class="mySlides" style="height: 310px ;position: relative;width: 100%;margin-bottom: 5%;background-color: #6978ff" >
+    <div class="Theme" id="ana" style="height: 400px ;animation-name: example;animation-duration: 1s;position: relative;width: 100%;background-image:url({{detailTour.imagetour}})">
       <h3 class="tour" style="color: #6978ff;margin-left: 55px;margin-top: 150px;position: absolute">Đặt Tour Nhanh
         Chóng</h3>
       <div class="Search">
         <form class="form-inline" action="/action_page.php">
           <input class="form-control mr-sm-2" style="margin: 5px 0px;margin-left: 16px" type="text"
-                 placeholder="Search">
+                 placeholder="Search">{{s}}
           <button class="btn btn-success" type="submit" routerLink="/tour">Search</button>
         </form>
 
       </div>
     </div>
+
+  </div>
+
+  <a class="prev" (click)="plusSlides_prev()">❮</a>
+  <a class="next" (click)="plusSlides_next()">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
   </div>
 </div>
 <div class="container-ful">
@@ -358,6 +327,7 @@
     </ul>
 
   </footer>
+
 </body>
 </html>
 

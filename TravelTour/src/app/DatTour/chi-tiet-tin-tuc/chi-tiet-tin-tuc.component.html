@@ -131,11 +131,13 @@
                            let i = index" [class.active]="i == 1">
               <div class="btnsame" style="display: flex;width: 380px">
                 <button class="clickNews" (click)="viewDetails(new.id)">
+                  <div class="row">
                   <div class="col-4">
-                    <img height="60px" src="{{new.imageUrl}}" width="100%">
+                    <img height="60px" src="{{new.imageUrl}}" width="100px">
                   </div>
-                  <div class="col-8" style="position: absolute;margin-left: 100px;margin-top: -53px">{{new.name}}
+                  <div class="col-7" style="position: relative"><span style="text-align: justify">{{new.name}}</span>
                     <!--                <a [routerLink]="['/tintuc',item.id]">{{item.name}}...</a>-->
+                  </div>
                   </div>
                 </button>
               </div>

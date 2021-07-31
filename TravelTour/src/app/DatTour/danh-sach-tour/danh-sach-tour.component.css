@@ -3,8 +3,6 @@
 }
 
 .Theme {
-
-  background-image: url("../../../assets/img/hinh-anh-vinh-ha-long-21.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover
@@ -17,4 +15,166 @@
   height: 50px;
   width: 350px;
   border-radius: 13px;
+}
+body{
+  background-color: #d0d7f6;
+}
+.header-tour-list{
+  font-size:18px;
+  font-weight: 400;
+  color: #030376;
+}
+.header-tour-list i{
+  font-size:24px;
+  margin-right: 5px;
+
+}
+.header-tour-list span{
+  font-weight: 600;
+}
+label:hover{
+  color: blue;
+}
+.tour-mg{
+  margin-bottom: 20px;
+
+}
+.bor-tour{
+  border: 1px solid #dedbdb;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: white;
+
+}
+.bor-tour:hover{
+  background-color: #d6d8e2;
+  border: 1px solid #1093d5;
+}
+.image-tour{
+  border-radius: 3px;
+  margin-bottom: 10px;
+  height: 160px;
+  margin-left: -26px;
+  width: 126%;
+}
+.title_tour_box{
+  font-size: 19px;
+  margin-left: -5px;
+  color: #535252;
+  text-decoration: none;
+}
+ul,li{
+  list-style: none;
+}
+.ct_course_list{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.clearfix{
+  margin-left: -42px;
+  margin-bottom: 4px;
+}
+.clearfix i{
+  margin-right: 5px;
+  font-size:24px
+}
+.price-tour{
+  color: orange;
+  margin-top: 8px;
+}
+.btn-warning{
+  margin-left: 15px;
+}
+
+/*............................................................................*/
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }

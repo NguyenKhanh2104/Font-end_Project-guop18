@@ -13,7 +13,11 @@ export class DanhSachTourComponent implements OnInit {
   // // productList: IProduct[] = [];
    page = 1;
    count = 0;
+   page1 = 1;
+   count1= 0;
    tableSize = 8;
+   tableSize1 = 1;
+   tableSize6 = 6;
   // constructor(
   //   // private productService: ProductService,
   //   private activatedRoute: ActivatedRoute,
@@ -37,8 +41,12 @@ export class DanhSachTourComponent implements OnInit {
   //   this.page= event;
   //   // this.show();
   //
+  d = new Date();
+  s: any;
   title = 'dstour';
   dataTour : any[] =[];
+  detailTour?: any;
+  sizeId =1 ;
 
   constructor(private httpData: ServerHttpService,private router: Router) {
 
@@ -46,7 +54,13 @@ export class DanhSachTourComponent implements OnInit {
 
 
   ngOnInit(): void {
+
     this.show();
+    this.httpData.getAtour(this.sizeId)
+      .subscribe(datatour => {
+        this.detailTour = datatour
+      })
+
   }
   public show(){
     this.httpData.getAllTour().subscribe(data => {
@@ -62,6 +76,38 @@ export class DanhSachTourComponent implements OnInit {
      this.show();
    }
 
+  plusSlides_prev() {
+    this.httpData.getAtour(this.sizeId)
+      .subscribe(datatour => {
+        this.detailTour = datatour
+      })
+    if(this.sizeId %2 ==0){
+      // @ts-ignore
+      document.getElementById("ana").style.animationName= "example3";
+    }else{
+      // @ts-ignore
+      document.getElementById("ana").style.animationName= "example4";
+    }
+    if(this.sizeId>1)
+    this.sizeId--;
+  }
+
+  plusSlides_next() {
+    this.httpData.getAtour(this.sizeId)
+      .subscribe(datatour => {
+        this.detailTour = datatour
+      })
+    if(this.sizeId %2 ==0){
+      // @ts-ignore
+      document.getElementById("ana").style.animationName= "example1";
+    }else{
+      // @ts-ignore
+      document.getElementById("ana").style.animationName= "example";
+    }
+
+
+    this.sizeId++;
+  }
 }
 
 
