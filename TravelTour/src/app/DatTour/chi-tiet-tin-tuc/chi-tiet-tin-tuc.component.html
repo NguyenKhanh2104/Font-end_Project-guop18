@@ -29,12 +29,12 @@
 <body>
 <div class="header">
   <div class="nav">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="width: 100%">
+    <nav class="navbar navbar-expand-sm navbar-dark" style="width: 100%; background-color: #ff9f3b">
       <!-- Brand -->
       <a class="navbar-brand" href="#">VIVU</a>
 
       <!-- Links -->
-      <ul class="navbar-nav" style="margin-left: 200px;padding: 5px">
+      <ul class="navbar-nav" style="margin-left: 285px;padding: 5px;color: #ffffff">
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/trangchu']">Trang Chủ</a>
         </li>
@@ -55,7 +55,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/kinhnghiem']">Kinh Nghiệm</a>
+          <a class="nav-link" [routerLink]="['/kinhnghiem']">Phản Hồi</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/lienhe']">Liên Hệ</a>
@@ -72,19 +72,6 @@
 
       </ul>
     </nav>
-
-    <div class="Theme" style="height: 300px ;position: relative;width: 100%">
-      <h3 class="tour" style="color: #6978ff;margin-left: 55px;margin-top: 150px;position: absolute">Đặt Tour Nhanh
-        Chóng</h3>
-      <div class="Search">
-        <form class="form-inline" action="/action_page.php">
-          <input class="form-control mr-sm-2" style="margin: 5px 0px;margin-left: 16px" type="text"
-                 placeholder="Search">
-          <button class="btn btn-success" type="submit" routerLink="/tour">Search</button>
-        </form>
-
-      </div>
-    </div>
   </div>
 
 </div>
@@ -120,7 +107,7 @@
       </div>
       <div class="col-4">
         <div><h2>BÀI VIẾT MỚI NHẤT</h2></div>
-        <div class="row">
+        <div class="row" style="width: 457px">
           <div class="col-12">
             <div class="row tin-tuc-moi" *ngFor="let new of NewsList
                         | paginate: {
@@ -129,9 +116,9 @@
                            totalItems: count
                            };
                            let i = index" [class.active]="i == 1">
-              <div class="btnsame" style="display: flex;width: 380px">
+              <div class="btnsame" style="display: flex;width: 500px">
                 <button class="clickNews" (click)="viewDetails(new.id)">
-                  <div class="col-4">
+                  <div class="col-4" style="width: 404px">
                     <img height="60px" src="{{new.imageUrl}}" width="100%">
                   </div>
                   <div class="col-8" style="position: absolute;margin-left: 100px;margin-top: -53px">{{new.title}}
@@ -278,7 +265,7 @@
 
   <!-- Social buttons -->
   <ul class="list-unstyled list-inline text-center"
-      style="width: 1227px;position: absolute;background-color: black">
+      style="width: 100%;position: absolute;background-color: black">
     <li class="list-inline-item">
       <a class="btn-floating btn-fb mx-1">
         <i class="fab fa-facebook-f"> </i>

@@ -177,3 +177,10 @@ img {
 .demo:hover {
   opacity: 1;
 }
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255);
+}
+.web{
+  background-color: #e2ecf1 ;
+}
+

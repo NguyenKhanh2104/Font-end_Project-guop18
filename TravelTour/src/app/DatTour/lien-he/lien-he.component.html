@@ -8,38 +8,32 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <title>Thanh Toán</title>
+  <title>Liên Hệ</title>
 
   <style>
-    li{
-      list-style: none;
-    }
-    li i{
-      float: left;
-      font-size: 25px;
-      margin-right: 7px;
-    }
   </style>
 </head>
 <body>
+<div class="web">
 <div class="header">
   <div class="nav">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="width: 100%">
+    <nav class="navbar navbar-expand-sm navbar-dark" style="width: 100%; background-color: #ff9f3b;padding: 5px">
       <!-- Brand -->
       <a class="navbar-brand" href="#">VIVU</a>
 
       <!-- Links -->
-      <ul class="navbar-nav" style="margin-left: 200px;padding: 5px">
+      <ul class="navbar-nav" style="margin-left: 320px;padding: 5px;color: #ffffff">
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/trangchu']">Trang Chủ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/tintuc']" >Tin Tức </a>
+          <a class="nav-link" [routerLink]="['/tintuc']">Tin Tức </a>
         </li>
 
         <!-- Dropdown -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" [routerLink]="['/product']">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"
+             [routerLink]="['/danhsachtour']">
             Tour
           </a>
           <div class="dropdown-menu">
@@ -49,7 +43,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/kinhnghiem']">Kinh Nghiệm</a>
+          <a class="nav-link" [routerLink]="['/kinhnghiem']">Phản Hồi</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/lienhe']">Liên Hệ</a>
@@ -57,7 +51,7 @@
         <li class="nav-item">
           <a class="nav-link"><i class="fas fa-phone-volume"></i> 0927007791</a>
         </li>
-        <li class="nav-item" style="margin-left: 140px">
+        <li class="nav-item" style="margin-left: 196px">
           <a class="nav-link"><i class="fas fa-user"></i> User</a>
         </li>
         <li class="nav-item">
@@ -66,8 +60,6 @@
 
       </ul>
     </nav>
-
-    
   </div>
 
 </div>
@@ -90,7 +82,7 @@
     </div>
     <div class="row">
       <div class="col-4 " >
-        <div style="background-color: white;float: left;    margin-right: 10px;height: 130px;">
+        <div style="background-color: #e2ecf1;float: left;    margin-right: 10px;height: 130px;">
           <img src="../../../assets/img/img_2.png" width="25" style="background-color: white;">
         </div>
         <div>
@@ -99,7 +91,7 @@
         </div>
       </div>
       <div class="col-4">
-        <div style="background-color: white;float: left;    margin-right: 10px;height: 130px;">
+        <div style="background-color: #e2ecf1;float: left;    margin-right: 10px;height: 130px;">
           <img src="../../../assets/img/img_3.png" width="25" style="background-color: white;">
         </div>
         <div>
@@ -107,7 +99,7 @@
         </div>
       </div>
       <div class="col-4">
-        <div style="background-color: white;float: left;    margin-right: 10px;height: 130px;">
+        <div style="background-color: #e2ecf1;float: left;    margin-right: 10px;height: 130px;">
           <img src="../../../assets/img/img_4.png" width="25" style="background-color: white;">
         </div>
         <div>
@@ -284,36 +276,36 @@
 
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center"
-        style="width: 1227px;position: absolute;background-color: black">
-      <li class="list-inline-item">
+        style="width: 100%;position: absolute;background-color: black">
+      <li class="list-inline-item" style="margin-left: 50px">
         <a class="btn-floating btn-fb mx-1">
-          <i class="fab fa-facebook-f"> </i>
+          <i class="fab fa-facebook-f" style="font-size: 18px"> </i>
         </a>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-tw mx-1">
-          <i class="fab fa-twitter"> </i>
+          <i class="fab fa-twitter" style="font-size: 18px"> </i>
         </a>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-gplus mx-1">
-          <i class="fab fa-google-plus-g"> </i>
+          <i class="fab fa-google-plus-g" style="font-size: 18px"> </i>
         </a>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-li mx-1">
-          <i class="fab fa-linkedin-in"> </i>
+          <i class="fab fa-linkedin-in" style="font-size: 18px"> </i>
         </a>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-dribbble mx-1">
-          <i class="fab fa-dribbble"> </i>
+          <i class="fab fa-dribbble" style="font-size: 18px"> </i>
         </a>
       </li>
     </ul>
 
   </footer>
-
+</div>
 </body>
 </html>
 

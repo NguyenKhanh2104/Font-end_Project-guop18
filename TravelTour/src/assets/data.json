@@ -888,5 +888,11 @@
       ]
     }
 
+  ],
+  "comment": [
+    {"image":"assets/img/man1.jpg","name": "Anh Khánh","comment":"Lịch trình rất hợp lý","evaluate": "5"},
+    {"image":"assets/img/man2.jpg","name": "Chị Linh","comment":"Sắp xếp bữa ăn rất ngon","evaluate": "5"},
+    {"image":"assets/img/man31.jpg","name": "Anh Đời","comment":"Chuyến du lịch tuyệt vời","evaluate": "5"}
+
   ]
 }

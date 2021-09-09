@@ -7,7 +7,7 @@
   background-image: url("../../../assets/img/hinh-anh-vinh-ha-long-21.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover
+  background-size: cover;
 }
 .Search {
   position: absolute;
@@ -17,4 +17,10 @@
   height: 50px;
   width: 350px;
   border-radius: 13px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255)
+}
+.web{
+  background-color: #e2ecf1 ;
 }

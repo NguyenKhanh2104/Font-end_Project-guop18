@@ -11,6 +11,7 @@ import {ActivatedRoute} from "@angular/router";
 export class TrangchuComponent implements OnInit {
   title = 'home';
   dataTourKM: any[] =[];
+  dataComment: any[] =[];
   page = 1;
   count = 0;
   tableSize = 3;
@@ -25,6 +26,7 @@ export class TrangchuComponent implements OnInit {
 
   ngOnInit(): void {
     this.viewTourKM();
+    this.viewComment();
     this.httpData.getAtourkm(this.sizeId)
       .subscribe(datatour => {
         this.detailTour = datatour
@@ -35,6 +37,11 @@ export class TrangchuComponent implements OnInit {
   viewTourKM() {
     this.httpData.gettourKM().subscribe(data => {
       this.dataTourKM = data;
+    })
+  }
+  viewComment() {
+    this.httpData.getComment().subscribe(data => {
+      this.dataComment = data;
     })
   }
 

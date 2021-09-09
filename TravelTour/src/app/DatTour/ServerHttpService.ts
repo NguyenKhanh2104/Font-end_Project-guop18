@@ -64,4 +64,9 @@ export class ServerHttpService {
   getAtourSchedule(id: any){
     return this.http.get(`http://localhost:3000/schedule/${id}`);
   }
+  getComment(): Observable<any> {
+    const commentUrl = "http://localhost:3000/comment";
+    return this.http.get(commentUrl);
+  }
+
 }

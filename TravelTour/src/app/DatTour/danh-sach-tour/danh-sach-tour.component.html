@@ -29,24 +29,26 @@
   </style>
 </head>
 <body>
+<div class="web">
 <div class="header">
   <div class="nav">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="width: 100%">
+    <nav class="navbar navbar-expand-sm navbar-dark" style="width: 100%; background-color: #ff9f3b;">
       <!-- Brand -->
       <a class="navbar-brand" href="#">VIVU</a>
 
       <!-- Links -->
-      <ul class="navbar-nav" style="margin-left: 200px;padding: 5px">
+      <ul class="navbar-nav" style="margin-left: 285px;padding: 5px;color: #ffffff">
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/trangchu']">Trang Chủ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/tintuc']" >Tin Tức </a>
+          <a class="nav-link" [routerLink]="['/tintuc']">Tin Tức </a>
         </li>
 
         <!-- Dropdown -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" [routerLink]="['/danhsachtour']">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"
+             [routerLink]="['/danhsachtour']">
             Tour
           </a>
           <div class="dropdown-menu">
@@ -56,7 +58,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/kinhnghiem']">Kinh Nghiệm</a>
+          <a class="nav-link" [routerLink]="['/kinhnghiem']">Phản Hồi</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/lienhe']">Liên Hệ</a>
@@ -78,7 +80,7 @@
     <div class="container-ful" style="margin-bottom: 2%">
       <div class="mySlides" style="height: 310px ;position: relative;width: 100%;margin-bottom: 5%;background-color: #6978ff" >
         <div class="Theme" id="ana" style="height: 400px ;animation-name: example;animation-duration: 0.5s;position: relative;width: 100%;background-image:url('{{detailTour.imagetour}}')">
-          <h3 class="tour" style="color: #6978ff;margin-left: 55px;margin-top: 150px;position: absolute">Đặt Tour Nhanh
+          <h3 class="tour" style="color: #ff9f3b;margin-left: 55px;margin-top: 150px;position: absolute">Đặt Tour Nhanh
             Chóng</h3>
           <div class="Search">
             <form class="form-inline" action="/action_page.php">
@@ -284,7 +286,7 @@
 
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center"
-        style="width: 1227px;position: absolute;background-color: black">
+        style="width: 100%;position: absolute;background-color: black">
       <li class="list-inline-item">
         <a class="btn-floating btn-fb mx-1">
           <i class="fab fa-facebook-f"> </i>
@@ -313,6 +315,7 @@
     </ul>
 
   </footer>
+</div>
 </body>
 </html>
 

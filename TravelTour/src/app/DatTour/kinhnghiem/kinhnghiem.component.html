@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Kinh Nghiệm</title>
+  <title>Phản Hồi</title>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -17,247 +17,257 @@
 
 </head>
 <body>
-<div class="header">
-  <div class="nav">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="width: 100%">
-      <!-- Brand -->
-      <a class="navbar-brand" href="#">VIVU</a>
+<div class="web">
+  <div class="header">
+    <div class="nav">
+      <nav class="navbar navbar-expand-sm navbar-dark" style="width: 100%; background-color: #ff9f3b">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">VIVU</a>
 
-      <!-- Links -->
-      <ul class="navbar-nav" style="margin-left: 200px;padding: 5px">
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/trangchu']">Trang Chủ</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/tintuc']">Tin Tức </a>
-        </li>
+        <!-- Links -->
+        <ul class="navbar-nav" style="margin-left: 285px;padding: 5px;color: #ffffff">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/trangchu']">Trang Chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/tintuc']">Tin Tức </a>
+          </li>
 
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"
-             [routerLink]="['/danhsachtour']">
-            Tour
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Tour1</a>
-            <a class="dropdown-item" href="#">Tour2</a>
-            <a class="dropdown-item" href="#">Tour3</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/kinhnghiem']">Kinh Nghiệm</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/lienhe']">Liên Hệ</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"><i class="fas fa-phone-volume"></i> 0927007791</a>
-        </li>
-        <li class="nav-item" style="margin-left: 140px">
-          <a class="nav-link"><i class="fas fa-user"></i> User</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"><i class="fas fa-sign-in-alt"></i>Log-in</a>
-        </li>
-
-      </ul>
-    </nav>
-
-    <div class="Theme" style="height: 300px ;position: relative;width: 100%">
-      <h3 class="tour" style="color: #6978ff;margin-left: 55px;margin-top: 150px;position: absolute">Đặt Tour Nhanh
-        Chóng</h3>
-      <div class="Search">
-        <form class="form-inline" action="/action_page.php">
-          <input class="form-control mr-sm-2" style="margin: 5px 0px;margin-left: 16px" type="text"
-                 placeholder="Search">
-          <button class="btn btn-success" type="submit" [routerLink]="['/chitiettintuc']">Search</button>
-        </form>
-
-      </div>
-    </div>
-  </div>
-
-</div>
-<div class="container-ful">
-  <div>
-    <div class="container">
-      <div class="col-12 ">
-        <p class="" style="float: left">Trang chủ /</p>
-        <p class="text-primary font-weight-bold">Kinh Nghiệm</p>
-      </div>
-    </div>
-    <div class="list-group">
-      <a *ngFor="let item of data" style="display: flex" [routerLink]="['/chitietkinhnghiem']"
-         class="list-group-item list-group-item-action">
-        <div class="content_img" style="width: 15%;height: 150px"><img src="{{item.imagetour}}"style="width: 100%">
-        </div>
-        <div class="content_main" style="width: 70%;height: 150px;margin-left: 20px;border-left: 1px solid black">
-          <div class="content_title" style="width: 100%;margin-left: 20px">{{item.title}}</div>
-          <div class="content_summary" style="margin-top: 50px;margin-left: 20px">{{item.price}}</div>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <footer class="page-footer font-small stylish-color-dark pt-4"
-          style="color: #ffffff;background-color: black">
-
-    <!-- Footer Links -->
-    <div class="container text-center text-md-left">
-
-      <!-- Grid row -->
-      <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-md-4 mx-auto">
-
-          <!-- Content -->
-          <div class="left_footer">
-            <div class="logo_footer" style="font-size:30px ">VIVO</div>
-            <div class="rightContent_footer" style="font-size: 15px;width: 254px">Địa chỉ: Số 123 Trần Hưng Đạo,
-              Quận 1, Thành Phố Hồ Chí Minh
-              Email: khanhnguyen7221@gmail.com
-              Điện thoại: 0927007791
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"
+               [routerLink]="['/danhsachtour']">
+              Tour
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Tour1</a>
+              <a class="dropdown-item" href="#">Tour2</a>
+              <a class="dropdown-item" href="#">Tour3</a>
             </div>
-            <div class="logo_social"></div>
-          </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/kinhnghiem']">Phản Hồi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/lienhe']">Liên Hệ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fas fa-phone-volume"></i> 0927007791</a>
+          </li>
+          <li class="nav-item" style="margin-left: 140px">
+            <a class="nav-link"><i class="fas fa-user"></i> User</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fas fa-sign-in-alt"></i>Log-in</a>
+          </li>
 
-        </div>
-        <!-- Grid column -->
+        </ul>
+      </nav>
+    </div>
 
-        <hr class="clearfix w-100 d-md-none">
-
-        <!-- Grid column -->
-        <div class="col-md-2 mx-auto">
-
-          <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Miền Nam</h5>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#">Tiền Giang - Bến Tre</a>
-            </li>
-            <li>
-              <a href="#">Vĩnh Long - Trà Vinh</a>
-            </li>
-            <li>
-              <a href="#">Kiên Giang - Phúc Quốc</a>
-            </li>
-
-          </ul>
-
-        </div>
-        <hr class="clearfix w-100 d-md-none">
-
-        <!-- Grid column -->
-        <div class="col-md-2 mx-auto">
-
-          <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Miền Trung</h5>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#">Bình Thuận - Mũi Né</a>
-            </li>
-            <li>
-              <a href="#!">Đà Lạt - Nha Trang</a>
-            </li>
-
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none">
-
-        <!-- Grid column -->
-        <div class="col-md-2 mx-auto">
-
-          <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Miền Bắc</h5>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Hà Giang-Yên Bái</a>
-            </li>
-            <li>
-              <a href="#!">Hạ Long-Quảng Ninh</a>
-            </li>
-            <li>
-              <a href="#!">Mai Châu - Mộc Châu</a>
-            </li>
-            <li>
-              <a href="#!">Cao Bằng - Bắc Kạn</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none">
-
-        <!-- Grid column -->
-        <div class="col-md-2 mx-auto">
-
-          <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nước Ngoài</h5>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Châu Á</a>
-            </li>
-            <li>
-              <a href="#!">Châu Mỹ</a>
-            </li>
-            <li>
-              <a href="#!">Châu Âu</a>
-            </li>
-            <li>
-              <a href="#!">Châu Phi</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-      </div>
-      <!-- Grid row -->
+  </div>
+  <div class="Theme" style="height: 300px ;position: relative;width: 100%">
+    <h3 class="tour" style="color: #ff9f3b;margin-left: 55px;margin-top: 150px;position: absolute">Đặt Tour Nhanh
+      Chóng</h3>
+    <div class="Search">
+      <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" style="margin: 5px 0px;margin-left: 16px" type="text"
+               placeholder="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>
 
     </div>
-    <!-- Footer Links -->
+  </div>
+  <div class="container-ful">
+    <div>
+      <div class="container">
+        <div class="col-12 ">
+          <p class="" style="float: left">Trang chủ /</p>
+          <p class="text-primary font-weight-bold">Phản Hồi</p>
+        </div>
+      </div>
+      <div class="list-group">
+        <a *ngFor="let item of data" style="display: flex;height: 200px"
+           class="list-group-item list-group-item-action">
+          <div class="content_img" style="width: 300px;height: 200px"><img src="{{item.image}}"style="width:80%;height: 80%">
+          </div>
+          <div class="content_main" style="width: 70%;height: 150px;border-left: 1px solid black">
+            <div class="content_title" style="width: 100%;margin-left: 20px">{{item.name}}</div>
+            <div class="content_comment" style="width: 100%;margin-left: 20px">
+              <div class="col-6" style="width: 100%"><h6 class="contend_comment1" style="width: 221px;
+    margin-left: -15px;color: #ff9f3b">{{item.comment}}</h6></div>
+              <div class="eveluate"> {{item.evaluate}} <i class="fas fa-star" style="color: #ff9f3b"></i><i
+                class="fas fa-star" style="color: #ff9f3b"></i><i class="fas fa-star"
+                                                                  style="color: #ff9f3b"></i>
+                <i class="fas fa-star" style="color: #ff9f3b"></i><i class="fas fa-star"
+                                                                     style="color: #ff9f3b"></i></div>
+            </div>
+
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <footer class="page-footer font-small stylish-color-dark pt-4"
+            style="color: #ffffff;background-color: black">
+
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-4 mx-auto">
+
+            <!-- Content -->
+            <div class="left_footer">
+              <div class="logo_footer" style="font-size:30px ">VIVO</div>
+              <div class="rightContent_footer" style="font-size: 15px;width: 254px">Địa chỉ: Số 123 Trần Hưng Đạo,
+                Quận 1, Thành Phố Hồ Chí Minh
+                Email: khanhnguyen7221@gmail.com
+                Điện thoại: 0927007791
+              </div>
+              <div class="logo_social"></div>
+            </div>
+
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none">
+
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Miền Nam</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#">Tiền Giang - Bến Tre</a>
+              </li>
+              <li>
+                <a href="#">Vĩnh Long - Trà Vinh</a>
+              </li>
+              <li>
+                <a href="#">Kiên Giang - Phúc Quốc</a>
+              </li>
+
+            </ul>
+
+          </div>
+          <hr class="clearfix w-100 d-md-none">
+
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Miền Trung</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#">Bình Thuận - Mũi Né</a>
+              </li>
+              <li>
+                <a href="#!">Đà Lạt - Nha Trang</a>
+              </li>
+
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none">
+
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Miền Bắc</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Hà Giang-Yên Bái</a>
+              </li>
+              <li>
+                <a href="#!">Hạ Long-Quảng Ninh</a>
+              </li>
+              <li>
+                <a href="#!">Mai Châu - Mộc Châu</a>
+              </li>
+              <li>
+                <a href="#!">Cao Bằng - Bắc Kạn</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none">
+
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nước Ngoài</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Châu Á</a>
+              </li>
+              <li>
+                <a href="#!">Châu Mỹ</a>
+              </li>
+              <li>
+                <a href="#!">Châu Âu</a>
+              </li>
+              <li>
+                <a href="#!">Châu Phi</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!-- Footer Links -->
 
 
-    <!-- Social buttons -->
-    <ul class="list-unstyled list-inline text-center"
-        style="width: 1227px;position: absolute;background-color: black">
-      <li class="list-inline-item">
-        <a class="btn-floating btn-fb mx-1">
-          <i class="fab fa-facebook-f"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-tw mx-1">
-          <i class="fab fa-twitter"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-gplus mx-1">
-          <i class="fab fa-google-plus-g"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-li mx-1">
-          <i class="fab fa-linkedin-in"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-dribbble mx-1">
-          <i class="fab fa-dribbble"> </i>
-        </a>
-      </li>
-    </ul>
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center"
+          style="width: 100%;position: absolute;background-color: black">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fab fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fab fa-google-plus-g"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-dribbble mx-1">
+            <i class="fab fa-dribbble"> </i>
+          </a>
+        </li>
+      </ul>
 
-  </footer>
+    </footer>
+  </div>
 </div>
 </body>
 </html>
