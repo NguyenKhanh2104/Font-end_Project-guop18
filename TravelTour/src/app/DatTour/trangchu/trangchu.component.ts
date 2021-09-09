@@ -9,16 +9,16 @@ import {ActivatedRoute} from "@angular/router";
   styleUrls: ['./trangchu.component.css']
 })
 export class TrangchuComponent implements OnInit {
-  title = 'home';
   dataTourKM: any[] =[];
   dataComment: any[] =[];
+  datatourFavo: any[] =[];
   page = 1;
   count = 0;
   tableSize = 3;
   public keyword?: string;
   detailTour?: any;
   sizeId =1 ;
-
+title = "";
   constructor(private httpData: ServerHttpService, private router: Router) {
 
   }
@@ -27,16 +27,31 @@ export class TrangchuComponent implements OnInit {
   ngOnInit(): void {
     this.viewTourKM();
     this.viewComment();
+    this.viewFavo();
     this.httpData.getAtourkm(this.sizeId)
       .subscribe(datatour => {
         this.detailTour = datatour
       })
 
   }
+  Search() {
+    if (this.title == "") {
+      this.ngOnInit();
+    } else {
+      this.dataTourKM = this.dataTourKM.filter(res => {
+        return res.title.toLocaleLowerCase().match(this.title.toLocaleLowerCase());
+      })
+    }
+  }
 
   viewTourKM() {
     this.httpData.gettourKM().subscribe(data => {
       this.dataTourKM = data;
+    })
+  }
+  viewFavo() {
+    this.httpData.gettourFavo().subscribe(data => {
+      this.datatourFavo = data;
     })
   }
   viewComment() {

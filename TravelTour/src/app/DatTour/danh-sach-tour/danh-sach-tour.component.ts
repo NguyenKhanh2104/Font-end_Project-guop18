@@ -15,9 +15,7 @@ export class DanhSachTourComponent implements OnInit {
   count = 0;
   tableSize = 8;
   title: any;
-  dataTourKM ?: any[];
   dataTour: any[] = [];
-  public keyword?: string;
   detailTour?: any;
   sizeId =1 ;
 
@@ -34,7 +32,15 @@ export class DanhSachTourComponent implements OnInit {
       })
 
   }
-
+  Search() {
+    if (this.title == "") {
+      this.ngOnInit();
+    } else {
+      this.dataTour = this.dataTour.filter(res => {
+        return res.title.toLocaleLowerCase().match(this.title.toLocaleLowerCase());
+      })
+    }
+  }
   public show() {
     this.httpData.getAllTour().subscribe(data => {
       this.dataTour = data;
@@ -51,15 +57,7 @@ export class DanhSachTourComponent implements OnInit {
     this.show();
   }
 
-  Search() {
-    if (this.title == "") {
-      this.ngOnInit();
-    } else {
-      this.dataTour = this.dataTour.filter(res => {
-        return res.title.toLocaleLowerCase().match(this.title.toLocaleLowerCase());
-      })
-    }
-  }
+
 
 
 

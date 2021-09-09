@@ -107,9 +107,9 @@
           Chóng</h3>
         <div class="Search">
           <form class="form-inline" action="/action_page.php">
-            <input class="form-control mr-sm-2" style="margin: 5px 0px;margin-left: 16px" type="text"
+            <input class="form-control mr-sm-2" style="margin: 5px 0px;margin-left: 16px" type="text" name="title" [(ngModel)]="title" (ngModelChange)="Search()"
                    placeholder="Search">
-            <button class="btn btn-success" type="submit" routerLink="/tour">Search</button>
+            <button class="btn btn-success" type="submit" routerLink="">Search</button>
           </form>
 
         </div>
@@ -167,7 +167,7 @@
         <div class="Content"><b> Điểm Đến Nổi Bật</b></div>
         <div class="container1 " style=" margin-bottom: 20px;margin-top: 10px;border-radius:13px ">
           <div class="row">
-            <div class="col-3 tour-mg" style="margin: 0px 45px" *ngFor="let item1 of dataTourKM
+            <div class="col-3 tour-mg" style="margin: 0px 45px" *ngFor="let item1 of datatourFavo
             | paginate: {
                  itemsPerPage: tableSize,
                  currentPage: page,

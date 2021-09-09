@@ -14,13 +14,6 @@ import {FormBuilder} from '@angular/forms';
   styleUrls: ['./danh-sach-tin-tuc.component.css']
 })
 export class DanhSachTinTucComponent implements OnInit {
-
-  title = 'home';
-  _dataNews!: any[];
-  allNews!: Object;
-  NewsData !: any[];
-  // private id: string | null;
-  // public News = [];
   dataTourKM: any[] =[];
   detailTour?: any;
   sizeId =1 ;
@@ -28,6 +21,7 @@ export class DanhSachTinTucComponent implements OnInit {
   page = 1;
   count = 0;
   tableSize = 8;
+  title = "";
 
   constructor(
     private httpData: ServerHttpService,
@@ -37,16 +31,15 @@ export class DanhSachTinTucComponent implements OnInit {
   ngOnInit(): void {
     this.showNews();
 
-
-    // this.getNews();
-    //  this._dataNews = [];
-    // this.httpData.getNews('http://localhost:4200/assets/tintuc.json')
-    //    .subscribe(value => {
-    //      for (const [k, v] of Object.entries(value)) {
-    //        this._dataNews.push(v);
-    //      }
-    //    });
-
+  }
+  Search() {
+    if (this.title == "") {
+      this.ngOnInit();
+    } else {
+      this.NewsList = this.NewsList.filter(res => {
+        return res.title.toLocaleLowerCase().match(this.title.toLocaleLowerCase());
+      })
+    }
   }
   public showNews(){
     this.httpData.getAllNews().subscribe(data => {

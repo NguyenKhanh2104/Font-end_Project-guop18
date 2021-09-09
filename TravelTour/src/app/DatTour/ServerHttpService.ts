@@ -16,8 +16,12 @@ export class ServerHttpService {
   }
 
   gettourKM(): Observable<any> {
-    const NewsUrl = "http://localhost:3000/tourkm";
-    return this.http.get(NewsUrl);
+    const tourKMUrl = "http://localhost:3000/tourkm";
+    return this.http.get(tourKMUrl);
+  }
+  gettourFavo(): Observable<any> {
+    const tourFavoUrl = "http://localhost:3000/favorite";
+    return this.http.get(tourFavoUrl);
   }
 
   getAllTour(): Observable<any> {
