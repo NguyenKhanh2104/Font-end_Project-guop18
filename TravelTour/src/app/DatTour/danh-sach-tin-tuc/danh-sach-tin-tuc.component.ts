@@ -30,6 +30,10 @@ export class DanhSachTinTucComponent implements OnInit {
 
   ngOnInit(): void {
     this.showNews();
+    this.httpData.getAtourkm(this.sizeId)
+      .subscribe(datatour => {
+        this.detailTour = datatour
+      })
 
   }
   Search() {
