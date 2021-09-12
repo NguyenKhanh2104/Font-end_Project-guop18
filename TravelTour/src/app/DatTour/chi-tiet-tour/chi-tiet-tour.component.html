@@ -74,16 +74,7 @@
           <h2 class="text-primary title_bg">Chương trình Tour</h2>
           <p>{{detailTour.conten_body}}</p>
         </div>
-        <img src="{{detailTour.imagetour}}" style="width: 100%; height: 450px">
-        <div>
-          <h2 class="text-primary">Điểm nỗi bật của chương trình</h2>
-          <div >
-            <p class="font-italic">Khám phá 1 trong những kỳ quan thiên nhiên Thế giới</p>
-            <p class="font-italic">  Đắm mình trong làn nước trong xanh của bãi biển Hạ Long, bãi biển Cát Bà</p>
-            <p class="font-italic">  Những bữa ăn với hải sản tươi ngon, mang đậm hương vị của vùng biển Quảng Ninh, Hải Phòng</p>
-            <p class="font-italic">  Khách sạn đẹp, trung tâm, tiện nghi, sang trọng.</p>
-          </div>
-        </div>
+        <img src="{{detailTour.imagetour}}" style="width: 100%; height: 450px;margin-bottom: 30px">
         <div *ngFor="let items of schedule.sch">
           <h4>{{items.title_date}}</h4>
           <p>{{items.content_morning}}</p>
