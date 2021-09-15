@@ -10,15 +10,19 @@ import {ActivatedRoute} from "@angular/router";
 })
 export class TrangchuComponent implements OnInit {
   dataTourKM: any[] =[];
+  dataTourFa: any[] =[];
+  dataTourAll: any[] =[];
   dataComment: any[] =[];
   datatourFavo: any[] =[];
   page = 1;
+  page2=1;
+  page3=3;
   count = 0;
   tableSize = 3;
   public keyword?: string;
   detailTour?: any;
   sizeId =1 ;
-title = "";
+  title = "";
   constructor(private httpData: ServerHttpService, private router: Router) {
 
   }
@@ -69,7 +73,7 @@ title = "";
     this.router.navigate(['danhsachtour',this.keyword]);
   }
 
-  plusSlides_prev() {
+  plusSlides_prev1() {
     this.httpData.gettourKM().subscribe(data => {
       this.dataTourKM= data;
     })
@@ -88,7 +92,7 @@ title = "";
 
   }
 
-  plusSlides_next() {
+  plusSlides_next1() {
     this.httpData.gettourKM().subscribe(data => {
       this.dataTourKM= data;
     })
@@ -106,7 +110,80 @@ title = "";
     }
 
   }
+  plusSlides_prev2() {
+    this.httpData.gettourFavo().subscribe(data => {
+      this.dataTourFa= data;
+    })
+    if(this.page2 %2 ==0){
+      // @ts-ignore
+      document.getElementById("tour_slide2").style.animationName= "example3";
+    }else{
+      // @ts-ignore
+      document.getElementById("tour_slide2").style.animationName= "example4";
+    }
+    if(this.page2==1){
+      this.page2 = this.dataTourFa.length/this.tableSize;
+    }else {
+      this.page2--;
+    }
 
+  }
+
+  plusSlides_next2() {
+    this.httpData.gettourFavo().subscribe(data => {
+      this.dataTourFa= data;
+    })
+    if(this.page2 %2 ==0){
+      // @ts-ignore
+      document.getElementById("tour_slide2").style.animationName= "example";
+    }else{
+      // @ts-ignore
+      document.getElementById("tour_slide2").style.animationName= "example1";
+    }
+    if(this.page2*this.tableSize >= this.dataTourFa.length){
+      this.page2=1;
+    }else {
+      this.page2++;
+    }
+
+  }
+  plusSlides_prev3() {
+    this.httpData.gettourKM().subscribe(data => {
+      this.dataTourKM= data;
+    })
+    if(this.page3 %2 ==0){
+      // @ts-ignore
+      document.getElementById("tour_slide3").style.animationName= "example3";
+    }else{
+      // @ts-ignore
+      document.getElementById("tour_slide3").style.animationName= "example4";
+    }
+    if(this.page3==1){
+      this.page3 = this.dataTourKM.length/this.tableSize;
+    }else {
+      this.page3--;
+    }
+
+  }
+
+  plusSlides_next3() {
+    this.httpData.gettourKM().subscribe(data => {
+      this.dataTourKM= data;
+    })
+    if(this.page3 %2 ==0){
+      // @ts-ignore
+      document.getElementById("tour_slide3").style.animationName= "example";
+    }else{
+      // @ts-ignore
+      document.getElementById("tour_slide3").style.animationName= "example1";
+    }
+    if(this.page3*this.tableSize >= this.dataTourKM.length){
+      this.page3=1;
+    }else {
+      this.page3++;
+    }
+
+  }
   plusSlides_prev_home() {
     this.httpData.getAtourkm(this.sizeId)
       .subscribe(datatour => {

@@ -15,7 +15,7 @@ const routes: Routes = [
   {path: 'thanhtoan/:id/:qua1/:qua2/:date',component: ThanhToanComponent},
   {path: 'lienhe',component: LienHeComponent},
   {path: 'kinhnghiem',component: KinhnghiemComponent},
-  {path: 'chitietkinhnghiem',component: ChitietknComponent},
+  {path: 'chitietkinhnghiem/',component: ChitietknComponent},
   {path: 'tintuc',component: DanhSachTinTucComponent},
   {path: 'chitiettintuc/:id',component: ChiTietTinTucComponent},
   {path: 'danhsachtour',component: DanhSachTourComponent},

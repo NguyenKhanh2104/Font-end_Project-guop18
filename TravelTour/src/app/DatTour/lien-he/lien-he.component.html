@@ -117,23 +117,23 @@
           <form>
             <div class="row">
               <div class="col-4">
-                <label>Họ và tên</label>
-                <input class="form-control">
+                <label>Họ và tên :<span style="color: red">*</span></label>
+                <input class="form-control" type="text" name="nameCustomer" [(ngModel)]="nameCustomer">
               </div>
               <div class="col-4">
-                <label>Điện thoại</label>
-                <input class="form-control">
+                <label>Điện thoại :<span style="color: red">*</span></label>
+                <input class="form-control" type="number" name="phoneCustomer" [(ngModel)]="phoneCustomer">
               </div>
               <div class="col-4">
-                <label>Email</label>
-                <input class="form-control">
+                <label>Email :<span style="color: red">*</span></label>
+                <input class="form-control" type="email" name="emailCustomer" [(ngModel)]="emailCustomer">
               </div>
               <div class="col-12">
-                <label>Nội dung</label>
-                <textarea  class="form-control" rows="4"></textarea>
+                <label>Nội dung :<span style="color: red">*</span></label>
+                <textarea  class="form-control" type="text" rows="4" name="content" [(ngModel)]="content"></textarea>
               </div>
               <div class="col-12">
-                <button style="margin-top: 25px" type="button" class="btn btn-primary">Gửi tin nhắn</button>
+                <button style="margin-top: 25px" type="button" class="btn btn-primary" (click)="sendMessager(nameCustomer,phoneCustomer,emailCustomer,content)">Gửi tin nhắn</button>
               </div>
             </div>
           </form>

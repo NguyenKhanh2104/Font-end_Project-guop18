@@ -159,18 +159,18 @@
           </div>
         </div>
       </div>
-      <a class="prev" (click)="plusSlides_prev()">❮</a>
-      <a class="next" (click)="plusSlides_next()">❯</a>
+      <a class="prev" (click)="plusSlides_prev1()">❮</a>
+      <a class="next" (click)="plusSlides_next1()">❯</a>
     </div>
     <div class="container" style="margin-bottom: 2%">
       <div class="mySlides_DD">
         <div class="Content"><b> Điểm Đến Nổi Bật</b></div>
         <div class="container1 " style=" margin-bottom: 20px;margin-top: 10px;border-radius:13px ">
           <div class="row">
-            <div class="col-3 tour-mg" style="margin: 0px 45px" *ngFor="let item1 of datatourFavo
+            <div class="col-3 tour-mg" id="tour_slide2" style=" animation-name: example;animation-duration: 0.5s;margin: 0px 45px" *ngFor="let item1 of datatourFavo
             | paginate: {
                  itemsPerPage: tableSize,
-                 currentPage: page,
+                 currentPage: page2,
                  totalItems: count
                  };
                  let i = index" [class.active]="i == 1">
@@ -197,18 +197,18 @@
             </div>
           </div>
         </div>
-        <a class="prev" (click)="plusSlides_prev()">❮</a>
-        <a class="next" (click)="plusSlides_next()">❯</a>
+        <a class="prev" (click)="plusSlides_prev2()">❮</a>
+        <a class="next" (click)="plusSlides_next2()">❯</a>
       </div>
       <div class="container" style="margin-bottom: 2%">
         <div class="mySlides_GY">
           <div class="Content"><b> Gợi Ý Cho Bạn</b></div>
           <div class="container1 " style=" margin-bottom: 20px;margin-top: 10px;border-radius:13px ">
             <div class="row">
-              <div class="col-3 tour-mg" style="margin: 0px 45px" *ngFor="let item of dataTourKM
+              <div class="col-3 tour-mg" id="tour_slide3" style=" animation-name: example;animation-duration: 0.5s;margin: 0px 45px" *ngFor="let item of dataTourKM
             | paginate: {
                  itemsPerPage: tableSize,
-                 currentPage: page,
+                 currentPage: page3,
                  totalItems: count
                  };
                  let i = index" [class.active]="i == 1">
@@ -236,8 +236,8 @@
               </div>
             </div>
           </div>
-          <a class="prev" (click)="plusSlides_prev()">❮</a>
-          <a class="next" (click)="plusSlides_next()">❯</a>
+          <a class="prev" (click)="plusSlides_prev3()">❮</a>
+          <a class="next" (click)="plusSlides_next3()">❯</a>
         </div>
         <div class="container" style="margin-bottom: 2%">
           <div class="mySlides_PH">
@@ -271,8 +271,8 @@
                 </div>
               </div>
             </div>
-            <a class="prev" (click)="plusSlides_prev()">❮</a>
-            <a class="next" (click)="plusSlides_next()">❯</a>
+            <a class="prev" (click)="plusSlides_prev1()">❮</a>
+            <a class="next" (click)="plusSlides_next1()">❯</a>
           </div>
           <div class="container_Branch">
             <div class="Content"><b> Đối Tác Chiến Lược</b></div>

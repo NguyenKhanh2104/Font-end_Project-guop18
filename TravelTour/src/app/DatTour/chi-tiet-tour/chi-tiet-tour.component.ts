@@ -63,6 +63,9 @@ export class ChiTietTourComponent implements OnInit {
     this.showDetail();
   }
   public viewOrderTour(id: any,date:any) {
+    if(date==null){
+      alert("Vui lòng chọn ngày khởi hành !");
+    }
     this.router.navigate(['thanhtoan', id,this.detailTour.quantity,this.detailTour.quantity2,date]);
     console.log('dataTour',id);
     this.showDetail();
