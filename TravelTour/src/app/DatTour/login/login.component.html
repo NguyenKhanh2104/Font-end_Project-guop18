@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<header>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</header>
+<body>
+<div class="container">
+  <a [routerLink]="['/trangchu',0]"><i class="fas fa-arrow-circle-left"></i></a>
+  <form class="form-login">
+    <h3 class="title-login">Đăng nhập</h3>
+    <label class="user-text">Tài khoản :
+      <i class="fas fa-user"></i>
+      <input class="form-control" name="username" name="username" [(ngModel)]="username">
+    </label>
+    <label class="password-text">Mật khẩu :
+      <i class="fas fa-unlock"></i>
+      <input class="form-control" name="password" name="password" [(ngModel)]="password">
+    </label>
+    <input class="btn-warning" type="submit" value="Đăng nhập" (click)="checkUser(username,password)" >
+    <div class="register-title">
+      <label class="title-ask">Đăng ký tài khoản mới?</label>
+      <span><a class="register-link" [routerLink]="['/register']">Đăng ký</a></span>
+    </div>
+  </form>
+</div>
+</body>
+</html>

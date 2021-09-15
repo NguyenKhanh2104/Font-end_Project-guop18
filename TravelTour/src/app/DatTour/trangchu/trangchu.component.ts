@@ -23,7 +23,8 @@ export class TrangchuComponent implements OnInit {
   detailTour?: any;
   sizeId =1 ;
   title = "";
-  constructor(private httpData: ServerHttpService, private router: Router) {
+  private username: any;
+  constructor(private route: ActivatedRoute,private httpData: ServerHttpService, private router: Router) {
 
   }
 
@@ -36,7 +37,20 @@ export class TrangchuComponent implements OnInit {
       .subscribe(datatour => {
         this.detailTour = datatour
       })
-
+    this.route.params.subscribe(
+      data => {
+        this.username = data['username']
+      }
+    )
+  if((this.username !== null && this.username !==undefined)&& this.username!=='0'){
+      // @ts-ignore
+    document.getElementById('login-logout').innerHTML = 'Logout';
+  }else{
+    if(this.username === 0) {
+      // @ts-ignore
+      document.getElementById('login-logout').innerHTML = 'Login';
+    }
+  }
   }
   Search() {
     if (this.title == "") {

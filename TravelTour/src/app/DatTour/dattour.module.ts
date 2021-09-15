@@ -14,6 +14,8 @@ import {DanhSachTourComponent} from "./danh-sach-tour/danh-sach-tour.component";
 import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
 import {NgxPaginationModule} from "ngx-pagination";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {LoginComponent} from "./login/login.component";
+import {RegisterComponent} from "./register/register.component";
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
     DanhSachTourComponent,
     DanhSachTinTucComponent,
     ChiTietTinTucComponent,
-    ChiTietTourComponent
+    ChiTietTourComponent,
+    LoginComponent,
+    RegisterComponent
 
   ],
   imports: [

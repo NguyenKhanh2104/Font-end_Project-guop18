@@ -9,9 +9,14 @@ import {ChitietknComponent} from "./chitietkn/chitietkn.component";
 import {ChiTietTinTucComponent} from "./chi-tiet-tin-tuc/chi-tiet-tin-tuc.component";
 import {DanhSachTourComponent} from "./danh-sach-tour/danh-sach-tour.component";
 import {ChiTietTourComponent} from "./chi-tiet-tour/chi-tiet-tour.component";
+import {LoginComponent} from "./login/login.component";
+import {RegisterComponent} from "./register/register.component";
 
 const routes: Routes = [
   {path: 'trangchu',component: TrangchuComponent},
+  {path: 'trangchu/:username',component: TrangchuComponent},
+  {path: 'login', component: LoginComponent},
+  {path: 'register', component: RegisterComponent},
   {path: 'thanhtoan/:id/:qua1/:qua2/:date',component: ThanhToanComponent},
   {path: 'lienhe',component: LienHeComponent},
   {path: 'kinhnghiem',component: KinhnghiemComponent},

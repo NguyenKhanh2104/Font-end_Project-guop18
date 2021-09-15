@@ -7,15 +7,18 @@ import {TrangchuComponent} from "./DatTour/trangchu/trangchu.component";
 import {DattourModule} from "./DatTour/dattour.module";
 import { HttpClientModule} from "@angular/common/http";
 import {Ng2SearchPipeModule} from "ng2-search-filter";
+import { LoginComponent } from './DatTour/login/login.component';
+import {ReactiveFormsModule} from "@angular/forms";
+import { RegisterComponent } from './DatTour/register/register.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,DattourModule,RouterModule,HttpClientModule,Ng2SearchPipeModule
+    AppRoutingModule, DattourModule, RouterModule, HttpClientModule, Ng2SearchPipeModule, ReactiveFormsModule
 
   ],
   providers: [],

@@ -1,0 +1,70 @@
+body{
+  width: 1600px;
+  height: 834px;
+  background-color: #d0d7f6;
+  padding-top: 50px;
+}
+
+.container{
+  margin: auto;
+  margin-top: 50px;
+  background-color: #1093d5;
+  width: 400px;
+  height: 550px;
+  border: 3px solid blue;
+  border-radius: 3px;
+}
+.form-login{
+  margin-top: 50px;
+}
+.title-login{
+  text-align: center;
+  color: #2b2b7b;
+  margin-bottom: 50px;
+}
+
+.user-text i,.password-text i{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -54px;
+  font-size: 25px;
+}
+.user-text ,.password-text{
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.user-text ,.password-text ,input{
+  margin-left: 15px;
+}
+input{
+  width: 300px;
+  padding-left: 46px;
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #222222;
+}
+.btn-warning{
+  padding: 0px;
+  width: 100px;
+  height: 40px;
+  margin-left: 127px;
+  border-radius: 2px;
+  font-weight: 600;
+  text-align: center;
+}
+.register-title{
+  text-align: center;
+}
+.title-ask{
+  color: white;
+}
+.register-link{
+  margin-left: 5px;
+  color: white;
+  text-decoration: none;
+}
+.register-link:hover{
+  color: red;
+}

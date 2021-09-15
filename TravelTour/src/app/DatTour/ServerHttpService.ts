@@ -14,7 +14,10 @@ export class ServerHttpService {
   // private  url2 : string = "/assets/data.json";
   constructor(private http: HttpClient) {
   }
-
+  getUser(): Observable<any> {
+    const userUrl = "http://localhost:3000/user";
+    return this.http.get(userUrl);
+  }
   gettourKM(): Observable<any> {
     const tourKMUrl = "http://localhost:3000/tourkm";
     return this.http.get(tourKMUrl);
