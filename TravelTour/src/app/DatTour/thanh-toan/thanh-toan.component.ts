@@ -46,7 +46,8 @@ export class ThanhToanComponent implements OnInit {
   public checkout(nameCustomer: any, phoneCustomer: any, emailCustomer: any, addressCustomer: any) {
     if(nameCustomer ==null || phoneCustomer == null || emailCustomer == null || addressCustomer == null){
       alert("Vui lòng nhập đầy đủ thông tin cần thiết!");
-    }else {
+    }
+    else {
       alert("Đã hoàn tất đặt tour");
       this.router.navigate(['trangchu']);
     }

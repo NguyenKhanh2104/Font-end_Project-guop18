@@ -1,3 +1,6 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
 .navbar-dark .navbar-nav .nav-link {
   color: rgb(255 255 255)
 }
@@ -7,4 +10,6 @@
 .web{
   background-color: #e2ecf1 ;
 }
-
+.nav-item {
+  margin-left: 15px;
+}
