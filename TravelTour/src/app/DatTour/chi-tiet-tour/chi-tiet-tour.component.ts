@@ -57,8 +57,11 @@ export class ChiTietTourComponent implements OnInit {
       data => {
         this.username1 = data['username']
       }
-
     )
+    if(this.username1 == null){
+      this.username1=0;
+    }
+
   }
   public showAll(){
     this.httpData.getAllTour().subscribe(data => {
@@ -66,7 +69,7 @@ export class ChiTietTourComponent implements OnInit {
     })
   }
   public viewDetailsTour(id: any) {
-    this.router.navigate(['chitiettour', id]);
+    this.router.navigate(['chitiettour', id,this.username1]);
     console.log('dataTour',id);
     this.showDetail();
   }
