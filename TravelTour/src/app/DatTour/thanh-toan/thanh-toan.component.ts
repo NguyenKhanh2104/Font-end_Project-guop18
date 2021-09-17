@@ -60,6 +60,7 @@ export class ThanhToanComponent implements OnInit {
         (space == -1)) //không có khoẳng trắng
       {
         alert("Hoàn tất đặt tour");
+        this.router.navigate(['trangchu',0]);
         return true;
       } else {
         alert("Địa chiemail không hợp lệ");

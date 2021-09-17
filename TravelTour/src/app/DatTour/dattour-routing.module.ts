@@ -23,8 +23,10 @@ const routes: Routes = [
   {path: 'chitietkinhnghiem/',component: ChitietknComponent},
   {path: 'tintuc',component: DanhSachTinTucComponent},
   {path: 'chitiettintuc/:id',component: ChiTietTinTucComponent},
+  {path: 'danhsachtour/:username',component: DanhSachTourComponent},
   {path: 'danhsachtour',component: DanhSachTourComponent},
-  {path: 'chitiettour/:id',component: ChiTietTourComponent},
+  {path: 'chitiettour/:id/:username',component: ChiTietTourComponent},
+  {path: 'chitiettour/:id/',component: ChiTietTourComponent},
   // {path: 'search/:searchTerm',component: DanhSachTourComponent}
 
 

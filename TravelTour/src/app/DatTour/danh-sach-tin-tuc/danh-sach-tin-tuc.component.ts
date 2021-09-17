@@ -65,7 +65,7 @@ export class DanhSachTinTucComponent implements OnInit {
   // }
 
   public viewDetails(id: any) {
-    this.router.navigate(['chitiettintuc', id]);
+    this.router.navigate(['chitiettintuc', id,]);
   }
   tabSize(event: number) {
     this.page = event;

@@ -27,6 +27,8 @@ export class ChiTietTourComponent implements OnInit {
   tableSize = 4;
   sum =20000;
   order: any;
+  private username1: any;
+  contentCM: any;
   constructor(  private route: ActivatedRoute,
                 private httpData:ServerHttpService,private router: Router) {}
   ngOnInit(): void {
@@ -51,6 +53,12 @@ export class ChiTietTourComponent implements OnInit {
       .subscribe(dataschedule => {
         this.schedule = dataschedule
       })
+    this.route.params.subscribe(
+      data => {
+        this.username1 = data['username']
+      }
+
+    )
   }
   public showAll(){
     this.httpData.getAllTour().subscribe(data => {
@@ -107,5 +115,17 @@ export class ChiTietTourComponent implements OnInit {
     this.httpData.getAllCancel().subscribe(data => {
       this.dataCancel = data;
     })
+  }
+
+  checkUser(contentCM: any) {
+    if(contentCM== null){
+      alert('Vui lòng nhập nội dung !')
+    }else{
+      if (this.username1 == 0 || this.username1 === 'undefined') {
+        alert('Vui lòng đăng nhập ')
+      } else {
+        alert('Đã gửi')
+      }
+    }
   }
 }

@@ -54,7 +54,7 @@
           <a class="nav-link"><i class="fas fa-user"></i> User</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"><i class="fas fa-sign-in-alt"></i>Log-in</a>
+          <a class="nav-link" [routerLink]="['/login']"><i class="fas fa-sign-in-alt"></i>Log-in</a>
         </li>
 
       </ul>
@@ -262,8 +262,8 @@
   </div>
   <div class="container"  style="background-color: white ; margin-top: 20px;margin-bottom: 40px">
     <label class="text-primary">Nhận xét </label>
-    <textarea class="form-control" cols="150" rows="5" ></textarea>
-    <button class="btn btn-primary" style="padding: 3px 12px; margin-top: 4px">Gửi</button>
+    <textarea class="form-control" cols="150" rows="5" name="contentCM" [(ngModel)]="contentCM"></textarea>
+    <button class="btn btn-primary" style="padding: 3px 12px; margin-top: 4px" (click)="checkUser(contentCM)">Gửi</button>
   </div>
   <footer class="page-footer font-small stylish-color-dark pt-4"
            style="color: #ffffff;background-color: black">

@@ -23,7 +23,7 @@ export class TrangchuComponent implements OnInit {
   detailTour?: any;
   sizeId =1 ;
   title = "";
-  private username: any;
+   username: any;
   constructor(private route: ActivatedRoute,private httpData: ServerHttpService, private router: Router) {
 
   }
@@ -42,6 +42,9 @@ export class TrangchuComponent implements OnInit {
         this.username = data['username']
       }
     )
+    if(this.username == null){
+      this.username=0;
+    }
   if((this.username !== null && this.username !==undefined)&& this.username!=='0'){
       // @ts-ignore
     document.getElementById('login-logout').innerHTML = 'Logout';
@@ -79,7 +82,7 @@ export class TrangchuComponent implements OnInit {
   }
 
   public viewDetailsTour(id: any) {
-    this.router.navigate(['chitiettour', id]);
+    this.router.navigate(['chitiettour', id,this.username]);
     console.log('dataTourKM', id);
   }
 
@@ -87,6 +90,7 @@ export class TrangchuComponent implements OnInit {
     this.router.navigate(['danhsachtour',this.keyword]);
   }
 
+  /*Xử lý các nút di chuyển qua lại giữa các phần*/
   plusSlides_prev1() {
     this.httpData.gettourKM().subscribe(data => {
       this.dataTourKM= data;

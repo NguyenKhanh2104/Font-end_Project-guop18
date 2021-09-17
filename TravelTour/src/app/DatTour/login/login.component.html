@@ -8,16 +8,16 @@
 </header>
 <body>
 <div class="container">
-  <a [routerLink]="['/trangchu',0]"><i class="fas fa-arrow-circle-left"></i></a>
+  <a [routerLink]="['/trangchu',0]"><i class="fas fa-arrow-circle-left" style="color: black"></i></a>
   <form class="form-login">
     <h3 class="title-login">Đăng nhập</h3>
     <label class="user-text">Tài khoản :
       <i class="fas fa-user"></i>
-      <input class="form-control" name="username" name="username" [(ngModel)]="username">
+      <input class="form-control" type="text" name="username" [(ngModel)]="username">
     </label>
     <label class="password-text">Mật khẩu :
       <i class="fas fa-unlock"></i>
-      <input class="form-control" name="password" name="password" [(ngModel)]="password">
+      <input class="form-control" type="password" name="password" [(ngModel)]="password">
     </label>
     <input class="btn-warning" type="submit" value="Đăng nhập" (click)="checkUser(username,password)" >
     <div class="register-title">

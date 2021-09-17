@@ -12,15 +12,15 @@
     <h3 class="title-login">Đăng Ký</h3>
     <label class="user-text">Tài khoản :
       <i class="fas fa-user"></i>
-      <input class="form-control" name="username" [(ngModel)]="username">
+      <input class="form-control" type="text" name="username" [(ngModel)]="username">
     </label>
     <label class="password-text">Mật khẩu :
       <i class="fas fa-unlock"></i>
-      <input class="form-control" name="passwoed" [(ngModel)]="password">
+      <input class="form-control" type="password" name="passwoed" [(ngModel)]="password">
     </label>
     <label class="password-text-reset">Nhập lại mật khẩu :
       <i class="fas fa-unlock"></i>
-      <input class="form-control" name="repassword" [(ngModel)]="repassword">
+      <input class="form-control" type="password" name="repassword" [(ngModel)]="repassword">
     </label>
     <input class="btn-warning" type="submit" value="Đăng ký" (click)="rgister(username,password,repassword)">
     <div class="register-title">
